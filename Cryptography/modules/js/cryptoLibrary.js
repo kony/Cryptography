@@ -1,8 +1,7 @@
-
 /*****************************************************************
-*	Name    : Encrypt
-*	Author  : Kony
-*	Purpose : To encrypt the user text and display the encrypted text.
+*     Name    : Encrypt
+*     Author  : Kony
+*     Purpose : To encrypt the user text and display the encrypted text.
 ******************************************************************/
 
 function Encrypt()
@@ -20,6 +19,7 @@ function Encrypt()
 			frmCrypto.lblEncrypt.text =  "Please enter the text to encrypt";
 			return;
 		}
+		
 		else
 		{
 			var inputstr=frmCrypto.textEncrypt.text;
@@ -30,15 +30,15 @@ function Encrypt()
 		var myEncryptedTextRaw = kony.crypto.encrypt(algo,encryptDecryptKey,inputstr,prptobj);
 		var myEncryptedText  = kony.convertToBase64(myEncryptedTextRaw);
 		
-		if(kony.os.deviceInfo().name == "Windows 8"){
-		frmCrypto.lblEncrypt.text = "Encrypted text = "+myEncryptedTextRaw.toString();
+		if(kony.os.deviceInfo().name == "Windows 8")
+		{
+			frmCrypto.lblEncrypt.text = "Encrypted text = "+myEncryptedTextRaw.toString();
 		}
-		else{
-		frmCrypto.lblEncrypt.text = "Encrypted text = "+myEncryptedText.toString();
+		else
+		{
+			frmCrypto.lblEncrypt.text = "Encrypted text = "+myEncryptedText.toString();
 		}
-				
-		myClearText = kony.crypto.decrypt(algo,encryptDecryptKey,myEncryptedTextRaw,prptobj);
-		
+					
 	}
 	catch(err)
 	{
@@ -46,23 +46,42 @@ function Encrypt()
 		alert("Error in callbackEncryptAes : "+err );
 	}
 }
-
+ 
 /*****************************************************************
-*	Name    : decrypt
-*	Author  : Kony
-*	Purpose : To decrypt the encrypted text and display the decrypted text.
+*     Name    : decrypt
+*     Author  : Kony
+*     Purpose : To decrypt the encrypted text and display the decrypted text.
 ******************************************************************/
-
+ 
 function decrypt()
 {
 	try
 	{
-		if (frmCrypto.lblEncrypt.text == "" ||frmCrypto.lblEncrypt.text ==null || frmCrypto.lblEncrypt.text == "Please enter the text to encrypt")
+		var algo="aes";
+		
+		if(kony.os.deviceInfo().name == "blackberry")
+			var encryptDecryptKey = kony.crypto.newKey("passphrase", 128, {passphrasetext: ["inputstring1inputstring1"], subalgo: "aes", passphrasehashalgo: "md5"});
+		else
+			var encryptDecryptKey = kony.crypto.newKey("passphrase", 128, {passphrasetext: ["inputstring1"], subalgo: "aes", passphrasehashalgo: "md5"});
+
+		var prptobj= {padding:"pkcs5",mode:"cbc",initializationvector:"1234567890123456"};
+		
+		
+		if (frmCrypto.textEncrypt.text == "" || frmCrypto.textEncrypt.text ==null || frmCrypto.lblEncrypt.text == "" ||frmCrypto.lblEncrypt.text ==null || frmCrypto.lblEncrypt.text == "Please enter the text to encrypt")
 		{
-			frmCrypto.lblDecrypt.text ="Please enter the text to encrypt and then try decrypt."
+			frmCrypto.lblEncrypt.text ="";
+			frmCrypto.lblDecrypt.text ="Please encrypt and then try decrypt."
 			return;
 		}
+		else
+		{
+			var inputstr=frmCrypto.textEncrypt.text;
+		}
+		
+		var myEncryptedTextRaw = kony.crypto.encrypt(algo,encryptDecryptKey,inputstr,prptobj);
+		var myClearText = kony.crypto.decrypt(algo,encryptDecryptKey,myEncryptedTextRaw,prptobj);
 		frmCrypto.lblDecrypt.text ="Decrypted text = "+myClearText.toString();
+					
 	}
 	catch(err)
 	{
@@ -70,6 +89,9 @@ function decrypt()
 		alert("Error in callbackDecryptAes : "+err );
 	}
 }
+ 
+
+
 
 /*****************************************************************
 *	Name    : createHashMD2
