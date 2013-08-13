@@ -66,19 +66,13 @@ function decrypt()
 
 		var prptobj= {padding:"pkcs5",mode:"cbc",initializationvector:"1234567890123456"};
 		
-		
-		if (frmCrypto.textEncrypt.text == "" || frmCrypto.textEncrypt.text ==null || frmCrypto.lblEncrypt.text == "" ||frmCrypto.lblEncrypt.text ==null || frmCrypto.lblEncrypt.text == "Please enter the text to encrypt")
+		if(frmCrypto.lblEncrypt.text == "" ||frmCrypto.lblEncrypt.text == null || frmCrypto.lblEncrypt.text == "Please enter the text to encrypt")
 		{
-			frmCrypto.lblEncrypt.text ="";
-			frmCrypto.lblDecrypt.text ="Please encrypt and then try decrypt."
+			frmCrypto.lblDecrypt.text = "There is no encrypted text";
 			return;
 		}
-		else
-		{
-			var inputstr=frmCrypto.textEncrypt.text;
-		}
-		
-		var myEncryptedTextRaw = kony.crypto.encrypt(algo,encryptDecryptKey,inputstr,prptobj);
+		var str = frmCrypto.lblEncrypt.text;
+		var myEncryptedTextRaw = kony.convertToRawBytes(str.substring(17));
 		var myClearText = kony.crypto.decrypt(algo,encryptDecryptKey,myEncryptedTextRaw,prptobj);
 		frmCrypto.lblDecrypt.text ="Decrypted text = "+myClearText.toString();
 					
