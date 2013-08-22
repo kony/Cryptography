@@ -113,7 +113,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="true" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -236,7 +236,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -359,7 +359,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="true" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -482,7 +482,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -606,7 +606,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -730,7 +730,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="true" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -857,7 +857,7 @@
         <att name="FontNameMap" value="Android,default" type="map"/>
         <att name="FontNameMap" value="IPhone,HelveticaNeue-Bold" type="map"/>
         <att name="FontNameMap" value="Android Rich Client Tablet,sans_serif" type="map"/>
-        <att name="ApplicablePlatforms" value="111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -980,7 +980,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1104,7 +1104,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1227,7 +1227,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1350,7 +1350,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1474,7 +1474,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1597,7 +1597,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1720,7 +1720,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1843,7 +1843,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1967,7 +1967,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="true" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -2090,7 +2090,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -2216,7 +2216,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="iPad,HelveticaNeue" type="map"/>
         <att name="FontNameMap" value="Android,default" type="map"/>
-        <att name="ApplicablePlatforms" value="111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -2339,7 +2339,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -2462,7 +2462,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -2585,7 +2585,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -2709,7 +2709,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -2832,7 +2832,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -2958,7 +2958,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="Android,default" type="map"/>
         <att name="FontNameMap" value="Android Rich Client Tablet,default" type="map"/>
-        <att name="ApplicablePlatforms" value="111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3081,7 +3081,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3205,7 +3205,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3328,7 +3328,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3451,7 +3451,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3574,7 +3574,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3698,7 +3698,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="true" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3822,7 +3822,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="true" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3835,17 +3835,17 @@
     <skin>
         <att name="Name" value="sknTitleBarSampleApp" type="String"/>
         <att name="WidgetType" value="TitleBar" type="String"/>
-        <att name="Bg_type" value="0" type="int"/>
+        <att name="Bg_type" value="1" type="int"/>
         <att name="Background_color" value="0,153,204" type="RGB"/>
         <att name="Rightbackground_color" value="255,255,255" type="RGB"/>
         <att name="Bg_gradient_style" value="0" type="int"/>
         <att name="Rightbg_gradient_style" value="0" type="int"/>
-        <att name="Background_gradient_top_color" value="152,152,152" type="RGB"/>
-        <att name="Background_gradient_bottom_color" value="125,125,125" type="RGB"/>
+        <att name="Background_gradient_top_color" value="68,165,207" type="RGB"/>
+        <att name="Background_gradient_bottom_color" value="51,117,151" type="RGB"/>
         <att name="Rightbackground_gradient_top_color" value="255,255,255" type="RGB"/>
         <att name="Rightbackground_gradient_bottom_color" value="255,255,255" type="RGB"/>
-        <att name="Background_gradient_top_colorSet" value="0" type="int"/>
-        <att name="Background_gradient_bottom_colorSet" value="0" type="int"/>
+        <att name="Background_gradient_top_colorSet" value="1" type="int"/>
+        <att name="Background_gradient_bottom_colorSet" value="1" type="int"/>
         <att name="Background_image" value="" type="String"/>
         <att name="Right_background_image" value="" type="String"/>
         <att name="Bg_iphone_image" value="" type="String"/>
@@ -3886,7 +3886,7 @@
         <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="bold" type="String"/>
         <att name="Font_style" value="none" type="String"/>
-        <att name="Font_size" value="216" type="String"/>
+        <att name="Font_size" value="220" type="String"/>
         <att name="Font_color" value="255,255,255" type="RGB"/>
         <att name="Font_color_alpha" value="0" type="String"/>
         <att name="Rightfont_weight" value="normal" type="String"/>
@@ -3945,7 +3945,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="FontNameMap" value="Android,default" type="map"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -4068,7 +4069,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -4192,7 +4193,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -4318,7 +4319,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="iPad,HelveticaNeue" type="map"/>
         <att name="FontNameMap" value="Android,default" type="map"/>
-        <att name="ApplicablePlatforms" value="111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -4442,7 +4443,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="true" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -4565,7 +4566,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -4688,7 +4689,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="true" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>

@@ -72,25 +72,24 @@
             <desktop_kiosk_channel>true</desktop_kiosk_channel>
             <desktop_web_channel>true</desktop_web_channel>
             <mixed_android>true</mixed_android>
-            <mixed_android_tab>true</mixed_android_tab>
+            <mixed_android_tab>false</mixed_android_tab>
             <mixed_bb>true</mixed_bb>
-            <mixed_ipad>true</mixed_ipad>
+            <mixed_ipad>false</mixed_ipad>
             <mixed_iphone>true</mixed_iphone>
             <rc_android>true</rc_android>
             <rc_android_tab>true</rc_android_tab>
             <rc_blackberry>true</rc_blackberry>
-            <rc_blackberry10>true</rc_blackberry10>
             <rc_ipad>true</rc_ipad>
             <rc_iphone>true</rc_iphone>
             <rc_j2me>true</rc_j2me>
             <rc_palm>true</rc_palm>
             <rc_symbian>true</rc_symbian>
-            <rc_windows8>true</rc_windows8>
+            <rc_windows8>false</rc_windows8>
             <rc_winmobile>true</rc_winmobile>
             <rc_winmobile6x>true</rc_winmobile6x>
             <rc_winphone8>true</rc_winphone8>
             <tabspa_ipad>true</tabspa_ipad>
-            <tabspa_windows>true</tabspa_windows>
+            <tabspa_windows>false</tabspa_windows>
             <tabspaspa_android>true</tabspaspa_android>
             <tc_spaandroid>true</tc_spaandroid>
             <tc_spabb>true</tc_spabb>
@@ -106,34 +105,33 @@
             <tc_xhtml_advpalm1>true</tc_xhtml_advpalm1>
             <tc_xhtml_js>true</tc_xhtml_js>
             <wrapper_android>true</wrapper_android>
-            <wrapper_android_tab>true</wrapper_android_tab>
+            <wrapper_android_tab>false</wrapper_android_tab>
             <wrapper_bb>true</wrapper_bb>
-            <wrapper_ipad>true</wrapper_ipad>
+            <wrapper_ipad>false</wrapper_ipad>
             <wrapper_iphone>true</wrapper_iphone>
         </rendererData>
         <rendererData1>
             <desktop_kiosk_channel>true</desktop_kiosk_channel>
             <desktop_web_channel>true</desktop_web_channel>
             <mixed_android>true</mixed_android>
-            <mixed_android_tab>true</mixed_android_tab>
+            <mixed_android_tab>false</mixed_android_tab>
             <mixed_bb>true</mixed_bb>
-            <mixed_ipad>true</mixed_ipad>
+            <mixed_ipad>false</mixed_ipad>
             <mixed_iphone>true</mixed_iphone>
             <rc_android>true</rc_android>
             <rc_android_tab>true</rc_android_tab>
             <rc_blackberry>true</rc_blackberry>
-            <rc_blackberry10>true</rc_blackberry10>
             <rc_ipad>true</rc_ipad>
             <rc_iphone>true</rc_iphone>
             <rc_j2me>true</rc_j2me>
             <rc_palm>true</rc_palm>
             <rc_symbian>true</rc_symbian>
-            <rc_windows8>true</rc_windows8>
+            <rc_windows8>false</rc_windows8>
             <rc_winmobile>true</rc_winmobile>
             <rc_winmobile6x>true</rc_winmobile6x>
             <rc_winphone8>true</rc_winphone8>
             <tabspa_ipad>true</tabspa_ipad>
-            <tabspa_windows>true</tabspa_windows>
+            <tabspa_windows>false</tabspa_windows>
             <tabspaspa_android>true</tabspaspa_android>
             <tc_spaandroid>true</tc_spaandroid>
             <tc_spabb>true</tc_spabb>
@@ -149,9 +147,9 @@
             <tc_xhtml_advpalm1>true</tc_xhtml_advpalm1>
             <tc_xhtml_js>true</tc_xhtml_js>
             <wrapper_android>true</wrapper_android>
-            <wrapper_android_tab>true</wrapper_android_tab>
+            <wrapper_android_tab>false</wrapper_android_tab>
             <wrapper_bb>true</wrapper_bb>
-            <wrapper_ipad>true</wrapper_ipad>
+            <wrapper_ipad>false</wrapper_ipad>
             <wrapper_iphone>true</wrapper_iphone>
         </rendererData1>
         <paddings>
@@ -170,14 +168,6 @@
                 <bottom>0</bottom>
                 <unit>%</unit>
             </bb>
-            <bb10>
-                <left>0</left>
-                <right>0</right>
-                <top>0</top>
-                <bottom>0</bottom>
-                <unit>%</unit>
-            </bb10>
-            <bb10_override>false</bb10_override>
             <bb_override>false</bb_override>
             <default_override>true</default_override>
             <defaults>
@@ -477,7 +467,7 @@
         <headerOverlap>false</headerOverlap>
         <c_isModal>false</c_isModal>
         <orientation>1</orientation>
-        <display_orientation>portrait</display_orientation>
+        <display_orientation>treeView</display_orientation>
         <itemSkinId>Skin Defaults</itemSkinId>
         <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
         <parentOnLoadJS></parentOnLoadJS>
@@ -605,7 +595,7 @@
                 <function>None</function>
                 <serviceType>0</serviceType>
             </leftImgEvtData>
-            <leftPrevTitle>false</leftPrevTitle>
+            <leftPrevTitle>true</leftPrevTitle>
             <leftSideView>1</leftSideView>
             <leftTitle>Back</leftTitle>
             <leftTitleEvtData>
@@ -655,7 +645,6 @@
         <win_enablescreenmenu>false</win_enablescreenmenu>
         <win_autofocus>true</win_autofocus>
         <wm_orientation>1</wm_orientation>
-        <wm_maxappmenubuttons>4</wm_maxappmenubuttons>
         <win_intransition>Default</win_intransition>
         <win_outtransition>Default</win_outtransition>
         <win_intransitionmode>Default</win_intransitionmode>
@@ -674,7 +663,6 @@
         <winphone8_layout>Vertical</winphone8_layout>
         <winphone8_showformtitle>false</winphone8_showformtitle>
         <winphone8_backButton>false</winphone8_backButton>
-        <winphone8_maxappmenubuttons>4</winphone8_maxappmenubuttons>
         <win8TitleBarData>
             <backButtonSkin>Skin Defaults</backButtonSkin>
             <showBackButton>true</showBackButton>
@@ -827,7 +815,6 @@
                 <rc_android>true</rc_android>
                 <rc_android_tab>true</rc_android_tab>
                 <rc_blackberry>true</rc_blackberry>
-                <rc_blackberry10>true</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>true</rc_iphone>
                 <rc_j2me>true</rc_j2me>
@@ -875,14 +862,6 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
-                <bb10>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
-                </bb10>
-                <bb10_override>false</bb10_override>
                 <bb_override>false</bb_override>
                 <default_override>true</default_override>
                 <defaults>
@@ -1142,14 +1121,6 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
-                <bb10>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
-                </bb10>
-                <bb10_override>false</bb10_override>
                 <bb_override>false</bb_override>
                 <default_override>true</default_override>
                 <defaults>
@@ -1410,7 +1381,6 @@
             <ipad_option>0</ipad_option>
             <ipad_fixed_height>false</ipad_fixed_height>
             <bb_position>0</bb_position>
-            <bb10_position>0</bb10_position>
             <j2me_position>0</j2me_position>
             <android_position>0</android_position>
             <wm_position>0</wm_position>
@@ -1482,7 +1452,6 @@
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
-                    <rc_blackberry10>true</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
                     <rc_j2me>true</rc_j2me>
@@ -1530,14 +1499,6 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
-                    <bb10>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </bb10>
-                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -1797,14 +1758,6 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
-                    <bb10>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </bb10>
-                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -2112,7 +2065,6 @@
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
-                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -2160,14 +2112,6 @@
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
-                        <bb10>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
-                        </bb10>
-                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -2427,14 +2371,6 @@
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
-                        <bb10>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
-                        </bb10>
-                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -2695,7 +2631,6 @@
                     <ipad_option>0</ipad_option>
                     <ipad_fixed_height>false</ipad_fixed_height>
                     <bb_position>0</bb_position>
-                    <bb10_position>0</bb10_position>
                     <j2me_position>0</j2me_position>
                     <android_position>0</android_position>
                     <wm_position>0</wm_position>
@@ -2747,7 +2682,6 @@
                             <rc_android>true</rc_android>
                             <rc_android_tab>true</rc_android_tab>
                             <rc_blackberry>true</rc_blackberry>
-                            <rc_blackberry10>true</rc_blackberry10>
                             <rc_ipad>true</rc_ipad>
                             <rc_iphone>true</rc_iphone>
                             <rc_j2me>true</rc_j2me>
@@ -2795,14 +2729,6 @@
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </bb>
-                            <bb10>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </bb10>
-                            <bb10_override>false</bb10_override>
                             <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
@@ -3062,14 +2988,6 @@
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </bb>
-                            <bb10>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </bb10>
-                            <bb10_override>false</bb10_override>
                             <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
@@ -3375,7 +3293,6 @@
                         <android_scrollbarVisible>true</android_scrollbarVisible>
                         <android_pagingEnabled>false</android_pagingEnabled>
                         <bb_position>0</bb_position>
-                        <bb10_position>0</bb10_position>
                         <j2me_position>0</j2me_position>
                         <winmobile_position>0</winmobile_position>
                         <symbian_position>0</symbian_position>
@@ -3440,7 +3357,6 @@
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
-                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -3488,14 +3404,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>false</default_override>
                                 <defaults>
@@ -3755,14 +3663,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -4346,7 +4246,6 @@
                                     <rc_android>true</rc_android>
                                     <rc_android_tab>true</rc_android_tab>
                                     <rc_blackberry>true</rc_blackberry>
-                                    <rc_blackberry10>true</rc_blackberry10>
                                     <rc_ipad>true</rc_ipad>
                                     <rc_iphone>true</rc_iphone>
                                     <rc_j2me>true</rc_j2me>
@@ -4394,14 +4293,6 @@
                                         <bottom>0</bottom>
                                         <unit>%</unit>
                                     </bb>
-                                    <bb10>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
-                                        <unit>%</unit>
-                                    </bb10>
-                                    <bb10_override>false</bb10_override>
                                     <bb_override>false</bb_override>
                                     <default_override>true</default_override>
                                     <defaults>
@@ -4661,14 +4552,6 @@
                                         <bottom>0</bottom>
                                         <unit>%</unit>
                                     </bb>
-                                    <bb10>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
-                                        <unit>%</unit>
-                                    </bb10>
-                                    <bb10_override>false</bb10_override>
                                     <bb_override>false</bb_override>
                                     <default_override>false</default_override>
                                     <defaults>
@@ -4947,7 +4830,6 @@
                                 <desktopweb_toolTip></desktopweb_toolTip>
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                                 <winphone8_contentalign>middle-left</winphone8_contentalign>
-                                <bb10_contentalignment>0</bb10_contentalignment>
                             </children>
                             <children xsi:type="kLabel">
                                 <ID>lblNavigationDescription</ID>
@@ -4991,7 +4873,6 @@
                                     <rc_android>true</rc_android>
                                     <rc_android_tab>true</rc_android_tab>
                                     <rc_blackberry>true</rc_blackberry>
-                                    <rc_blackberry10>true</rc_blackberry10>
                                     <rc_ipad>true</rc_ipad>
                                     <rc_iphone>true</rc_iphone>
                                     <rc_j2me>true</rc_j2me>
@@ -5039,14 +4920,6 @@
                                         <bottom>0</bottom>
                                         <unit>%</unit>
                                     </bb>
-                                    <bb10>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
-                                        <unit>%</unit>
-                                    </bb10>
-                                    <bb10_override>false</bb10_override>
                                     <bb_override>false</bb_override>
                                     <default_override>true</default_override>
                                     <defaults>
@@ -5306,14 +5179,6 @@
                                         <bottom>0</bottom>
                                         <unit>%</unit>
                                     </bb>
-                                    <bb10>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
-                                        <unit>%</unit>
-                                    </bb10>
-                                    <bb10_override>false</bb10_override>
                                     <bb_override>false</bb_override>
                                     <default_override>false</default_override>
                                     <defaults>
@@ -5592,7 +5457,6 @@
                                 <desktopweb_toolTip></desktopweb_toolTip>
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                                 <winphone8_contentalign>middle-left</winphone8_contentalign>
-                                <bb10_contentalignment>0</bb10_contentalignment>
                             </children>
                         </children>
                         <winphone8_position>0</winphone8_position>
@@ -5662,7 +5526,6 @@
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
-                    <rc_blackberry10>true</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
                     <rc_j2me>true</rc_j2me>
@@ -5710,14 +5573,6 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
-                    <bb10>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </bb10>
-                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -5977,14 +5832,6 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
-                    <bb10>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </bb10>
-                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -6292,7 +6139,6 @@
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
-                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -6340,14 +6186,6 @@
                             <bottom>2</bottom>
                             <unit>%</unit>
                         </bb>
-                        <bb10>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
-                        </bb10>
-                        <bb10_override>false</bb10_override>
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -6607,14 +6445,6 @@
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
-                        <bb10>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
-                        </bb10>
-                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -6875,7 +6705,6 @@
                     <ipad_option>0</ipad_option>
                     <ipad_fixed_height>false</ipad_fixed_height>
                     <bb_position>0</bb_position>
-                    <bb10_position>0</bb10_position>
                     <j2me_position>0</j2me_position>
                     <android_position>0</android_position>
                     <wm_position>0</wm_position>
@@ -6947,7 +6776,6 @@
                             <rc_android>true</rc_android>
                             <rc_android_tab>true</rc_android_tab>
                             <rc_blackberry>true</rc_blackberry>
-                            <rc_blackberry10>true</rc_blackberry10>
                             <rc_ipad>true</rc_ipad>
                             <rc_iphone>true</rc_iphone>
                             <rc_j2me>true</rc_j2me>
@@ -6995,14 +6823,6 @@
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </bb>
-                            <bb10>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </bb10>
-                            <bb10_override>false</bb10_override>
                             <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
@@ -7262,14 +7082,6 @@
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </bb>
-                            <bb10>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </bb10>
-                            <bb10_override>false</bb10_override>
                             <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
@@ -7591,7 +7403,6 @@
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
-                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -7639,14 +7450,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>true</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -7906,14 +7709,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -8223,13 +8018,9 @@
                             <ipad_leftview></ipad_leftview>
                             <ipad_clear_required>true</ipad_clear_required>
                             <ipad_showProgressIndicator>true</ipad_showProgressIndicator>
-                            <parent_nativeSkin>Skin Defaults</parent_nativeSkin>
                             <bb_nativeSkin>Skin Defaults</bb_nativeSkin>
-                            <bb10_nativeSkin>Skin Defaults</bb10_nativeSkin>
                             <android_keyboard_type>0</android_keyboard_type>
-                            <parent_nativeFocusSkin>Skin Defaults</parent_nativeFocusSkin>
                             <bb_nativeFocusSkin>Skin Defaults</bb_nativeFocusSkin>
-                            <bb10_nativeFocusSkin>Skin Defaults</bb10_nativeFocusSkin>
                             <c_autocorrect>false</c_autocorrect>
                             <c_autocomplete>false</c_autocomplete>
                             <spa_autoCorrect>false</spa_autoCorrect>
@@ -8240,7 +8031,6 @@
                             <tcPreOnclickJs></tcPreOnclickJs>
                             <spa_autoComplete>false</spa_autoComplete>
                             <bb_autoFilter>false</bb_autoFilter>
-                            <bb10_autoFilter>false</bb10_autoFilter>
                             <android_autoFilter>false</android_autoFilter>
                             <wm_autoFilter>false</wm_autoFilter>
                             <c_autoFilter>false</c_autoFilter>
@@ -8280,7 +8070,6 @@
                             <iphone_contentAlignment>1</iphone_contentAlignment>
                             <ipad_content_align>1</ipad_content_align>
                             <bb_content_align>1</bb_content_align>
-                            <bb10_content_align>1</bb10_content_align>
                             <j2me_content_align>1</j2me_content_align>
                             <android_content_align>4</android_content_align>
                             <winMobileContentAlign>middle-center</winMobileContentAlign>
@@ -8332,7 +8121,6 @@
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
-                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -8380,14 +8168,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -8647,14 +8427,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -8915,7 +8687,6 @@
                             <ipad_option>0</ipad_option>
                             <ipad_fixed_height>false</ipad_fixed_height>
                             <bb_position>0</bb_position>
-                            <bb10_position>0</bb10_position>
                             <j2me_position>0</j2me_position>
                             <android_position>0</android_position>
                             <wm_position>0</wm_position>
@@ -8981,7 +8752,6 @@
                                     <rc_android>true</rc_android>
                                     <rc_android_tab>true</rc_android_tab>
                                     <rc_blackberry>true</rc_blackberry>
-                                    <rc_blackberry10>true</rc_blackberry10>
                                     <rc_ipad>true</rc_ipad>
                                     <rc_iphone>true</rc_iphone>
                                     <rc_j2me>true</rc_j2me>
@@ -9029,14 +8799,6 @@
                                         <bottom>2</bottom>
                                         <unit>%</unit>
                                     </bb>
-                                    <bb10>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
-                                        <unit>%</unit>
-                                    </bb10>
-                                    <bb10_override>false</bb10_override>
                                     <bb_override>true</bb_override>
                                     <default_override>true</default_override>
                                     <defaults>
@@ -9296,14 +9058,6 @@
                                         <bottom>0</bottom>
                                         <unit>%</unit>
                                     </bb>
-                                    <bb10>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
-                                        <unit>%</unit>
-                                    </bb10>
-                                    <bb10_override>false</bb10_override>
                                     <bb_override>false</bb_override>
                                     <default_override>false</default_override>
                                     <defaults>
@@ -9650,8 +9404,6 @@
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                                 <winphone8_displaytext>true</winphone8_displaytext>
                                 <winphone8_contentalign>middle-center</winphone8_contentalign>
-                                <bb10_contentalignment>1</bb10_contentalignment>
-                                <bb10displaytext>true</bb10displaytext>
                             </children>
                             <children xsi:type="kLabel">
                                 <ID>label19302198661564</ID>
@@ -9695,7 +9447,6 @@
                                     <rc_android>true</rc_android>
                                     <rc_android_tab>true</rc_android_tab>
                                     <rc_blackberry>true</rc_blackberry>
-                                    <rc_blackberry10>true</rc_blackberry10>
                                     <rc_ipad>true</rc_ipad>
                                     <rc_iphone>true</rc_iphone>
                                     <rc_j2me>true</rc_j2me>
@@ -9743,14 +9494,6 @@
                                         <bottom>0</bottom>
                                         <unit>%</unit>
                                     </bb>
-                                    <bb10>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
-                                        <unit>%</unit>
-                                    </bb10>
-                                    <bb10_override>false</bb10_override>
                                     <bb_override>false</bb_override>
                                     <default_override>true</default_override>
                                     <defaults>
@@ -10010,14 +9753,6 @@
                                         <bottom>0</bottom>
                                         <unit>%</unit>
                                     </bb>
-                                    <bb10>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
-                                        <unit>%</unit>
-                                    </bb10>
-                                    <bb10_override>false</bb10_override>
                                     <bb_override>false</bb_override>
                                     <default_override>true</default_override>
                                     <defaults>
@@ -10296,7 +10031,6 @@
                                 <desktopweb_toolTip></desktopweb_toolTip>
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                                 <winphone8_contentalign>middle-left</winphone8_contentalign>
-                                <bb10_contentalignment>0</bb10_contentalignment>
                             </children>
                             <children xsi:type="kButton">
                                 <ID>button1930040990147720</ID>
@@ -10340,7 +10074,6 @@
                                     <rc_android>true</rc_android>
                                     <rc_android_tab>true</rc_android_tab>
                                     <rc_blackberry>true</rc_blackberry>
-                                    <rc_blackberry10>true</rc_blackberry10>
                                     <rc_ipad>true</rc_ipad>
                                     <rc_iphone>true</rc_iphone>
                                     <rc_j2me>true</rc_j2me>
@@ -10388,14 +10121,6 @@
                                         <bottom>2</bottom>
                                         <unit>%</unit>
                                     </bb>
-                                    <bb10>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
-                                        <unit>%</unit>
-                                    </bb10>
-                                    <bb10_override>false</bb10_override>
                                     <bb_override>true</bb_override>
                                     <default_override>true</default_override>
                                     <defaults>
@@ -10655,14 +10380,6 @@
                                         <bottom>0</bottom>
                                         <unit>%</unit>
                                     </bb>
-                                    <bb10>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
-                                        <unit>%</unit>
-                                    </bb10>
-                                    <bb10_override>false</bb10_override>
                                     <bb_override>false</bb_override>
                                     <default_override>true</default_override>
                                     <defaults>
@@ -11009,8 +10726,6 @@
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                                 <winphone8_displaytext>true</winphone8_displaytext>
                                 <winphone8_contentalign>middle-center</winphone8_contentalign>
-                                <bb10_contentalignment>1</bb10_contentalignment>
-                                <bb10displaytext>true</bb10displaytext>
                             </children>
                             <general_contextMenu>None</general_contextMenu>
                             <desktopweb_onRightClick>
@@ -11063,7 +10778,6 @@
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
-                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -11111,14 +10825,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -11378,14 +11084,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -11681,7 +11379,6 @@
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
-                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -11729,14 +11426,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -11996,14 +11685,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -12282,7 +11963,6 @@
                             <desktopweb_toolTip></desktopweb_toolTip>
                             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                             <winphone8_contentalign>middle-left</winphone8_contentalign>
-                            <bb10_contentalignment>0</bb10_contentalignment>
                         </children>
                         <children xsi:type="kLabel">
                             <ID>lblDecrypt</ID>
@@ -12326,7 +12006,6 @@
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
-                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -12374,14 +12053,6 @@
                                     <bottom>2</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>true</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -12641,14 +12312,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -12927,7 +12590,6 @@
                             <desktopweb_toolTip></desktopweb_toolTip>
                             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                             <winphone8_contentalign>middle-left</winphone8_contentalign>
-                            <bb10_contentalignment>0</bb10_contentalignment>
                         </children>
                         <children xsi:type="kLine">
                             <ID>line19302198661535</ID>
@@ -12971,7 +12633,6 @@
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
-                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -13019,14 +12680,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -13286,14 +12939,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -13607,7 +13252,6 @@
                         <rc_android>true</rc_android>
                         <rc_android_tab>false</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
-                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -13655,14 +13299,6 @@
                             <bottom>2</bottom>
                             <unit>%</unit>
                         </bb>
-                        <bb10>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
-                        </bb10>
-                        <bb10_override>false</bb10_override>
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -13922,14 +13558,6 @@
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
-                        <bb10>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
-                        </bb10>
-                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -14190,7 +13818,6 @@
                     <ipad_option>0</ipad_option>
                     <ipad_fixed_height>false</ipad_fixed_height>
                     <bb_position>0</bb_position>
-                    <bb10_position>0</bb10_position>
                     <j2me_position>0</j2me_position>
                     <android_position>0</android_position>
                     <wm_position>0</wm_position>
@@ -14262,7 +13889,6 @@
                             <rc_android>true</rc_android>
                             <rc_android_tab>true</rc_android_tab>
                             <rc_blackberry>true</rc_blackberry>
-                            <rc_blackberry10>true</rc_blackberry10>
                             <rc_ipad>true</rc_ipad>
                             <rc_iphone>true</rc_iphone>
                             <rc_j2me>true</rc_j2me>
@@ -14310,14 +13936,6 @@
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </bb>
-                            <bb10>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </bb10>
-                            <bb10_override>false</bb10_override>
                             <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
@@ -14577,14 +14195,6 @@
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </bb>
-                            <bb10>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </bb10>
-                            <bb10_override>false</bb10_override>
                             <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
@@ -14906,7 +14516,6 @@
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
-                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -14954,14 +14563,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>true</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -15221,14 +14822,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -15538,13 +15131,9 @@
                             <ipad_leftview></ipad_leftview>
                             <ipad_clear_required>true</ipad_clear_required>
                             <ipad_showProgressIndicator>true</ipad_showProgressIndicator>
-                            <parent_nativeSkin>Skin Defaults</parent_nativeSkin>
                             <bb_nativeSkin>Skin Defaults</bb_nativeSkin>
-                            <bb10_nativeSkin>Skin Defaults</bb10_nativeSkin>
                             <android_keyboard_type>0</android_keyboard_type>
-                            <parent_nativeFocusSkin>Skin Defaults</parent_nativeFocusSkin>
                             <bb_nativeFocusSkin>Skin Defaults</bb_nativeFocusSkin>
-                            <bb10_nativeFocusSkin>Skin Defaults</bb10_nativeFocusSkin>
                             <c_autocorrect>false</c_autocorrect>
                             <c_autocomplete>false</c_autocomplete>
                             <spa_autoCorrect>false</spa_autoCorrect>
@@ -15555,7 +15144,6 @@
                             <tcPreOnclickJs></tcPreOnclickJs>
                             <spa_autoComplete>false</spa_autoComplete>
                             <bb_autoFilter>false</bb_autoFilter>
-                            <bb10_autoFilter>false</bb10_autoFilter>
                             <android_autoFilter>false</android_autoFilter>
                             <wm_autoFilter>false</wm_autoFilter>
                             <c_autoFilter>false</c_autoFilter>
@@ -15595,7 +15183,6 @@
                             <iphone_contentAlignment>1</iphone_contentAlignment>
                             <ipad_content_align>1</ipad_content_align>
                             <bb_content_align>1</bb_content_align>
-                            <bb10_content_align>1</bb10_content_align>
                             <j2me_content_align>1</j2me_content_align>
                             <android_content_align>4</android_content_align>
                             <winMobileContentAlign>middle-center</winMobileContentAlign>
@@ -15647,7 +15234,6 @@
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
-                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -15695,14 +15281,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -15962,14 +15540,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -16230,7 +15800,6 @@
                             <ipad_option>0</ipad_option>
                             <ipad_fixed_height>false</ipad_fixed_height>
                             <bb_position>0</bb_position>
-                            <bb10_position>0</bb10_position>
                             <j2me_position>0</j2me_position>
                             <android_position>0</android_position>
                             <wm_position>0</wm_position>
@@ -16296,7 +15865,6 @@
                                     <rc_android>true</rc_android>
                                     <rc_android_tab>true</rc_android_tab>
                                     <rc_blackberry>true</rc_blackberry>
-                                    <rc_blackberry10>true</rc_blackberry10>
                                     <rc_ipad>true</rc_ipad>
                                     <rc_iphone>true</rc_iphone>
                                     <rc_j2me>true</rc_j2me>
@@ -16344,14 +15912,6 @@
                                         <bottom>0</bottom>
                                         <unit>%</unit>
                                     </bb>
-                                    <bb10>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
-                                        <unit>%</unit>
-                                    </bb10>
-                                    <bb10_override>false</bb10_override>
                                     <bb_override>false</bb_override>
                                     <default_override>true</default_override>
                                     <defaults>
@@ -16611,14 +16171,6 @@
                                         <bottom>0</bottom>
                                         <unit>%</unit>
                                     </bb>
-                                    <bb10>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
-                                        <unit>%</unit>
-                                    </bb10>
-                                    <bb10_override>false</bb10_override>
                                     <bb_override>false</bb_override>
                                     <default_override>true</default_override>
                                     <defaults>
@@ -16897,7 +16449,6 @@
                                 <desktopweb_toolTip></desktopweb_toolTip>
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                                 <winphone8_contentalign>middle-left</winphone8_contentalign>
-                                <bb10_contentalignment>0</bb10_contentalignment>
                             </children>
                             <children xsi:type="kButton">
                                 <ID>button1930040990150784</ID>
@@ -16941,7 +16492,6 @@
                                     <rc_android>true</rc_android>
                                     <rc_android_tab>true</rc_android_tab>
                                     <rc_blackberry>true</rc_blackberry>
-                                    <rc_blackberry10>true</rc_blackberry10>
                                     <rc_ipad>true</rc_ipad>
                                     <rc_iphone>true</rc_iphone>
                                     <rc_j2me>true</rc_j2me>
@@ -16989,14 +16539,6 @@
                                         <bottom>2</bottom>
                                         <unit>%</unit>
                                     </bb>
-                                    <bb10>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
-                                        <unit>%</unit>
-                                    </bb10>
-                                    <bb10_override>false</bb10_override>
                                     <bb_override>true</bb_override>
                                     <default_override>true</default_override>
                                     <defaults>
@@ -17256,14 +16798,6 @@
                                         <bottom>0</bottom>
                                         <unit>%</unit>
                                     </bb>
-                                    <bb10>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
-                                        <unit>%</unit>
-                                    </bb10>
-                                    <bb10_override>false</bb10_override>
                                     <bb_override>false</bb_override>
                                     <default_override>true</default_override>
                                     <defaults>
@@ -17610,8 +17144,6 @@
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                                 <winphone8_displaytext>true</winphone8_displaytext>
                                 <winphone8_contentalign>middle-center</winphone8_contentalign>
-                                <bb10_contentalignment>1</bb10_contentalignment>
-                                <bb10displaytext>true</bb10displaytext>
                             </children>
                             <general_contextMenu>None</general_contextMenu>
                             <desktopweb_onRightClick>
@@ -17664,7 +17196,6 @@
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
-                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -17712,14 +17243,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -17979,14 +17502,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -18282,7 +17797,6 @@
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
-                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -18330,14 +17844,6 @@
                                     <bottom>2</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>true</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -18597,14 +18103,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -18883,7 +18381,6 @@
                             <desktopweb_toolTip></desktopweb_toolTip>
                             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                             <winphone8_contentalign>middle-left</winphone8_contentalign>
-                            <bb10_contentalignment>0</bb10_contentalignment>
                         </children>
                         <children xsi:type="kLine">
                             <ID>line19302198663509</ID>
@@ -18927,7 +18424,6 @@
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
-                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -18975,14 +18471,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -19242,14 +18730,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -19563,7 +19043,6 @@
                         <rc_android>true</rc_android>
                         <rc_android_tab>false</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
-                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -19611,14 +19090,6 @@
                             <bottom>2</bottom>
                             <unit>%</unit>
                         </bb>
-                        <bb10>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
-                        </bb10>
-                        <bb10_override>false</bb10_override>
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -19878,14 +19349,6 @@
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
-                        <bb10>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
-                        </bb10>
-                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -20146,7 +19609,6 @@
                     <ipad_option>0</ipad_option>
                     <ipad_fixed_height>false</ipad_fixed_height>
                     <bb_position>0</bb_position>
-                    <bb10_position>0</bb10_position>
                     <j2me_position>0</j2me_position>
                     <android_position>0</android_position>
                     <wm_position>0</wm_position>
@@ -20218,7 +19680,6 @@
                             <rc_android>true</rc_android>
                             <rc_android_tab>true</rc_android_tab>
                             <rc_blackberry>true</rc_blackberry>
-                            <rc_blackberry10>true</rc_blackberry10>
                             <rc_ipad>true</rc_ipad>
                             <rc_iphone>true</rc_iphone>
                             <rc_j2me>true</rc_j2me>
@@ -20266,14 +19727,6 @@
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </bb>
-                            <bb10>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </bb10>
-                            <bb10_override>false</bb10_override>
                             <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
@@ -20533,14 +19986,6 @@
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </bb>
-                            <bb10>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </bb10>
-                            <bb10_override>false</bb10_override>
                             <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
@@ -20862,7 +20307,6 @@
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
-                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -20910,14 +20354,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>true</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -21177,14 +20613,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -21494,13 +20922,9 @@
                             <ipad_leftview></ipad_leftview>
                             <ipad_clear_required>true</ipad_clear_required>
                             <ipad_showProgressIndicator>true</ipad_showProgressIndicator>
-                            <parent_nativeSkin>Skin Defaults</parent_nativeSkin>
                             <bb_nativeSkin>Skin Defaults</bb_nativeSkin>
-                            <bb10_nativeSkin>Skin Defaults</bb10_nativeSkin>
                             <android_keyboard_type>0</android_keyboard_type>
-                            <parent_nativeFocusSkin>Skin Defaults</parent_nativeFocusSkin>
                             <bb_nativeFocusSkin>Skin Defaults</bb_nativeFocusSkin>
-                            <bb10_nativeFocusSkin>Skin Defaults</bb10_nativeFocusSkin>
                             <c_autocorrect>false</c_autocorrect>
                             <c_autocomplete>false</c_autocomplete>
                             <spa_autoCorrect>false</spa_autoCorrect>
@@ -21511,7 +20935,6 @@
                             <tcPreOnclickJs></tcPreOnclickJs>
                             <spa_autoComplete>false</spa_autoComplete>
                             <bb_autoFilter>false</bb_autoFilter>
-                            <bb10_autoFilter>false</bb10_autoFilter>
                             <android_autoFilter>false</android_autoFilter>
                             <wm_autoFilter>false</wm_autoFilter>
                             <c_autoFilter>false</c_autoFilter>
@@ -21551,7 +20974,6 @@
                             <iphone_contentAlignment>1</iphone_contentAlignment>
                             <ipad_content_align>1</ipad_content_align>
                             <bb_content_align>1</bb_content_align>
-                            <bb10_content_align>1</bb10_content_align>
                             <j2me_content_align>1</j2me_content_align>
                             <android_content_align>4</android_content_align>
                             <winMobileContentAlign>middle-center</winMobileContentAlign>
@@ -21603,7 +21025,6 @@
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
-                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -21651,14 +21072,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -21918,14 +21331,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -22186,7 +21591,6 @@
                             <ipad_option>0</ipad_option>
                             <ipad_fixed_height>false</ipad_fixed_height>
                             <bb_position>0</bb_position>
-                            <bb10_position>0</bb10_position>
                             <j2me_position>0</j2me_position>
                             <android_position>0</android_position>
                             <wm_position>0</wm_position>
@@ -22252,7 +21656,6 @@
                                     <rc_android>true</rc_android>
                                     <rc_android_tab>true</rc_android_tab>
                                     <rc_blackberry>true</rc_blackberry>
-                                    <rc_blackberry10>true</rc_blackberry10>
                                     <rc_ipad>true</rc_ipad>
                                     <rc_iphone>true</rc_iphone>
                                     <rc_j2me>true</rc_j2me>
@@ -22300,14 +21703,6 @@
                                         <bottom>0</bottom>
                                         <unit>%</unit>
                                     </bb>
-                                    <bb10>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
-                                        <unit>%</unit>
-                                    </bb10>
-                                    <bb10_override>false</bb10_override>
                                     <bb_override>false</bb_override>
                                     <default_override>true</default_override>
                                     <defaults>
@@ -22567,14 +21962,6 @@
                                         <bottom>0</bottom>
                                         <unit>%</unit>
                                     </bb>
-                                    <bb10>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
-                                        <unit>%</unit>
-                                    </bb10>
-                                    <bb10_override>false</bb10_override>
                                     <bb_override>false</bb_override>
                                     <default_override>true</default_override>
                                     <defaults>
@@ -22853,7 +22240,6 @@
                                 <desktopweb_toolTip></desktopweb_toolTip>
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                                 <winphone8_contentalign>middle-left</winphone8_contentalign>
-                                <bb10_contentalignment>0</bb10_contentalignment>
                             </children>
                             <children xsi:type="kButton">
                                 <ID>button1930040990151288</ID>
@@ -22897,7 +22283,6 @@
                                     <rc_android>true</rc_android>
                                     <rc_android_tab>true</rc_android_tab>
                                     <rc_blackberry>true</rc_blackberry>
-                                    <rc_blackberry10>true</rc_blackberry10>
                                     <rc_ipad>true</rc_ipad>
                                     <rc_iphone>true</rc_iphone>
                                     <rc_j2me>true</rc_j2me>
@@ -22945,14 +22330,6 @@
                                         <bottom>2</bottom>
                                         <unit>%</unit>
                                     </bb>
-                                    <bb10>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
-                                        <unit>%</unit>
-                                    </bb10>
-                                    <bb10_override>false</bb10_override>
                                     <bb_override>true</bb_override>
                                     <default_override>true</default_override>
                                     <defaults>
@@ -23212,14 +22589,6 @@
                                         <bottom>0</bottom>
                                         <unit>%</unit>
                                     </bb>
-                                    <bb10>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
-                                        <unit>%</unit>
-                                    </bb10>
-                                    <bb10_override>false</bb10_override>
                                     <bb_override>false</bb_override>
                                     <default_override>true</default_override>
                                     <defaults>
@@ -23566,8 +22935,6 @@
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                                 <winphone8_displaytext>true</winphone8_displaytext>
                                 <winphone8_contentalign>middle-center</winphone8_contentalign>
-                                <bb10_contentalignment>1</bb10_contentalignment>
-                                <bb10displaytext>true</bb10displaytext>
                             </children>
                             <general_contextMenu>None</general_contextMenu>
                             <desktopweb_onRightClick>
@@ -23620,7 +22987,6 @@
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
-                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -23668,14 +23034,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -23935,14 +23293,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -24238,7 +23588,6 @@
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
-                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -24286,14 +23635,6 @@
                                     <bottom>2</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>true</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -24553,14 +23894,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -24839,7 +24172,6 @@
                             <desktopweb_toolTip></desktopweb_toolTip>
                             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                             <winphone8_contentalign>middle-left</winphone8_contentalign>
-                            <bb10_contentalignment>0</bb10_contentalignment>
                         </children>
                         <children xsi:type="kLine">
                             <ID>line19302198663512</ID>
@@ -24883,7 +24215,6 @@
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
-                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -24931,14 +24262,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -25198,14 +24521,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -25519,7 +24834,6 @@
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
-                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -25567,14 +24881,6 @@
                             <bottom>2</bottom>
                             <unit>%</unit>
                         </bb>
-                        <bb10>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
-                        </bb10>
-                        <bb10_override>false</bb10_override>
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -25834,14 +25140,6 @@
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
-                        <bb10>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
-                        </bb10>
-                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -26102,7 +25400,6 @@
                     <ipad_option>0</ipad_option>
                     <ipad_fixed_height>false</ipad_fixed_height>
                     <bb_position>0</bb_position>
-                    <bb10_position>0</bb10_position>
                     <j2me_position>0</j2me_position>
                     <android_position>0</android_position>
                     <wm_position>0</wm_position>
@@ -26174,7 +25471,6 @@
                             <rc_android>true</rc_android>
                             <rc_android_tab>true</rc_android_tab>
                             <rc_blackberry>true</rc_blackberry>
-                            <rc_blackberry10>true</rc_blackberry10>
                             <rc_ipad>true</rc_ipad>
                             <rc_iphone>true</rc_iphone>
                             <rc_j2me>true</rc_j2me>
@@ -26222,14 +25518,6 @@
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </bb>
-                            <bb10>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </bb10>
-                            <bb10_override>false</bb10_override>
                             <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
@@ -26489,14 +25777,6 @@
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </bb>
-                            <bb10>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </bb10>
-                            <bb10_override>false</bb10_override>
                             <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
@@ -26818,7 +26098,6 @@
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
-                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -26866,14 +26145,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>true</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -27133,14 +26404,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -27450,13 +26713,9 @@
                             <ipad_leftview></ipad_leftview>
                             <ipad_clear_required>true</ipad_clear_required>
                             <ipad_showProgressIndicator>true</ipad_showProgressIndicator>
-                            <parent_nativeSkin>Skin Defaults</parent_nativeSkin>
                             <bb_nativeSkin>Skin Defaults</bb_nativeSkin>
-                            <bb10_nativeSkin>Skin Defaults</bb10_nativeSkin>
                             <android_keyboard_type>0</android_keyboard_type>
-                            <parent_nativeFocusSkin>Skin Defaults</parent_nativeFocusSkin>
                             <bb_nativeFocusSkin>Skin Defaults</bb_nativeFocusSkin>
-                            <bb10_nativeFocusSkin>Skin Defaults</bb10_nativeFocusSkin>
                             <c_autocorrect>false</c_autocorrect>
                             <c_autocomplete>false</c_autocomplete>
                             <spa_autoCorrect>false</spa_autoCorrect>
@@ -27467,7 +26726,6 @@
                             <tcPreOnclickJs></tcPreOnclickJs>
                             <spa_autoComplete>false</spa_autoComplete>
                             <bb_autoFilter>false</bb_autoFilter>
-                            <bb10_autoFilter>false</bb10_autoFilter>
                             <android_autoFilter>false</android_autoFilter>
                             <wm_autoFilter>false</wm_autoFilter>
                             <c_autoFilter>false</c_autoFilter>
@@ -27507,7 +26765,6 @@
                             <iphone_contentAlignment>1</iphone_contentAlignment>
                             <ipad_content_align>1</ipad_content_align>
                             <bb_content_align>1</bb_content_align>
-                            <bb10_content_align>1</bb10_content_align>
                             <j2me_content_align>1</j2me_content_align>
                             <android_content_align>4</android_content_align>
                             <winMobileContentAlign>middle-center</winMobileContentAlign>
@@ -27559,7 +26816,6 @@
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
-                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -27607,14 +26863,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -27874,14 +27122,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -28142,7 +27382,6 @@
                             <ipad_option>0</ipad_option>
                             <ipad_fixed_height>false</ipad_fixed_height>
                             <bb_position>0</bb_position>
-                            <bb10_position>0</bb10_position>
                             <j2me_position>0</j2me_position>
                             <android_position>0</android_position>
                             <wm_position>0</wm_position>
@@ -28208,7 +27447,6 @@
                                     <rc_android>true</rc_android>
                                     <rc_android_tab>true</rc_android_tab>
                                     <rc_blackberry>true</rc_blackberry>
-                                    <rc_blackberry10>true</rc_blackberry10>
                                     <rc_ipad>true</rc_ipad>
                                     <rc_iphone>true</rc_iphone>
                                     <rc_j2me>true</rc_j2me>
@@ -28256,14 +27494,6 @@
                                         <bottom>0</bottom>
                                         <unit>%</unit>
                                     </bb>
-                                    <bb10>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
-                                        <unit>%</unit>
-                                    </bb10>
-                                    <bb10_override>false</bb10_override>
                                     <bb_override>false</bb_override>
                                     <default_override>true</default_override>
                                     <defaults>
@@ -28523,14 +27753,6 @@
                                         <bottom>0</bottom>
                                         <unit>%</unit>
                                     </bb>
-                                    <bb10>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
-                                        <unit>%</unit>
-                                    </bb10>
-                                    <bb10_override>false</bb10_override>
                                     <bb_override>false</bb_override>
                                     <default_override>true</default_override>
                                     <defaults>
@@ -28809,7 +28031,6 @@
                                 <desktopweb_toolTip></desktopweb_toolTip>
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                                 <winphone8_contentalign>middle-left</winphone8_contentalign>
-                                <bb10_contentalignment>0</bb10_contentalignment>
                             </children>
                             <children xsi:type="kButton">
                                 <ID>button1930040990151315</ID>
@@ -28853,7 +28074,6 @@
                                     <rc_android>true</rc_android>
                                     <rc_android_tab>true</rc_android_tab>
                                     <rc_blackberry>true</rc_blackberry>
-                                    <rc_blackberry10>true</rc_blackberry10>
                                     <rc_ipad>true</rc_ipad>
                                     <rc_iphone>true</rc_iphone>
                                     <rc_j2me>true</rc_j2me>
@@ -28901,14 +28121,6 @@
                                         <bottom>2</bottom>
                                         <unit>%</unit>
                                     </bb>
-                                    <bb10>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
-                                        <unit>%</unit>
-                                    </bb10>
-                                    <bb10_override>false</bb10_override>
                                     <bb_override>true</bb_override>
                                     <default_override>true</default_override>
                                     <defaults>
@@ -29168,14 +28380,6 @@
                                         <bottom>0</bottom>
                                         <unit>%</unit>
                                     </bb>
-                                    <bb10>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
-                                        <unit>%</unit>
-                                    </bb10>
-                                    <bb10_override>false</bb10_override>
                                     <bb_override>false</bb_override>
                                     <default_override>true</default_override>
                                     <defaults>
@@ -29522,8 +28726,6 @@
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                                 <winphone8_displaytext>true</winphone8_displaytext>
                                 <winphone8_contentalign>middle-center</winphone8_contentalign>
-                                <bb10_contentalignment>1</bb10_contentalignment>
-                                <bb10displaytext>true</bb10displaytext>
                             </children>
                             <general_contextMenu>None</general_contextMenu>
                             <desktopweb_onRightClick>
@@ -29576,7 +28778,6 @@
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
-                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -29624,14 +28825,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -29891,14 +29084,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -30194,7 +29379,6 @@
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
-                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -30242,14 +29426,6 @@
                                     <bottom>2</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>true</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -30509,14 +29685,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -30795,7 +29963,6 @@
                             <desktopweb_toolTip></desktopweb_toolTip>
                             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                             <winphone8_contentalign>middle-left</winphone8_contentalign>
-                            <bb10_contentalignment>0</bb10_contentalignment>
                         </children>
                         <children xsi:type="kLine">
                             <ID>line19302198663503</ID>
@@ -30839,7 +30006,6 @@
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
-                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -30887,14 +30053,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -31154,14 +30312,6 @@
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
-                                <bb10>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
-                                </bb10>
-                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -31449,8 +30599,8 @@
             </desktopweb_onRightClick>
             <winphone8_position>0</winphone8_position>
         </children>
-        <children xsi:type="khBox">
-            <ID>hbxSPATitle</ID>
+        <children xsi:type="kLabel">
+            <ID>label117989709782646</ID>
             <gridMetaData>
                 <colSpan>1</colSpan>
                 <column>0</column>
@@ -31462,8 +30612,7 @@
                 <verticalAlignment>0</verticalAlignment>
                 <verticalFill>1</verticalFill>
             </gridMetaData>
-            <layoutType>0</layoutType>
-            <widgetID>p2kwiet19293559271</widgetID>
+            <widgetID>p2kwiet117989709741071</widgetID>
             <createdGAVersion>5.0.0</createdGAVersion>
             <location>
                 <x>1</x>
@@ -31471,14 +30620,14 @@
             </location>
             <size>
                 <width>498</width>
-                <height>31</height>
+                <height>26</height>
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>6</height>
+                <height>5</height>
             </sizePercent>
-            <skinId>sknHbxSpaTitleSampleApp</skinId>
-            <focusSkinId>sknHbxSpaTitleSampleApp</focusSkinId>
+            <skinId>sknLblSpaTitleSampleApp</skinId>
+            <focusSkinId>Skin Defaults</focusSkinId>
             <localeId>None</localeId>
             <visible>true</visible>
             <rendererData>
@@ -31492,7 +30641,6 @@
                 <rc_android>true</rc_android>
                 <rc_android_tab>false</rc_android_tab>
                 <rc_blackberry>true</rc_blackberry>
-                <rc_blackberry10>true</rc_blackberry10>
                 <rc_ipad>false</rc_ipad>
                 <rc_iphone>true</rc_iphone>
                 <rc_j2me>true</rc_j2me>
@@ -31519,9 +30667,9 @@
                 <tc_xhtml_advpalm1>true</tc_xhtml_advpalm1>
                 <tc_xhtml_js>true</tc_xhtml_js>
                 <wrapper_android>true</wrapper_android>
-                <wrapper_android_tab>true</wrapper_android_tab>
+                <wrapper_android_tab>false</wrapper_android_tab>
                 <wrapper_bb>true</wrapper_bb>
-                <wrapper_ipad>true</wrapper_ipad>
+                <wrapper_ipad>false</wrapper_ipad>
                 <wrapper_iphone>true</wrapper_iphone>
             </rendererData>
             <margins>
@@ -31540,14 +30688,6 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
-                <bb10>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
-                </bb10>
-                <bb10_override>false</bb10_override>
                 <bb_override>false</bb_override>
                 <default_override>true</default_override>
                 <defaults>
@@ -31624,10 +30764,10 @@
                 <spatablet_android_override>false</spatablet_android_override>
                 <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>1</left>
+                    <right>1</right>
+                    <top>1</top>
+                    <bottom>1</bottom>
                     <unit>%</unit>
                 </symbian>
                 <symbian_override>true</symbian_override>
@@ -31669,19 +30809,19 @@
                     <bottom>1</bottom>
                     <unit>px</unit>
                 </windows8>
-                <windows8_override>true</windows8_override>
+                <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>1</left>
+                    <right>1</right>
+                    <top>1</top>
+                    <bottom>1</bottom>
                     <unit>px</unit>
                 </winmobile>
                 <winmobile6x>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>1</left>
+                    <right>1</right>
+                    <top>1</top>
+                    <bottom>1</bottom>
                     <unit>px</unit>
                 </winmobile6x>
                 <winmobile6x_override>true</winmobile6x_override>
@@ -31807,19 +30947,11 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
-                <bb10>
+                <bb_override>false</bb_override>
+                <default_override>false</default_override>
+                <defaults>
                     <left>0</left>
                     <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
-                </bb10>
-                <bb10_override>false</bb10_override>
-                <bb_override>false</bb_override>
-                <default_override>true</default_override>
-                <defaults>
-                    <left>1</left>
-                    <right>1</right>
                     <top>1</top>
                     <bottom>1</bottom>
                     <unit>%</unit>
@@ -31881,8 +31013,8 @@
                 </spaWinphone8>
                 <spaWinphone8_override>false</spaWinphone8_override>
                 <spaipad>
-                    <left>2</left>
-                    <right>2</right>
+                    <left>0</left>
+                    <right>0</right>
                     <top>1</top>
                     <bottom>1</bottom>
                     <unit>%</unit>
@@ -31907,8 +31039,8 @@
                 </tabRCAndroid>
                 <tablet_rc_android_override>false</tablet_rc_android_override>
                 <tabspaAndroid>
-                    <left>2</left>
-                    <right>2</right>
+                    <left>0</left>
+                    <right>0</right>
                     <top>1</top>
                     <bottom>1</bottom>
                     <unit>%</unit>
@@ -32058,701 +31190,43 @@
                 </xhtmlNormal>
                 <xhtmlNormal_override>false</xhtmlNormal_override>
             </paddings>
-            <direction>0</direction>
-            <usePercent>true</usePercent>
-            <orientation>constants.BOX_LAYOUT_HORIZONTAL</orientation>
-            <position>0</position>
-            <widgetLayoutDirection>BOX_LAYOUT_ALIGN_FROM_LEFT</widgetLayoutDirection>
+            <SText>Cryptography</SText>
             <overridePerferred>
                 <width>true</width>
                 <height>false</height>
             </overridePerferred>
-            <blockedSkin>Skin Defaults</blockedSkin>
-            <iphone_fixed_height>false</iphone_fixed_height>
-            <iphone_req_parallel_exec>false</iphone_req_parallel_exec>
-            <iphone_option>0</iphone_option>
-            <contentAlign>0</contentAlign>
-            <ipad_option>0</ipad_option>
-            <ipad_fixed_height>false</ipad_fixed_height>
-            <bb_position>0</bb_position>
-            <bb10_position>0</bb10_position>
-            <j2me_position>0</j2me_position>
-            <android_position>0</android_position>
-            <wm_position>0</wm_position>
-            <wm_derive_height>false</wm_derive_height>
-            <wm6x_position>0</wm6x_position>
-            <gridviewConfig>
-                <referenceHeight>0</referenceHeight>
-                <referenceWidth>0</referenceWidth>
-                <sizeMode>constants.GRID_TYPE_FIXED</sizeMode>
-            </gridviewConfig>
-            <symbian_position>0</symbian_position>
+            <contentAlign>4</contentAlign>
+            <parent_contentalignment>middle-center</parent_contentalignment>
+            <parent_wrapping>word</parent_wrapping>
+            <parent_longText>false</parent_longText>
+            <parent_renderAsAnchor>false</parent_renderAsAnchor>
+            <iphone_wrapping>0</iphone_wrapping>
+            <iphone_contentAlignment>0</iphone_contentAlignment>
+            <iphone_longtext>false</iphone_longtext>
+            <ipad_longtext>false</ipad_longtext>
+            <ipad_wrapping>0</ipad_wrapping>
+            <ipad_content_align>0</ipad_content_align>
             <tooltip></tooltip>
-            <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
-            <wapDirection>0</wapDirection>
-            <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
-            <spa_direction>0</spa_direction>
-            <tc_preLuaJSEvent></tc_preLuaJSEvent>
-            <tc_postLuaJSEvent></tc_postLuaJSEvent>
-            <tc_border_collapse>false</tc_border_collapse>
-            <pb_blockedUISkin>Skin Defaults</pb_blockedUISkin>
-            <pb_direction>0</pb_direction>
+            <bb_longtext>false</bb_longtext>
+            <bb_content_align>0</bb_content_align>
+            <j2me_longtext>false</j2me_longtext>
+            <j2me_content_align>0</j2me_content_align>
+            <android_content_align>0</android_content_align>
+            <winMobileContentAlign>middle-left</winMobileContentAlign>
+            <symbianWrapping>0</symbianWrapping>
+            <symbianContentAlign>0</symbianContentAlign>
+            <tc_renderAsanchor>false</tc_renderAsanchor>
+            <tc_content_align>0</tc_content_align>
+            <spa_renderAsAnchor>false</spa_renderAsAnchor>
+            <spa_contentAlignment>4</spa_contentAlignment>
+            <pb_renderAsAnchor>false</pb_renderAsAnchor>
+            <pb_contentAlignment>0</pb_contentAlignment>
             <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
+            <desktopweb_toolTip></desktopweb_toolTip>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-            <children xsi:type="kLabel">
-                <ID>lblSPATitle</ID>
-                <gridMetaData>
-                    <colSpan>1</colSpan>
-                    <column>0</column>
-                    <horizontalAlignment>0</horizontalAlignment>
-                    <horizontalFill>0</horizontalFill>
-                    <preferedHeight>25</preferedHeight>
-                    <row>0</row>
-                    <rowSpan>1</rowSpan>
-                    <verticalAlignment>0</verticalAlignment>
-                    <verticalFill>1</verticalFill>
-                </gridMetaData>
-                <widgetID>p2kwiet19293559272</widgetID>
-                <createdGAVersion>5.0.0</createdGAVersion>
-                <location>
-                    <x>144</x>
-                    <y>1</y>
-                </location>
-                <size>
-                    <width>198</width>
-                    <height>29</height>
-                </size>
-                <sizePercent>
-                    <width>40</width>
-                    <height>100</height>
-                </sizePercent>
-                <skinId>sknLblSpaTitleSampleApp</skinId>
-                <focusSkinId>Skin Defaults</focusSkinId>
-                <localeId>None</localeId>
-                <visible>true</visible>
-                <rendererData>
-                    <desktop_kiosk_channel>true</desktop_kiosk_channel>
-                    <desktop_web_channel>true</desktop_web_channel>
-                    <mixed_android>true</mixed_android>
-                    <mixed_android_tab>true</mixed_android_tab>
-                    <mixed_bb>true</mixed_bb>
-                    <mixed_ipad>true</mixed_ipad>
-                    <mixed_iphone>true</mixed_iphone>
-                    <rc_android>true</rc_android>
-                    <rc_android_tab>true</rc_android_tab>
-                    <rc_blackberry>true</rc_blackberry>
-                    <rc_blackberry10>true</rc_blackberry10>
-                    <rc_ipad>true</rc_ipad>
-                    <rc_iphone>true</rc_iphone>
-                    <rc_j2me>true</rc_j2me>
-                    <rc_palm>true</rc_palm>
-                    <rc_symbian>true</rc_symbian>
-                    <rc_windows8>true</rc_windows8>
-                    <rc_winmobile>true</rc_winmobile>
-                    <rc_winmobile6x>true</rc_winmobile6x>
-                    <rc_winphone8>true</rc_winphone8>
-                    <tabspa_ipad>true</tabspa_ipad>
-                    <tabspa_windows>true</tabspa_windows>
-                    <tabspaspa_android>true</tabspaspa_android>
-                    <tc_spaandroid>true</tc_spaandroid>
-                    <tc_spabb>true</tc_spabb>
-                    <tc_spabb_nth>true</tc_spabb_nth>
-                    <tc_spaiphone>true</tc_spaiphone>
-                    <tc_spawindows>true</tc_spawindows>
-                    <tc_spawinphone8>true</tc_spawinphone8>
-                    <tc_xhtml>true</tc_xhtml>
-                    <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
-                    <tc_xhtml_advbb>true</tc_xhtml_advbb>
-                    <tc_xhtml_adviphone1>true</tc_xhtml_adviphone1>
-                    <tc_xhtml_advnth>true</tc_xhtml_advnth>
-                    <tc_xhtml_advpalm1>true</tc_xhtml_advpalm1>
-                    <tc_xhtml_js>true</tc_xhtml_js>
-                    <wrapper_android>true</wrapper_android>
-                    <wrapper_android_tab>true</wrapper_android_tab>
-                    <wrapper_bb>true</wrapper_bb>
-                    <wrapper_ipad>true</wrapper_ipad>
-                    <wrapper_iphone>true</wrapper_iphone>
-                </rendererData>
-                <margins>
-                    <android>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </android>
-                    <android_override>false</android_override>
-                    <bb>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </bb>
-                    <bb10>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </bb10>
-                    <bb10_override>false</bb10_override>
-                    <bb_override>false</bb_override>
-                    <default_override>true</default_override>
-                    <defaults>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </defaults>
-                    <desktop_kiosk>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </desktop_kiosk>
-                    <desktop_kiosk_override>false</desktop_kiosk_override>
-                    <desktop_web>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </desktop_web>
-                    <desktop_web_override>false</desktop_web_override>
-                    <ipad>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </ipad>
-                    <ipad_override>false</ipad_override>
-                    <iphonerc>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
-                        <unit>px</unit>
-                    </iphonerc>
-                    <iphonerc_override>true</iphonerc_override>
-                    <j2me>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </j2me>
-                    <j2me_override>false</j2me_override>
-                    <palmpre>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
-                        <unit>%</unit>
-                    </palmpre>
-                    <palmpre_override>true</palmpre_override>
-                    <spaWinphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaWinphone8>
-                    <spaWinphone8_override>false</spaWinphone8_override>
-                    <spaipad>
-                        <left>35</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaipad>
-                    <spaipad_override>true</spaipad_override>
-                    <spatablet_android_override>true</spatablet_android_override>
-                    <spatablet_windows_override>false</spatablet_windows_override>
-                    <symbian>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
-                        <unit>%</unit>
-                    </symbian>
-                    <symbian_override>true</symbian_override>
-                    <tabRCAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </tabRCAndroid>
-                    <tablet_rc_android_override>false</tablet_rc_android_override>
-                    <tabspaAndroid>
-                        <left>35</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </tabspaAndroid>
-                    <tabspaWindows>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </tabspaWindows>
-                    <thinclient>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </thinclient>
-                    <thinclient_override>false</thinclient_override>
-                    <type>1</type>
-                    <windows8>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
-                        <unit>px</unit>
-                    </windows8>
-                    <windows8_override>true</windows8_override>
-                    <winmobile>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
-                        <unit>px</unit>
-                    </winmobile>
-                    <winmobile6x>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
-                        <unit>px</unit>
-                    </winmobile6x>
-                    <winmobile6x_override>true</winmobile6x_override>
-                    <winmobile_override>true</winmobile_override>
-                    <winphone8>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
-                        <unit>px</unit>
-                    </winphone8>
-                    <winphone8_override>true</winphone8_override>
-                    <xhtmlAdvBB>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </xhtmlAdvBB>
-                    <xhtmlAdvBB_override>false</xhtmlAdvBB_override>
-                    <spaAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaAndroid>
-                    <spaAndroid_override>false</spaAndroid_override>
-                    <spaBB>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaBB>
-                    <spaBBNth>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaBBNth>
-                    <spaBBNth_override>false</spaBBNth_override>
-                    <spaBB_override>false</spaBB_override>
-                    <spaIphone>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaIphone>
-                    <spaIphone_override>false</spaIphone_override>
-                    <spaWindows>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaWindows>
-                    <spaWindows_override>false</spaWindows_override>
-                    <xhtmlAdvAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </xhtmlAdvAndroid>
-                    <xhtmlAdvAndroid_override>false</xhtmlAdvAndroid_override>
-                    <xhtmlAdvIphone>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </xhtmlAdvIphone>
-                    <xhtmlAdvIphone_override>false</xhtmlAdvIphone_override>
-                    <xhtmlAdvNth>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </xhtmlAdvNth>
-                    <xhtmlAdvNth_override>false</xhtmlAdvNth_override>
-                    <xhtmlAdvPalm>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </xhtmlAdvPalm>
-                    <xhtmlAdvPalm_override>false</xhtmlAdvPalm_override>
-                    <xhtmlJS>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </xhtmlJS>
-                    <xhtmlJS_override>false</xhtmlJS_override>
-                    <xhtmlNormal>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </xhtmlNormal>
-                    <xhtmlNormal_override>false</xhtmlNormal_override>
-                </margins>
-                <paddings>
-                    <android>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </android>
-                    <android_override>false</android_override>
-                    <bb>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </bb>
-                    <bb10>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </bb10>
-                    <bb10_override>false</bb10_override>
-                    <bb_override>false</bb_override>
-                    <default_override>true</default_override>
-                    <defaults>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
-                        <unit>%</unit>
-                    </defaults>
-                    <desktop_kiosk>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </desktop_kiosk>
-                    <desktop_kiosk_override>false</desktop_kiosk_override>
-                    <desktop_web>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </desktop_web>
-                    <desktop_web_override>false</desktop_web_override>
-                    <ipad>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </ipad>
-                    <ipad_override>false</ipad_override>
-                    <iphonerc>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </iphonerc>
-                    <iphonerc_override>false</iphonerc_override>
-                    <j2me>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </j2me>
-                    <j2me_override>false</j2me_override>
-                    <palmpre>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </palmpre>
-                    <palmpre_override>false</palmpre_override>
-                    <spaWinphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaWinphone8>
-                    <spaWinphone8_override>false</spaWinphone8_override>
-                    <spaipad>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaipad>
-                    <spaipad_override>false</spaipad_override>
-                    <spatablet_android_override>false</spatablet_android_override>
-                    <spatablet_windows_override>false</spatablet_windows_override>
-                    <symbian>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </symbian>
-                    <symbian_override>false</symbian_override>
-                    <tabRCAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </tabRCAndroid>
-                    <tablet_rc_android_override>false</tablet_rc_android_override>
-                    <tabspaAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </tabspaAndroid>
-                    <tabspaWindows>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </tabspaWindows>
-                    <thinclient>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </thinclient>
-                    <thinclient_override>false</thinclient_override>
-                    <type>1</type>
-                    <windows8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </windows8>
-                    <windows8_override>false</windows8_override>
-                    <winmobile>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </winmobile>
-                    <winmobile6x>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </winmobile6x>
-                    <winmobile6x_override>false</winmobile6x_override>
-                    <winmobile_override>false</winmobile_override>
-                    <winphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </winphone8>
-                    <winphone8_override>false</winphone8_override>
-                    <xhtmlAdvBB>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </xhtmlAdvBB>
-                    <xhtmlAdvBB_override>false</xhtmlAdvBB_override>
-                    <spaAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaAndroid>
-                    <spaAndroid_override>false</spaAndroid_override>
-                    <spaBB>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaBB>
-                    <spaBBNth>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaBBNth>
-                    <spaBBNth_override>false</spaBBNth_override>
-                    <spaBB_override>false</spaBB_override>
-                    <spaIphone>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaIphone>
-                    <spaIphone_override>false</spaIphone_override>
-                    <spaWindows>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaWindows>
-                    <spaWindows_override>false</spaWindows_override>
-                    <xhtmlAdvAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </xhtmlAdvAndroid>
-                    <xhtmlAdvAndroid_override>false</xhtmlAdvAndroid_override>
-                    <xhtmlAdvIphone>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </xhtmlAdvIphone>
-                    <xhtmlAdvIphone_override>false</xhtmlAdvIphone_override>
-                    <xhtmlAdvNth>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </xhtmlAdvNth>
-                    <xhtmlAdvNth_override>false</xhtmlAdvNth_override>
-                    <xhtmlAdvPalm>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </xhtmlAdvPalm>
-                    <xhtmlAdvPalm_override>false</xhtmlAdvPalm_override>
-                    <xhtmlJS>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </xhtmlJS>
-                    <xhtmlJS_override>false</xhtmlJS_override>
-                    <xhtmlNormal>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </xhtmlNormal>
-                    <xhtmlNormal_override>false</xhtmlNormal_override>
-                </paddings>
-                <SText>Cryptography</SText>
-                <overridePerferred>
-                    <width>true</width>
-                    <height>false</height>
-                </overridePerferred>
-                <contentAlign>4</contentAlign>
-                <parent_contentalignment>middle-left</parent_contentalignment>
-                <parent_wrapping>word</parent_wrapping>
-                <parent_longText>false</parent_longText>
-                <parent_renderAsAnchor>false</parent_renderAsAnchor>
-                <iphone_wrapping>0</iphone_wrapping>
-                <iphone_contentAlignment>0</iphone_contentAlignment>
-                <iphone_longtext>false</iphone_longtext>
-                <ipad_longtext>false</ipad_longtext>
-                <ipad_wrapping>0</ipad_wrapping>
-                <ipad_content_align>0</ipad_content_align>
-                <tooltip></tooltip>
-                <bb_longtext>false</bb_longtext>
-                <bb_content_align>0</bb_content_align>
-                <j2me_longtext>false</j2me_longtext>
-                <j2me_content_align>0</j2me_content_align>
-                <android_content_align>0</android_content_align>
-                <winMobileContentAlign>middle-left</winMobileContentAlign>
-                <symbianWrapping>0</symbianWrapping>
-                <symbianContentAlign>0</symbianContentAlign>
-                <tc_renderAsanchor>false</tc_renderAsanchor>
-                <tc_content_align>0</tc_content_align>
-                <spa_renderAsAnchor>false</spa_renderAsAnchor>
-                <spa_contentAlignment>0</spa_contentAlignment>
-                <pb_renderAsAnchor>false</pb_renderAsAnchor>
-                <pb_contentAlignment>0</pb_contentAlignment>
-                <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
-                <desktopweb_toolTip></desktopweb_toolTip>
-                <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                <winphone8_contentalign>middle-left</winphone8_contentalign>
-                <bb10_contentalignment>0</bb10_contentalignment>
-            </children>
-            <general_contextMenu>None</general_contextMenu>
-            <desktopweb_onRightClick>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
-            </desktopweb_onRightClick>
-            <winphone8_position>0</winphone8_position>
+            <winphone8_contentalign>middle-left</winphone8_contentalign>
         </children>
+        <overrideProperties>KForm.android_Orientation</overrideProperties>
         <overrideProperties>KForm.androidtitleBar</overrideProperties>
         <overrideProperties>KForm.ipad_Orientation</overrideProperties>
         <overrideProperties>KForm.ipadtitleBar</overrideProperties>
@@ -32776,32 +31250,6 @@
             </evtSequence>
         </winphone8_ondevback_root>
         <winphone8_animateheaderfooter>false</winphone8_animateheaderfooter>
-        <bb10_autofocus>true</bb10_autofocus>
-        <bb10_titleSkinId>Skin Defaults</bb10_titleSkinId>
-        <blackberry10_fixed_items>0</blackberry10_fixed_items>
-        <bb10_enablescreenmenu>false</bb10_enablescreenmenu>
-        <bb10_enablescreenformmenu>false</bb10_enablescreenformmenu>
-        <bb10_ignoreescape>false</bb10_ignoreescape>
-        <bb10_trans_direction>0</bb10_trans_direction>
-        <bb10_trans_out_direction>0</bb10_trans_out_direction>
-        <bb10Titlebar>true</bb10Titlebar>
-        <bb10_orientation>0</bb10_orientation>
-        <bb10_onOrientation_root>
-            <evtSequence>
-                <enabled>true</enabled>
-                <seqname></seqname>
-            </evtSequence>
-        </bb10_onOrientation_root>
-        <bb10MenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</bb10MenuPosition>
-        <bb10_undockappheader>false</bb10_undockappheader>
-        <bb10_undockappfooter>false</bb10_undockappfooter>
-        <bb10SkinAroundPopup>Skin Defaults</bb10SkinAroundPopup>
-        <bb10_onEscape10_root>
-            <evtSequence>
-                <enabled>true</enabled>
-                <seqname></seqname>
-            </evtSequence>
-        </bb10_onEscape10_root>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>
@@ -32855,7 +31303,6 @@
             <rc_android>true</rc_android>
             <rc_android_tab>true</rc_android_tab>
             <rc_blackberry>true</rc_blackberry>
-            <rc_blackberry10>true</rc_blackberry10>
             <rc_ipad>true</rc_ipad>
             <rc_iphone>true</rc_iphone>
             <rc_j2me>true</rc_j2me>
@@ -32903,14 +31350,6 @@
                 <bottom>0</bottom>
                 <unit>%</unit>
             </bb>
-            <bb10>
-                <left>0</left>
-                <right>0</right>
-                <top>0</top>
-                <bottom>0</bottom>
-                <unit>%</unit>
-            </bb10>
-            <bb10_override>false</bb10_override>
             <bb_override>false</bb_override>
             <default_override>true</default_override>
             <defaults>
@@ -33170,14 +31609,6 @@
                 <bottom>0</bottom>
                 <unit>%</unit>
             </bb>
-            <bb10>
-                <left>0</left>
-                <right>0</right>
-                <top>0</top>
-                <bottom>0</bottom>
-                <unit>%</unit>
-            </bb10>
-            <bb10_override>false</bb10_override>
             <bb_override>false</bb_override>
             <default_override>true</default_override>
             <defaults>
