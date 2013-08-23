@@ -84,3 +84,27 @@ function segClickEvent(seguiWidget, sectionIndex, rowIndex){
 function navigateToFrmCrypto(){
 	frmCrypto.show();
 }
+/*****************************************************************
+* Name    : frmCryptoPreShow
+* Author  : Kony
+* Purpose : To clear text fields in FrmCrypto form.
+******************************************************************/
+
+
+function frmCryptoPreShow(){
+
+  frmCrypto.textEncrypt.text ="";
+  frmCrypto.lblEncrypt.text ="";
+  frmCrypto.lblDecrypt.text="";
+  //#ifdef iphone
+   frmCrypto.txtMd2Hash.text = "";
+   frmCrypto.lblMD2Hash.text = "";
+   frmCrypto.txtMD4Hash.text = "";
+   frmCrypto.lblMD4Hash.text = "";
+  //#else
+   
+  //#endif
+  frmCrypto.txtMD5Hash.text = "";
+  frmCrypto.lblMD5Hash.text = "";
+
+}

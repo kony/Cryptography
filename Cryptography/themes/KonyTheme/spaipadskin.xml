@@ -14,7 +14,13 @@
         <att name="Background_gradient_top_colorSet" value="0" type="int"/>
         <att name="Background_gradient_bottom_colorSet" value="0" type="int"/>
         <att name="Background_image" value="" type="String"/>
+        <att name="MobileBackground_image" value="" type="String"/>
+        <att name="TabletBackground_image" value="" type="String"/>
+        <att name="DesktopBackground_image" value="" type="String"/>
         <att name="Right_background_image" value="" type="String"/>
+        <att name="Mobile_right_background_image" value="" type="String"/>
+        <att name="Tablet_right_background_image" value="" type="String"/>
+        <att name="Desktop_right_background_image" value="" type="String"/>
         <att name="Bg_iphone_image" value="" type="String"/>
         <att name="Bg_android_image" value="" type="String"/>
         <att name="Bg_palm_image" value="" type="String"/>
@@ -22,6 +28,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
+        <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
         <att name="Bg_winphone8_image" value="" type="String"/>
         <att name="Bg_windows8_image" value="" type="String"/>
@@ -68,9 +75,9 @@
         <att name="Platform" value="31" type="int"/>
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
+        <att name="Bg_height" value="15" type="Integer"/>
         <att name="Repeat_image" value="false" type="Boolean"/>
         <att name="Repeat_vertically_image" value="false" type="Boolean"/>
-        <att name="Bg_height" value="15" type="Integer"/>
         <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Enable_retina_image" value="false" type="Boolean"/>
         <att name="Bg_retina_image" value="" type="String"/>
@@ -145,7 +152,13 @@
         <att name="Background_gradient_top_colorSet" value="1" type="int"/>
         <att name="Background_gradient_bottom_colorSet" value="1" type="int"/>
         <att name="Background_image" value="" type="String"/>
+        <att name="MobileBackground_image" value="" type="String"/>
+        <att name="TabletBackground_image" value="" type="String"/>
+        <att name="DesktopBackground_image" value="" type="String"/>
         <att name="Right_background_image" value="" type="String"/>
+        <att name="Mobile_right_background_image" value="" type="String"/>
+        <att name="Tablet_right_background_image" value="" type="String"/>
+        <att name="Desktop_right_background_image" value="" type="String"/>
         <att name="Bg_iphone_image" value="" type="String"/>
         <att name="Bg_android_image" value="" type="String"/>
         <att name="Bg_palm_image" value="" type="String"/>
@@ -153,6 +166,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
+        <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
         <att name="Bg_winphone8_image" value="" type="String"/>
         <att name="Bg_windows8_image" value="" type="String"/>
@@ -199,9 +213,9 @@
         <att name="Platform" value="31" type="int"/>
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
+        <att name="Bg_height" value="15" type="Integer"/>
         <att name="Repeat_image" value="false" type="Boolean"/>
         <att name="Repeat_vertically_image" value="false" type="Boolean"/>
-        <att name="Bg_height" value="15" type="Integer"/>
         <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Enable_retina_image" value="false" type="Boolean"/>
         <att name="Bg_retina_image" value="" type="String"/>
@@ -277,7 +291,13 @@
         <att name="Background_gradient_top_colorSet" value="1" type="int"/>
         <att name="Background_gradient_bottom_colorSet" value="1" type="int"/>
         <att name="Background_image" value="" type="String"/>
+        <att name="MobileBackground_image" value="" type="String"/>
+        <att name="TabletBackground_image" value="" type="String"/>
+        <att name="DesktopBackground_image" value="" type="String"/>
         <att name="Right_background_image" value="" type="String"/>
+        <att name="Mobile_right_background_image" value="" type="String"/>
+        <att name="Tablet_right_background_image" value="" type="String"/>
+        <att name="Desktop_right_background_image" value="" type="String"/>
         <att name="Bg_iphone_image" value="" type="String"/>
         <att name="Bg_android_image" value="" type="String"/>
         <att name="Bg_palm_image" value="" type="String"/>
@@ -285,6 +305,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
+        <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
         <att name="Bg_winphone8_image" value="" type="String"/>
         <att name="Bg_windows8_image" value="" type="String"/>
@@ -331,9 +352,9 @@
         <att name="Platform" value="31" type="int"/>
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
+        <att name="Bg_height" value="15" type="Integer"/>
         <att name="Repeat_image" value="false" type="Boolean"/>
         <att name="Repeat_vertically_image" value="false" type="Boolean"/>
-        <att name="Bg_height" value="15" type="Integer"/>
         <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Enable_retina_image" value="false" type="Boolean"/>
         <att name="Bg_retina_image" value="" type="String"/>
@@ -410,7 +431,13 @@
         <att name="Background_gradient_top_colorSet" value="0" type="int"/>
         <att name="Background_gradient_bottom_colorSet" value="0" type="int"/>
         <att name="Background_image" value="" type="String"/>
+        <att name="MobileBackground_image" value="" type="String"/>
+        <att name="TabletBackground_image" value="" type="String"/>
+        <att name="DesktopBackground_image" value="" type="String"/>
         <att name="Right_background_image" value="" type="String"/>
+        <att name="Mobile_right_background_image" value="" type="String"/>
+        <att name="Tablet_right_background_image" value="" type="String"/>
+        <att name="Desktop_right_background_image" value="" type="String"/>
         <att name="Bg_iphone_image" value="" type="String"/>
         <att name="Bg_android_image" value="" type="String"/>
         <att name="Bg_palm_image" value="" type="String"/>
@@ -418,6 +445,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
+        <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
         <att name="Bg_winphone8_image" value="" type="String"/>
         <att name="Bg_windows8_image" value="" type="String"/>
@@ -464,9 +492,9 @@
         <att name="Platform" value="31" type="int"/>
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
+        <att name="Bg_height" value="15" type="Integer"/>
         <att name="Repeat_image" value="false" type="Boolean"/>
         <att name="Repeat_vertically_image" value="false" type="Boolean"/>
-        <att name="Bg_height" value="15" type="Integer"/>
         <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Enable_retina_image" value="false" type="Boolean"/>
         <att name="Bg_retina_image" value="" type="String"/>
@@ -544,7 +572,13 @@
         <att name="Background_gradient_top_colorSet" value="1" type="int"/>
         <att name="Background_gradient_bottom_colorSet" value="1" type="int"/>
         <att name="Background_image" value="" type="String"/>
+        <att name="MobileBackground_image" value="" type="String"/>
+        <att name="TabletBackground_image" value="" type="String"/>
+        <att name="DesktopBackground_image" value="" type="String"/>
         <att name="Right_background_image" value="" type="String"/>
+        <att name="Mobile_right_background_image" value="" type="String"/>
+        <att name="Tablet_right_background_image" value="" type="String"/>
+        <att name="Desktop_right_background_image" value="" type="String"/>
         <att name="Bg_iphone_image" value="" type="String"/>
         <att name="Bg_android_image" value="" type="String"/>
         <att name="Bg_palm_image" value="" type="String"/>
@@ -552,6 +586,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
+        <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
         <att name="Bg_winphone8_image" value="" type="String"/>
         <att name="Bg_windows8_image" value="" type="String"/>
@@ -581,7 +616,7 @@
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
         <att name="Bg_spawindows_tablet_image" value="" type="String"/>
-        <att name="Font_weight" value="normal" type="String"/>
+        <att name="Font_weight" value="bold" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="220" type="String"/>
         <att name="Font_color" value="78,78,78" type="RGB"/>
@@ -598,9 +633,9 @@
         <att name="Platform" value="31" type="int"/>
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
+        <att name="Bg_height" value="15" type="Integer"/>
         <att name="Repeat_image" value="false" type="Boolean"/>
         <att name="Repeat_vertically_image" value="false" type="Boolean"/>
-        <att name="Bg_height" value="15" type="Integer"/>
         <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Enable_retina_image" value="false" type="Boolean"/>
         <att name="Bg_retina_image" value="" type="String"/>
@@ -675,7 +710,13 @@
         <att name="Background_gradient_top_colorSet" value="0" type="int"/>
         <att name="Background_gradient_bottom_colorSet" value="0" type="int"/>
         <att name="Background_image" value="" type="String"/>
+        <att name="MobileBackground_image" value="" type="String"/>
+        <att name="TabletBackground_image" value="" type="String"/>
+        <att name="DesktopBackground_image" value="" type="String"/>
         <att name="Right_background_image" value="" type="String"/>
+        <att name="Mobile_right_background_image" value="" type="String"/>
+        <att name="Tablet_right_background_image" value="" type="String"/>
+        <att name="Desktop_right_background_image" value="" type="String"/>
         <att name="Bg_iphone_image" value="" type="String"/>
         <att name="Bg_android_image" value="" type="String"/>
         <att name="Bg_palm_image" value="" type="String"/>
@@ -683,6 +724,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
+        <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
         <att name="Bg_winphone8_image" value="" type="String"/>
         <att name="Bg_windows8_image" value="" type="String"/>
@@ -729,9 +771,9 @@
         <att name="Platform" value="31" type="int"/>
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
+        <att name="Bg_height" value="15" type="Integer"/>
         <att name="Repeat_image" value="false" type="Boolean"/>
         <att name="Repeat_vertically_image" value="false" type="Boolean"/>
-        <att name="Bg_height" value="15" type="Integer"/>
         <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Enable_retina_image" value="false" type="Boolean"/>
         <att name="Bg_retina_image" value="" type="String"/>
@@ -807,7 +849,13 @@
         <att name="Background_gradient_top_colorSet" value="0" type="int"/>
         <att name="Background_gradient_bottom_colorSet" value="0" type="int"/>
         <att name="Background_image" value="" type="String"/>
+        <att name="MobileBackground_image" value="" type="String"/>
+        <att name="TabletBackground_image" value="" type="String"/>
+        <att name="DesktopBackground_image" value="" type="String"/>
         <att name="Right_background_image" value="" type="String"/>
+        <att name="Mobile_right_background_image" value="" type="String"/>
+        <att name="Tablet_right_background_image" value="" type="String"/>
+        <att name="Desktop_right_background_image" value="" type="String"/>
         <att name="Bg_iphone_image" value="" type="String"/>
         <att name="Bg_android_image" value="" type="String"/>
         <att name="Bg_palm_image" value="" type="String"/>
@@ -815,6 +863,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
+        <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
         <att name="Bg_winphone8_image" value="" type="String"/>
         <att name="Bg_windows8_image" value="" type="String"/>
@@ -861,9 +910,9 @@
         <att name="Platform" value="31" type="int"/>
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
+        <att name="Bg_height" value="15" type="Integer"/>
         <att name="Repeat_image" value="false" type="Boolean"/>
         <att name="Repeat_vertically_image" value="false" type="Boolean"/>
-        <att name="Bg_height" value="15" type="Integer"/>
         <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Enable_retina_image" value="false" type="Boolean"/>
         <att name="Bg_retina_image" value="" type="String"/>
@@ -937,7 +986,13 @@
         <att name="Background_gradient_top_colorSet" value="0" type="int"/>
         <att name="Background_gradient_bottom_colorSet" value="0" type="int"/>
         <att name="Background_image" value="" type="String"/>
+        <att name="MobileBackground_image" value="" type="String"/>
+        <att name="TabletBackground_image" value="" type="String"/>
+        <att name="DesktopBackground_image" value="" type="String"/>
         <att name="Right_background_image" value="" type="String"/>
+        <att name="Mobile_right_background_image" value="" type="String"/>
+        <att name="Tablet_right_background_image" value="" type="String"/>
+        <att name="Desktop_right_background_image" value="" type="String"/>
         <att name="Bg_iphone_image" value="" type="String"/>
         <att name="Bg_android_image" value="" type="String"/>
         <att name="Bg_palm_image" value="" type="String"/>
@@ -945,6 +1000,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
+        <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
         <att name="Bg_winphone8_image" value="" type="String"/>
         <att name="Bg_windows8_image" value="" type="String"/>
@@ -991,9 +1047,9 @@
         <att name="Platform" value="31" type="int"/>
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
+        <att name="Bg_height" value="15" type="Integer"/>
         <att name="Repeat_image" value="false" type="Boolean"/>
         <att name="Repeat_vertically_image" value="false" type="Boolean"/>
-        <att name="Bg_height" value="15" type="Integer"/>
         <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Enable_retina_image" value="false" type="Boolean"/>
         <att name="Bg_retina_image" value="" type="String"/>
@@ -1068,7 +1124,13 @@
         <att name="Background_gradient_top_colorSet" value="0" type="int"/>
         <att name="Background_gradient_bottom_colorSet" value="0" type="int"/>
         <att name="Background_image" value="" type="String"/>
+        <att name="MobileBackground_image" value="" type="String"/>
+        <att name="TabletBackground_image" value="" type="String"/>
+        <att name="DesktopBackground_image" value="" type="String"/>
         <att name="Right_background_image" value="" type="String"/>
+        <att name="Mobile_right_background_image" value="" type="String"/>
+        <att name="Tablet_right_background_image" value="" type="String"/>
+        <att name="Desktop_right_background_image" value="" type="String"/>
         <att name="Bg_iphone_image" value="" type="String"/>
         <att name="Bg_android_image" value="" type="String"/>
         <att name="Bg_palm_image" value="" type="String"/>
@@ -1076,6 +1138,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
+        <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
         <att name="Bg_winphone8_image" value="" type="String"/>
         <att name="Bg_windows8_image" value="" type="String"/>
@@ -1122,9 +1185,9 @@
         <att name="Platform" value="31" type="int"/>
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
+        <att name="Bg_height" value="15" type="Integer"/>
         <att name="Repeat_image" value="false" type="Boolean"/>
         <att name="Repeat_vertically_image" value="false" type="Boolean"/>
-        <att name="Bg_height" value="15" type="Integer"/>
         <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Enable_retina_image" value="false" type="Boolean"/>
         <att name="Bg_retina_image" value="" type="String"/>
@@ -1200,7 +1263,13 @@
         <att name="Background_gradient_top_colorSet" value="0" type="int"/>
         <att name="Background_gradient_bottom_colorSet" value="0" type="int"/>
         <att name="Background_image" value="bg.png" type="String"/>
+        <att name="MobileBackground_image" value="" type="String"/>
+        <att name="TabletBackground_image" value="" type="String"/>
+        <att name="DesktopBackground_image" value="" type="String"/>
         <att name="Right_background_image" value="" type="String"/>
+        <att name="Mobile_right_background_image" value="" type="String"/>
+        <att name="Tablet_right_background_image" value="" type="String"/>
+        <att name="Desktop_right_background_image" value="" type="String"/>
         <att name="Bg_iphone_image" value="bg.png" type="String"/>
         <att name="Bg_android_image" value="" type="String"/>
         <att name="Bg_palm_image" value="" type="String"/>
@@ -1208,6 +1277,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
+        <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
         <att name="Bg_winphone8_image" value="" type="String"/>
         <att name="Bg_windows8_image" value="" type="String"/>
@@ -1254,9 +1324,9 @@
         <att name="Platform" value="31" type="int"/>
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
+        <att name="Bg_height" value="15" type="Integer"/>
         <att name="Repeat_image" value="false" type="Boolean"/>
         <att name="Repeat_vertically_image" value="false" type="Boolean"/>
-        <att name="Bg_height" value="15" type="Integer"/>
         <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Enable_retina_image" value="false" type="Boolean"/>
         <att name="Bg_retina_image" value="" type="String"/>
@@ -1330,7 +1400,13 @@
         <att name="Background_gradient_top_colorSet" value="0" type="int"/>
         <att name="Background_gradient_bottom_colorSet" value="0" type="int"/>
         <att name="Background_image" value="" type="String"/>
+        <att name="MobileBackground_image" value="" type="String"/>
+        <att name="TabletBackground_image" value="" type="String"/>
+        <att name="DesktopBackground_image" value="" type="String"/>
         <att name="Right_background_image" value="" type="String"/>
+        <att name="Mobile_right_background_image" value="" type="String"/>
+        <att name="Tablet_right_background_image" value="" type="String"/>
+        <att name="Desktop_right_background_image" value="" type="String"/>
         <att name="Bg_iphone_image" value="" type="String"/>
         <att name="Bg_android_image" value="" type="String"/>
         <att name="Bg_palm_image" value="" type="String"/>
@@ -1338,6 +1414,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
+        <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
         <att name="Bg_winphone8_image" value="" type="String"/>
         <att name="Bg_windows8_image" value="" type="String"/>
@@ -1384,9 +1461,9 @@
         <att name="Platform" value="31" type="int"/>
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
+        <att name="Bg_height" value="15" type="Integer"/>
         <att name="Repeat_image" value="false" type="Boolean"/>
         <att name="Repeat_vertically_image" value="false" type="Boolean"/>
-        <att name="Bg_height" value="15" type="Integer"/>
         <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Enable_retina_image" value="false" type="Boolean"/>
         <att name="Bg_retina_image" value="" type="String"/>
@@ -1460,7 +1537,13 @@
         <att name="Background_gradient_top_colorSet" value="1" type="int"/>
         <att name="Background_gradient_bottom_colorSet" value="1" type="int"/>
         <att name="Background_image" value="" type="String"/>
+        <att name="MobileBackground_image" value="" type="String"/>
+        <att name="TabletBackground_image" value="" type="String"/>
+        <att name="DesktopBackground_image" value="" type="String"/>
         <att name="Right_background_image" value="" type="String"/>
+        <att name="Mobile_right_background_image" value="" type="String"/>
+        <att name="Tablet_right_background_image" value="" type="String"/>
+        <att name="Desktop_right_background_image" value="" type="String"/>
         <att name="Bg_iphone_image" value="" type="String"/>
         <att name="Bg_android_image" value="" type="String"/>
         <att name="Bg_palm_image" value="" type="String"/>
@@ -1468,6 +1551,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
+        <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
         <att name="Bg_winphone8_image" value="" type="String"/>
         <att name="Bg_windows8_image" value="" type="String"/>
@@ -1514,9 +1598,9 @@
         <att name="Platform" value="31" type="int"/>
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
+        <att name="Bg_height" value="15" type="Integer"/>
         <att name="Repeat_image" value="false" type="Boolean"/>
         <att name="Repeat_vertically_image" value="false" type="Boolean"/>
-        <att name="Bg_height" value="15" type="Integer"/>
         <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Enable_retina_image" value="false" type="Boolean"/>
         <att name="Bg_retina_image" value="" type="String"/>
@@ -1593,7 +1677,13 @@
         <att name="Background_gradient_top_colorSet" value="0" type="int"/>
         <att name="Background_gradient_bottom_colorSet" value="0" type="int"/>
         <att name="Background_image" value="" type="String"/>
+        <att name="MobileBackground_image" value="" type="String"/>
+        <att name="TabletBackground_image" value="" type="String"/>
+        <att name="DesktopBackground_image" value="" type="String"/>
         <att name="Right_background_image" value="" type="String"/>
+        <att name="Mobile_right_background_image" value="" type="String"/>
+        <att name="Tablet_right_background_image" value="" type="String"/>
+        <att name="Desktop_right_background_image" value="" type="String"/>
         <att name="Bg_iphone_image" value="" type="String"/>
         <att name="Bg_android_image" value="" type="String"/>
         <att name="Bg_palm_image" value="" type="String"/>
@@ -1601,6 +1691,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
+        <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
         <att name="Bg_winphone8_image" value="" type="String"/>
         <att name="Bg_windows8_image" value="" type="String"/>
@@ -1647,9 +1738,9 @@
         <att name="Platform" value="31" type="int"/>
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
+        <att name="Bg_height" value="15" type="Integer"/>
         <att name="Repeat_image" value="false" type="Boolean"/>
         <att name="Repeat_vertically_image" value="false" type="Boolean"/>
-        <att name="Bg_height" value="15" type="Integer"/>
         <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Enable_retina_image" value="false" type="Boolean"/>
         <att name="Bg_retina_image" value="" type="String"/>
@@ -1725,7 +1816,13 @@
         <att name="Background_gradient_top_colorSet" value="0" type="int"/>
         <att name="Background_gradient_bottom_colorSet" value="0" type="int"/>
         <att name="Background_image" value="" type="String"/>
+        <att name="MobileBackground_image" value="" type="String"/>
+        <att name="TabletBackground_image" value="" type="String"/>
+        <att name="DesktopBackground_image" value="" type="String"/>
         <att name="Right_background_image" value="" type="String"/>
+        <att name="Mobile_right_background_image" value="" type="String"/>
+        <att name="Tablet_right_background_image" value="" type="String"/>
+        <att name="Desktop_right_background_image" value="" type="String"/>
         <att name="Bg_iphone_image" value="" type="String"/>
         <att name="Bg_android_image" value="" type="String"/>
         <att name="Bg_palm_image" value="" type="String"/>
@@ -1733,6 +1830,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
+        <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
         <att name="Bg_winphone8_image" value="" type="String"/>
         <att name="Bg_windows8_image" value="" type="String"/>
@@ -1779,9 +1877,9 @@
         <att name="Platform" value="31" type="int"/>
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
+        <att name="Bg_height" value="15" type="Integer"/>
         <att name="Repeat_image" value="false" type="Boolean"/>
         <att name="Repeat_vertically_image" value="false" type="Boolean"/>
-        <att name="Bg_height" value="15" type="Integer"/>
         <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Enable_retina_image" value="false" type="Boolean"/>
         <att name="Bg_retina_image" value="" type="String"/>
@@ -1855,7 +1953,13 @@
         <att name="Background_gradient_top_colorSet" value="0" type="int"/>
         <att name="Background_gradient_bottom_colorSet" value="0" type="int"/>
         <att name="Background_image" value="" type="String"/>
+        <att name="MobileBackground_image" value="" type="String"/>
+        <att name="TabletBackground_image" value="" type="String"/>
+        <att name="DesktopBackground_image" value="" type="String"/>
         <att name="Right_background_image" value="" type="String"/>
+        <att name="Mobile_right_background_image" value="" type="String"/>
+        <att name="Tablet_right_background_image" value="" type="String"/>
+        <att name="Desktop_right_background_image" value="" type="String"/>
         <att name="Bg_iphone_image" value="" type="String"/>
         <att name="Bg_android_image" value="" type="String"/>
         <att name="Bg_palm_image" value="" type="String"/>
@@ -1863,6 +1967,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
+        <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
         <att name="Bg_winphone8_image" value="" type="String"/>
         <att name="Bg_windows8_image" value="" type="String"/>
@@ -1909,9 +2014,9 @@
         <att name="Platform" value="31" type="int"/>
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
+        <att name="Bg_height" value="15" type="Integer"/>
         <att name="Repeat_image" value="false" type="Boolean"/>
         <att name="Repeat_vertically_image" value="false" type="Boolean"/>
-        <att name="Bg_height" value="15" type="Integer"/>
         <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Enable_retina_image" value="false" type="Boolean"/>
         <att name="Bg_retina_image" value="" type="String"/>

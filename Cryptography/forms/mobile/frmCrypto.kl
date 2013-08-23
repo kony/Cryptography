@@ -430,28 +430,23 @@
         <title>Cryptography</title>
         <preShow_root>
             <evtSequence>
-                <actionList xsi:type="eventExpressionAction">
+                <actionList xsi:type="eventFunctionAction">
                     <enabled>true</enabled>
                     <name></name>
-                    <type>5</type>
-                    <expr></expr>
-                    <exprMap>
+                    <type>6</type>
+                    <functionName>None</functionName>
+                    <functionNameMap>
                         <entry>
                             <key>js</key>
-                            <value>frmCrypto.textEncrypt.text ="";
-frmCrypto.lblEncrypt.text ="";
-frmCrypto.lblDecrypt.text="";
-if (kony.os.deviceInfo().name !="android")
-{
-	frmCrypto.txtMd2Hash.text = "";
-	frmCrypto.lblMD2Hash.text = "";
-	frmCrypto.txtMD4Hash.text = "";
-	frmCrypto.lblMD4Hash.text = "";
-}
-frmCrypto.txtMD5Hash.text = "";
-frmCrypto.lblMD5Hash.text = "";</value>
+                            <value>frmCryptoPreShow</value>
                         </entry>
-                    </exprMap>
+                    </functionNameMap>
+                    <paramDataMap>
+                        <entry>
+                            <key>js</key>
+                            <value/>
+                        </entry>
+                    </paramDataMap>
                 </actionList>
                 <enabled>true</enabled>
                 <seqname></seqname>
@@ -816,45 +811,45 @@ frmCrypto.lblMD5Hash.text = "";</value>
             <rendererData>
                 <desktop_kiosk_channel>true</desktop_kiosk_channel>
                 <desktop_web_channel>true</desktop_web_channel>
-                <mixed_android>true</mixed_android>
+                <mixed_android>false</mixed_android>
                 <mixed_android_tab>true</mixed_android_tab>
-                <mixed_bb>true</mixed_bb>
+                <mixed_bb>false</mixed_bb>
                 <mixed_ipad>true</mixed_ipad>
-                <mixed_iphone>true</mixed_iphone>
+                <mixed_iphone>false</mixed_iphone>
                 <rc_android>true</rc_android>
                 <rc_android_tab>true</rc_android_tab>
-                <rc_blackberry>true</rc_blackberry>
-                <rc_blackberry10>true</rc_blackberry10>
+                <rc_blackberry>false</rc_blackberry>
+                <rc_blackberry10>false</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>true</rc_iphone>
-                <rc_j2me>true</rc_j2me>
-                <rc_palm>true</rc_palm>
-                <rc_symbian>true</rc_symbian>
+                <rc_j2me>false</rc_j2me>
+                <rc_palm>false</rc_palm>
+                <rc_symbian>false</rc_symbian>
                 <rc_windows8>true</rc_windows8>
-                <rc_winmobile>true</rc_winmobile>
-                <rc_winmobile6x>true</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winmobile>false</rc_winmobile>
+                <rc_winmobile6x>false</rc_winmobile6x>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
                 <tc_spaandroid>true</tc_spaandroid>
-                <tc_spabb>true</tc_spabb>
-                <tc_spabb_nth>true</tc_spabb_nth>
+                <tc_spabb>false</tc_spabb>
+                <tc_spabb_nth>false</tc_spabb_nth>
                 <tc_spaiphone>true</tc_spaiphone>
-                <tc_spawindows>true</tc_spawindows>
-                <tc_spawinphone8>true</tc_spawinphone8>
-                <tc_xhtml>true</tc_xhtml>
+                <tc_spawindows>false</tc_spawindows>
+                <tc_spawinphone8>false</tc_spawinphone8>
+                <tc_xhtml>false</tc_xhtml>
                 <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                 <tc_xhtml_advbb>true</tc_xhtml_advbb>
                 <tc_xhtml_adviphone1>true</tc_xhtml_adviphone1>
                 <tc_xhtml_advnth>true</tc_xhtml_advnth>
-                <tc_xhtml_advpalm1>true</tc_xhtml_advpalm1>
-                <tc_xhtml_js>true</tc_xhtml_js>
-                <wrapper_android>true</wrapper_android>
+                <tc_xhtml_advpalm1>false</tc_xhtml_advpalm1>
+                <tc_xhtml_js>false</tc_xhtml_js>
+                <wrapper_android>false</wrapper_android>
                 <wrapper_android_tab>true</wrapper_android_tab>
-                <wrapper_bb>true</wrapper_bb>
+                <wrapper_bb>false</wrapper_bb>
                 <wrapper_ipad>true</wrapper_ipad>
-                <wrapper_iphone>true</wrapper_iphone>
+                <wrapper_iphone>false</wrapper_iphone>
             </rendererData>
             <margins>
                 <android>
@@ -4224,45 +4219,45 @@ frmCrypto.lblMD5Hash.text = "";</value>
             <rendererData>
                 <desktop_kiosk_channel>true</desktop_kiosk_channel>
                 <desktop_web_channel>true</desktop_web_channel>
-                <mixed_android>true</mixed_android>
+                <mixed_android>false</mixed_android>
                 <mixed_android_tab>true</mixed_android_tab>
-                <mixed_bb>true</mixed_bb>
+                <mixed_bb>false</mixed_bb>
                 <mixed_ipad>true</mixed_ipad>
-                <mixed_iphone>true</mixed_iphone>
+                <mixed_iphone>false</mixed_iphone>
                 <rc_android>true</rc_android>
                 <rc_android_tab>true</rc_android_tab>
-                <rc_blackberry>true</rc_blackberry>
-                <rc_blackberry10>true</rc_blackberry10>
+                <rc_blackberry>false</rc_blackberry>
+                <rc_blackberry10>false</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>true</rc_iphone>
-                <rc_j2me>true</rc_j2me>
-                <rc_palm>true</rc_palm>
-                <rc_symbian>true</rc_symbian>
+                <rc_j2me>false</rc_j2me>
+                <rc_palm>false</rc_palm>
+                <rc_symbian>false</rc_symbian>
                 <rc_windows8>true</rc_windows8>
-                <rc_winmobile>true</rc_winmobile>
-                <rc_winmobile6x>true</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winmobile>false</rc_winmobile>
+                <rc_winmobile6x>false</rc_winmobile6x>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
                 <tc_spaandroid>true</tc_spaandroid>
-                <tc_spabb>true</tc_spabb>
-                <tc_spabb_nth>true</tc_spabb_nth>
+                <tc_spabb>false</tc_spabb>
+                <tc_spabb_nth>false</tc_spabb_nth>
                 <tc_spaiphone>true</tc_spaiphone>
-                <tc_spawindows>true</tc_spawindows>
-                <tc_spawinphone8>true</tc_spawinphone8>
-                <tc_xhtml>true</tc_xhtml>
+                <tc_spawindows>false</tc_spawindows>
+                <tc_spawinphone8>false</tc_spawinphone8>
+                <tc_xhtml>false</tc_xhtml>
                 <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                 <tc_xhtml_advbb>true</tc_xhtml_advbb>
                 <tc_xhtml_adviphone1>true</tc_xhtml_adviphone1>
                 <tc_xhtml_advnth>true</tc_xhtml_advnth>
-                <tc_xhtml_advpalm1>true</tc_xhtml_advpalm1>
-                <tc_xhtml_js>true</tc_xhtml_js>
-                <wrapper_android>true</wrapper_android>
+                <tc_xhtml_advpalm1>false</tc_xhtml_advpalm1>
+                <tc_xhtml_js>false</tc_xhtml_js>
+                <wrapper_android>false</wrapper_android>
                 <wrapper_android_tab>true</wrapper_android_tab>
-                <wrapper_bb>true</wrapper_bb>
+                <wrapper_bb>false</wrapper_bb>
                 <wrapper_ipad>true</wrapper_ipad>
-                <wrapper_iphone>true</wrapper_iphone>
+                <wrapper_iphone>false</wrapper_iphone>
             </rendererData>
             <margins>
                 <android>
@@ -6885,45 +6880,45 @@ frmCrypto.lblMD5Hash.text = "";</value>
             <rendererData>
                 <desktop_kiosk_channel>true</desktop_kiosk_channel>
                 <desktop_web_channel>true</desktop_web_channel>
-                <mixed_android>true</mixed_android>
+                <mixed_android>false</mixed_android>
                 <mixed_android_tab>true</mixed_android_tab>
-                <mixed_bb>true</mixed_bb>
+                <mixed_bb>false</mixed_bb>
                 <mixed_ipad>true</mixed_ipad>
-                <mixed_iphone>true</mixed_iphone>
+                <mixed_iphone>false</mixed_iphone>
                 <rc_android>false</rc_android>
                 <rc_android_tab>true</rc_android_tab>
-                <rc_blackberry>true</rc_blackberry>
-                <rc_blackberry10>true</rc_blackberry10>
+                <rc_blackberry>false</rc_blackberry>
+                <rc_blackberry10>false</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>true</rc_iphone>
                 <rc_j2me>false</rc_j2me>
                 <rc_palm>false</rc_palm>
                 <rc_symbian>false</rc_symbian>
                 <rc_windows8>true</rc_windows8>
-                <rc_winmobile>true</rc_winmobile>
+                <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
-                <tc_spaandroid>true</tc_spaandroid>
-                <tc_spabb>true</tc_spabb>
-                <tc_spabb_nth>true</tc_spabb_nth>
-                <tc_spaiphone>true</tc_spaiphone>
-                <tc_spawindows>true</tc_spawindows>
-                <tc_spawinphone8>true</tc_spawinphone8>
-                <tc_xhtml>true</tc_xhtml>
+                <tc_spaandroid>false</tc_spaandroid>
+                <tc_spabb>false</tc_spabb>
+                <tc_spabb_nth>false</tc_spabb_nth>
+                <tc_spaiphone>false</tc_spaiphone>
+                <tc_spawindows>false</tc_spawindows>
+                <tc_spawinphone8>false</tc_spawinphone8>
+                <tc_xhtml>false</tc_xhtml>
                 <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                 <tc_xhtml_advbb>true</tc_xhtml_advbb>
                 <tc_xhtml_adviphone1>true</tc_xhtml_adviphone1>
                 <tc_xhtml_advnth>true</tc_xhtml_advnth>
-                <tc_xhtml_advpalm1>true</tc_xhtml_advpalm1>
-                <tc_xhtml_js>true</tc_xhtml_js>
-                <wrapper_android>true</wrapper_android>
+                <tc_xhtml_advpalm1>false</tc_xhtml_advpalm1>
+                <tc_xhtml_js>false</tc_xhtml_js>
+                <wrapper_android>false</wrapper_android>
                 <wrapper_android_tab>true</wrapper_android_tab>
-                <wrapper_bb>true</wrapper_bb>
+                <wrapper_bb>false</wrapper_bb>
                 <wrapper_ipad>true</wrapper_ipad>
-                <wrapper_iphone>true</wrapper_iphone>
+                <wrapper_iphone>false</wrapper_iphone>
             </rendererData>
             <margins>
                 <android>
@@ -10293,45 +10288,45 @@ frmCrypto.lblMD5Hash.text = "";</value>
             <rendererData>
                 <desktop_kiosk_channel>true</desktop_kiosk_channel>
                 <desktop_web_channel>true</desktop_web_channel>
-                <mixed_android>true</mixed_android>
+                <mixed_android>false</mixed_android>
                 <mixed_android_tab>true</mixed_android_tab>
-                <mixed_bb>true</mixed_bb>
+                <mixed_bb>false</mixed_bb>
                 <mixed_ipad>true</mixed_ipad>
-                <mixed_iphone>true</mixed_iphone>
+                <mixed_iphone>false</mixed_iphone>
                 <rc_android>false</rc_android>
                 <rc_android_tab>true</rc_android_tab>
-                <rc_blackberry>true</rc_blackberry>
-                <rc_blackberry10>true</rc_blackberry10>
+                <rc_blackberry>false</rc_blackberry>
+                <rc_blackberry10>false</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>true</rc_iphone>
                 <rc_j2me>false</rc_j2me>
                 <rc_palm>false</rc_palm>
                 <rc_symbian>false</rc_symbian>
                 <rc_windows8>true</rc_windows8>
-                <rc_winmobile>true</rc_winmobile>
+                <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
-                <tc_spaandroid>true</tc_spaandroid>
-                <tc_spabb>true</tc_spabb>
-                <tc_spabb_nth>true</tc_spabb_nth>
-                <tc_spaiphone>true</tc_spaiphone>
-                <tc_spawindows>true</tc_spawindows>
-                <tc_spawinphone8>true</tc_spawinphone8>
-                <tc_xhtml>true</tc_xhtml>
+                <tc_spaandroid>false</tc_spaandroid>
+                <tc_spabb>false</tc_spabb>
+                <tc_spabb_nth>false</tc_spabb_nth>
+                <tc_spaiphone>false</tc_spaiphone>
+                <tc_spawindows>false</tc_spawindows>
+                <tc_spawinphone8>false</tc_spawinphone8>
+                <tc_xhtml>false</tc_xhtml>
                 <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                 <tc_xhtml_advbb>true</tc_xhtml_advbb>
                 <tc_xhtml_adviphone1>true</tc_xhtml_adviphone1>
                 <tc_xhtml_advnth>true</tc_xhtml_advnth>
-                <tc_xhtml_advpalm1>true</tc_xhtml_advpalm1>
-                <tc_xhtml_js>true</tc_xhtml_js>
-                <wrapper_android>true</wrapper_android>
+                <tc_xhtml_advpalm1>false</tc_xhtml_advpalm1>
+                <tc_xhtml_js>false</tc_xhtml_js>
+                <wrapper_android>false</wrapper_android>
                 <wrapper_android_tab>true</wrapper_android_tab>
-                <wrapper_bb>true</wrapper_bb>
+                <wrapper_bb>false</wrapper_bb>
                 <wrapper_ipad>true</wrapper_ipad>
-                <wrapper_iphone>true</wrapper_iphone>
+                <wrapper_iphone>false</wrapper_iphone>
             </rendererData>
             <margins>
                 <android>
@@ -13709,45 +13704,45 @@ frmCrypto.lblMD5Hash.text = "";</value>
             <rendererData>
                 <desktop_kiosk_channel>true</desktop_kiosk_channel>
                 <desktop_web_channel>true</desktop_web_channel>
-                <mixed_android>true</mixed_android>
+                <mixed_android>false</mixed_android>
                 <mixed_android_tab>true</mixed_android_tab>
-                <mixed_bb>true</mixed_bb>
+                <mixed_bb>false</mixed_bb>
                 <mixed_ipad>true</mixed_ipad>
-                <mixed_iphone>true</mixed_iphone>
+                <mixed_iphone>false</mixed_iphone>
                 <rc_android>true</rc_android>
                 <rc_android_tab>true</rc_android_tab>
-                <rc_blackberry>true</rc_blackberry>
-                <rc_blackberry10>true</rc_blackberry10>
+                <rc_blackberry>false</rc_blackberry>
+                <rc_blackberry10>false</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>true</rc_iphone>
-                <rc_j2me>true</rc_j2me>
-                <rc_palm>true</rc_palm>
-                <rc_symbian>true</rc_symbian>
+                <rc_j2me>false</rc_j2me>
+                <rc_palm>false</rc_palm>
+                <rc_symbian>false</rc_symbian>
                 <rc_windows8>true</rc_windows8>
-                <rc_winmobile>true</rc_winmobile>
-                <rc_winmobile6x>true</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winmobile>false</rc_winmobile>
+                <rc_winmobile6x>false</rc_winmobile6x>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
                 <tc_spaandroid>true</tc_spaandroid>
-                <tc_spabb>true</tc_spabb>
-                <tc_spabb_nth>true</tc_spabb_nth>
+                <tc_spabb>false</tc_spabb>
+                <tc_spabb_nth>false</tc_spabb_nth>
                 <tc_spaiphone>true</tc_spaiphone>
-                <tc_spawindows>true</tc_spawindows>
-                <tc_spawinphone8>true</tc_spawinphone8>
-                <tc_xhtml>true</tc_xhtml>
+                <tc_spawindows>false</tc_spawindows>
+                <tc_spawinphone8>false</tc_spawinphone8>
+                <tc_xhtml>false</tc_xhtml>
                 <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                 <tc_xhtml_advbb>true</tc_xhtml_advbb>
                 <tc_xhtml_adviphone1>true</tc_xhtml_adviphone1>
                 <tc_xhtml_advnth>true</tc_xhtml_advnth>
-                <tc_xhtml_advpalm1>true</tc_xhtml_advpalm1>
-                <tc_xhtml_js>true</tc_xhtml_js>
-                <wrapper_android>true</wrapper_android>
+                <tc_xhtml_advpalm1>false</tc_xhtml_advpalm1>
+                <tc_xhtml_js>false</tc_xhtml_js>
+                <wrapper_android>false</wrapper_android>
                 <wrapper_android_tab>true</wrapper_android_tab>
-                <wrapper_bb>true</wrapper_bb>
+                <wrapper_bb>false</wrapper_bb>
                 <wrapper_ipad>true</wrapper_ipad>
-                <wrapper_iphone>true</wrapper_iphone>
+                <wrapper_iphone>false</wrapper_iphone>
             </rendererData>
             <margins>
                 <android>
