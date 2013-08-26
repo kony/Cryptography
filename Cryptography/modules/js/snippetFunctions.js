@@ -17,6 +17,7 @@ function frmCryptoTabPreShow(){
 	frmCrypto.hbxHashMD2.setVisibility(false);
 	frmCrypto.hbxHashMD4.setVisibility(false);
 	frmCrypto.hbxHashMD5.setVisibility(false);
+	frmCrypto.segNavigation.selectedIndex=[0,0];
 	//#else
 	// android supports MD5
 		frmCrypto.segNavigation.data= [	{"lblNavigation":"Encrypt/Decrypt","lblNavigationDescription":"  "},
