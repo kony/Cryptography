@@ -54,7 +54,6 @@
         <component type="textbox2" id="txtMD4Hash" displayname="TextBox2"/>
         <component type="textbox2" id="txtMD5Hash" displayname="TextBox2"/>
     </container>
-    <container type="form" id="frmHome" displayname="Form"/>
     <container type="form" id="frmAppDescription" displayname="Form"/>
     <container type="form" id="frmCrypto" displayname="Form">
         <component type="textbox2" id="textEncrypt" displayname="TextBox2"/>
