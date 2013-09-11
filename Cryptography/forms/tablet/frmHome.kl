@@ -465,6 +465,7 @@
         </onDestroy>
         <bbMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</bbMenuPosition>
         <androidMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</androidMenuPosition>
+        <iphone_bounces>true</iphone_bounces>
         <iphone_inputaccessoryviewtype>default</iphone_inputaccessoryviewtype>
         <iphoneMenuRenderer>true</iphoneMenuRenderer>
         <iphone_transDirection>0</iphone_transDirection>
@@ -530,6 +531,7 @@
         <iphone_footer_overlap>0</iphone_footer_overlap>
         <iphone_footerOverlap>false</iphone_footerOverlap>
         <iphone_headerOverlap>false</iphone_headerOverlap>
+        <ipad_bounces>true</ipad_bounces>
         <ipad_inputaccessoryviewtype>default</ipad_inputaccessoryviewtype>
         <ipad_footer_overlap>0</ipad_footer_overlap>
         <ipad_footerOverlap>false</ipad_footerOverlap>
@@ -660,6 +662,12 @@
                 <seqname></seqname>
             </evtSequence>
         </android_onDeviceMenu>
+        <android_onActionBarBack>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </android_onActionBarBack>
         <palmpreTitleBarData>
             <imagePath></imagePath>
             <imgEvtData>
@@ -689,6 +697,9 @@
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
         <android_transition_out_effect>0</android_transition_out_effect>
+        <android_showActionBar>true</android_showActionBar>
+        <android_showActionBarIcon>true</android_showActionBarIcon>
+        <android_actionBarIcon></android_actionBarIcon>
         <tc_titlebar>true</tc_titlebar>
         <tcHtml5CaptureGPS>false</tcHtml5CaptureGPS>
         <tc_securedata>false</tc_securedata>
@@ -2661,6 +2672,7 @@
                     <ipad_longtext>false</ipad_longtext>
                     <ipad_wrapping>0</ipad_wrapping>
                     <ipad_content_align>0</ipad_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <bb_longtext>false</bb_longtext>
                     <bb_content_align>0</bb_content_align>
@@ -3352,11 +3364,11 @@
                         </location>
                         <createdGAVersion>5.0.0</createdGAVersion>
                         <size>
-                            <width>35</width>
+                            <width>48</width>
                             <height>48</height>
                         </size>
                         <sizePercent>
-                            <width>8</width>
+                            <width>11</width>
                             <height>100</height>
                         </sizePercent>
                         <skinId>Skin Defaults</skinId>
@@ -3949,7 +3961,7 @@
                             </xhtmlNormal>
                             <xhtmlNormal_override>false</xhtmlNormal_override>
                         </paddings>
-                        <SText>blackbullet.png</SText>
+                        <SText>bullet_balck.png</SText>
                         <overridePerferred>
                             <width>false</width>
                             <height>false</height>
@@ -3964,6 +3976,7 @@
                         <iphone_downloadProgressIndicator>true</iphone_downloadProgressIndicator>
                         <ipad_glossy_effect>0</ipad_glossy_effect>
                         <ipad_downloadProgressIndicator>true</ipad_downloadProgressIndicator>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <onDownloadComplete_root>
                             <evtSequence>
@@ -4045,15 +4058,15 @@
                         <widgetID>p2kwiet10435809853656</widgetID>
                         <createdGAVersion>5.0.0</createdGAVersion>
                         <location>
-                            <x>37</x>
+                            <x>50</x>
                             <y>1</y>
                         </location>
                         <size>
-                            <width>406</width>
+                            <width>393</width>
                             <height>48</height>
                         </size>
                         <sizePercent>
-                            <width>92</width>
+                            <width>89</width>
                             <height>100</height>
                         </sizePercent>
                         <skinId>sknLblBlackSampleApp</skinId>
@@ -4653,6 +4666,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -5353,11 +5367,11 @@
                         </location>
                         <createdGAVersion>5.0.0</createdGAVersion>
                         <size>
-                            <width>34</width>
+                            <width>48</width>
                             <height>48</height>
                         </size>
                         <sizePercent>
-                            <width>8</width>
+                            <width>11</width>
                             <height>100</height>
                         </sizePercent>
                         <skinId>Skin Defaults</skinId>
@@ -5950,7 +5964,7 @@
                             </xhtmlNormal>
                             <xhtmlNormal_override>false</xhtmlNormal_override>
                         </paddings>
-                        <SText>blackbullet.png</SText>
+                        <SText>bullet_balck.png</SText>
                         <overridePerferred>
                             <width>false</width>
                             <height>false</height>
@@ -5965,6 +5979,7 @@
                         <iphone_downloadProgressIndicator>true</iphone_downloadProgressIndicator>
                         <ipad_glossy_effect>0</ipad_glossy_effect>
                         <ipad_downloadProgressIndicator>true</ipad_downloadProgressIndicator>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <onDownloadComplete_root>
                             <evtSequence>
@@ -6046,15 +6061,15 @@
                         <widgetID>p2kwiet1929296345270</widgetID>
                         <createdGAVersion>5.0.0</createdGAVersion>
                         <location>
-                            <x>36</x>
+                            <x>49</x>
                             <y>1</y>
                         </location>
                         <size>
-                            <width>406</width>
+                            <width>392</width>
                             <height>48</height>
                         </size>
                         <sizePercent>
-                            <width>92</width>
+                            <width>89</width>
                             <height>100</height>
                         </sizePercent>
                         <skinId>sknLblBlackSampleApp</skinId>
@@ -6654,6 +6669,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -7367,6 +7383,7 @@
             <bb_content_align>1</bb_content_align>
             <bb_display_text>true</bb_display_text>
             <j2me_content_align>1</j2me_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <android_display_text>true</android_display_text>
             <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -8039,6 +8056,7 @@
             <ipad_longtext>false</ipad_longtext>
             <ipad_wrapping>0</ipad_wrapping>
             <ipad_content_align>0</ipad_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <bb_longtext>false</bb_longtext>
             <bb_content_align>0</bb_content_align>
@@ -8110,6 +8128,7 @@
                 <seqname></seqname>
             </evtSequence>
         </bb10_onEscape10_root>
+        <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>
