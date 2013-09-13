@@ -18,7 +18,7 @@ This Application will showcase the following features of Cryptography
  * SPA iPhone
  
 **Tablet** 
- * Anroid
+ * Android
  * iPad
  * SPA iPad
  * SPA Android
