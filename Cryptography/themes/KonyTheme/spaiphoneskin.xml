@@ -27,6 +27,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -67,6 +68,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -128,6 +130,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -167,6 +171,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -207,6 +212,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -265,10 +271,11 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-<att name="BlurRadius" value="0" type="Integer"/>
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -309,6 +316,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -349,6 +357,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -410,6 +419,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -448,6 +459,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -488,6 +500,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -546,10 +559,11 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-<att name="BlurRadius" value="0" type="Integer"/>
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -590,6 +604,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -630,6 +645,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -691,6 +707,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -731,6 +749,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -771,6 +790,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -832,6 +852,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -872,6 +894,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -912,6 +935,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -946,26 +970,26 @@
         <att name="BlockingImgURL" value="" type="String"/>
         <att name="BlockingImgPositon" value="" type="String"/>
         <att name="BlockingImgWidget" value="Button" type="String"/>
-       <att name="TopBorderWidth" value="1" type="int"/>
-       <att name="TopBorderColor" value="76,76,76" type="RGB"/>
+       <att name="TopBorderWidth" value="2" type="int"/>
+       <att name="TopBorderColor" value="222,222,222" type="RGB"/>
        <att name="TopBorderColorTransparency" value="0" type="int"/>
        <att name="TopBorderStyle" value="rounded corner" type="String"/>
-       <att name="TopBorderRadius" value="5" type="int"/>
-       <att name="LeftBorderWidth" value="1" type="int"/>
-       <att name="LeftBorderColor" value="76,76,76" type="RGB"/>
+       <att name="TopBorderRadius" value="10" type="int"/>
+       <att name="LeftBorderWidth" value="2" type="int"/>
+       <att name="LeftBorderColor" value="222,222,222" type="RGB"/>
        <att name="LeftBorderColorTransparency" value="0" type="int"/>
        <att name="LeftBorderStyle" value="rounded corner" type="String"/>
-       <att name="LeftBorderRadius" value="5" type="int"/>
-       <att name="BottomBorderWidth" value="1" type="int"/>
-       <att name="BottomBorderColor" value="76,76,76" type="RGB"/>
+       <att name="LeftBorderRadius" value="10" type="int"/>
+       <att name="BottomBorderWidth" value="2" type="int"/>
+       <att name="BottomBorderColor" value="222,222,222" type="RGB"/>
        <att name="BottomBorderColorTransparency" value="0" type="int"/>
        <att name="BottomBorderStyle" value="rounded corner" type="String"/>
-       <att name="BottomBorderRadius" value="5" type="int"/>
-       <att name="RightBorderWidth" value="1" type="int"/>
-       <att name="RightBorderColor" value="76,76,76" type="RGB"/>
+       <att name="BottomBorderRadius" value="10" type="int"/>
+       <att name="RightBorderWidth" value="2" type="int"/>
+       <att name="RightBorderColor" value="222,222,222" type="RGB"/>
        <att name="RightBorderColorTransparency" value="0" type="int"/>
        <att name="RightBorderStyle" value="rounded corner" type="String"/>
-       <att name="RightBorderRadius" value="5" type="int"/>
+       <att name="RightBorderRadius" value="10" type="int"/>
        <att name="Child_topBorderRadius" value="10" type="int"/>
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
@@ -973,6 +997,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Helvetica Neue" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -1013,6 +1039,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1053,6 +1080,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -1111,10 +1139,15 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-<att name="BlurRadius" value="0" type="Integer"/>
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
+<att name="TxtShadow_color" value="0,0,0" type="RGB"/>
+<att name="TxtShadow_x" value="0" type="Integer"/>
+<att name="TxtShadow_y" value="0" type="Integer"/>
+<att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="IPhone,HelveticaNeue-Bold" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Helvetica" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
@@ -1155,6 +1188,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1195,6 +1229,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -1256,6 +1291,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -1296,6 +1333,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1336,6 +1374,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -1397,6 +1436,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -1437,6 +1478,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1477,6 +1519,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -1538,6 +1581,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -1578,6 +1623,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1618,6 +1664,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -1676,10 +1723,15 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-<att name="BlurRadius" value="0" type="Integer"/>
 <att name="Shadow_color" value="250,250,250" type="RGB"/>
 <att name="Shadow_x" value="1" type="Integer"/>
 <att name="Shadow_y" value="1" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
+<att name="TxtShadow_color" value="0,0,0" type="RGB"/>
+<att name="TxtShadow_x" value="0" type="Integer"/>
+<att name="TxtShadow_y" value="0" type="Integer"/>
+<att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="IPhone,Arial-BoldMT" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -1719,6 +1771,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1759,6 +1812,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -1820,6 +1874,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="true" type="Boolean"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -1858,6 +1914,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1898,6 +1955,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -1959,6 +2017,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -1997,6 +2057,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2037,6 +2098,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -2098,6 +2160,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -2136,6 +2200,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2176,6 +2241,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -2237,6 +2303,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -2277,6 +2345,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2317,6 +2386,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -2378,6 +2448,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -2418,6 +2490,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2458,6 +2531,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -2519,6 +2593,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -2559,6 +2635,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2599,6 +2676,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -2660,6 +2738,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -2700,6 +2780,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2740,6 +2821,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -2801,6 +2883,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -2841,6 +2925,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2881,6 +2966,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -2942,6 +3028,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -2982,6 +3070,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -3022,6 +3111,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -3083,6 +3173,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -3123,6 +3215,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -3163,6 +3256,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -3224,6 +3318,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -3264,6 +3360,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -3304,6 +3401,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -3365,6 +3463,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -3405,6 +3505,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -3445,6 +3546,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -3506,6 +3608,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -3545,6 +3649,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -3585,6 +3690,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -3646,6 +3752,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -3684,6 +3792,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -3724,6 +3833,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -3785,6 +3895,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -3823,6 +3935,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -3863,6 +3976,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -3924,6 +4038,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -3964,6 +4080,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -4004,6 +4121,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -4065,6 +4183,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -4105,6 +4225,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -4145,6 +4266,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -4206,6 +4328,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -4246,6 +4370,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -4286,6 +4411,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -4347,6 +4473,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -4387,6 +4515,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -4427,6 +4556,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -4485,10 +4615,15 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-<att name="BlurRadius" value="0" type="Integer"/>
 <att name="Shadow_color" value="128,128,128" type="RGB"/>
 <att name="Shadow_x" value="1" type="Integer"/>
 <att name="Shadow_y" value="1" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
+<att name="TxtShadow_color" value="0,0,0" type="RGB"/>
+<att name="TxtShadow_x" value="0" type="Integer"/>
+<att name="TxtShadow_y" value="0" type="Integer"/>
+<att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="IPhone,Arial-BoldMT" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -4528,6 +4663,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -4568,6 +4704,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -4629,6 +4766,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -4669,6 +4808,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -4709,6 +4849,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -4770,6 +4911,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -4810,6 +4953,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -4850,6 +4994,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -4911,6 +5056,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -4950,6 +5097,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -4990,6 +5138,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -5051,6 +5200,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -5089,6 +5240,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -5129,6 +5281,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -5190,6 +5343,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -5230,6 +5385,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -5270,6 +5426,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -5331,6 +5488,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -5371,6 +5530,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -5411,6 +5571,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -5469,10 +5630,15 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-<att name="BlurRadius" value="0" type="Integer"/>
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
+<att name="TxtShadow_color" value="0,0,0" type="RGB"/>
+<att name="TxtShadow_x" value="0" type="Integer"/>
+<att name="TxtShadow_y" value="0" type="Integer"/>
+<att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -5511,6 +5677,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -5551,6 +5718,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -5612,6 +5780,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -5650,6 +5820,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -5690,6 +5861,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -5751,6 +5923,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Helvetica Neue" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -5791,6 +5965,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -5831,6 +6006,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -5892,6 +6068,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -5932,6 +6110,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -5972,6 +6151,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -6033,150 +6213,11 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
-        <att name="UseNative" value="false" type="Boolean"/>
-        <att name="Font_color_override" value="true" type="Boolean"/>
-        <att name="Font_name_override" value="true" type="Boolean"/>
-        <att name="Font_size_override" value="true" type="Boolean"/>
-        <att name="Font_style_override" value="true" type="Boolean"/>
-        <att name="Font_weight_override" value="true" type="Boolean"/>
-        <att name="Bg_color_override" value="true" type="Boolean"/>
-        <att name="Chart2d3dProperties" value="" type="String"/>
-    </skin>
-    <skin>
-        <att name="Name" value="sknLblSpaTitleSampleApp" type="String"/>
-        <att name="WidgetType" value="Label" type="String"/>
-        <att name="Bg_type" value="1" type="int"/>
-        <att name="Background_color" value="255,255,255" type="RGB"/>
-        <att name="Rightbackground_color" value="255,255,255" type="RGB"/>
-        <att name="Bg_gradient_style" value="0" type="int"/>
-        <att name="Rightbg_gradient_style" value="0" type="int"/>
-        <att name="Background_gradient_top_color" value="217,217,217" type="RGB"/>
-        <att name="Background_gradient_bottom_color" value="189,189,189" type="RGB"/>
-        <att name="Rightbackground_gradient_top_color" value="255,255,255" type="RGB"/>
-        <att name="Rightbackground_gradient_bottom_color" value="255,255,255" type="RGB"/>
-        <att name="Background_gradient_top_colorSet" value="1" type="int"/>
-        <att name="Background_gradient_bottom_colorSet" value="1" type="int"/>
-        <att name="Background_image" value="" type="String"/>
-        <att name="MobileBackground_image" value="" type="String"/>
-        <att name="TabletBackground_image" value="" type="String"/>
-        <att name="DesktopBackground_image" value="" type="String"/>
-        <att name="Right_background_image" value="" type="String"/>
-        <att name="Mobile_right_background_image" value="" type="String"/>
-        <att name="Tablet_right_background_image" value="" type="String"/>
-        <att name="Desktop_right_background_image" value="" type="String"/>
-        <att name="Bg_iphone_image" value="" type="String"/>
-        <att name="Bg_android_image" value="" type="String"/>
-        <att name="Bg_palm_image" value="" type="String"/>
-        <att name="Bg_normal_image" value="" type="String"/>
-        <att name="Bg_medium_image" value="" type="String"/>
-        <att name="Bg_small_image" value="" type="String"/>
-        <att name="Bg_bb_image" value="" type="String"/>
-        <att name="Bg_bb10_image" value="" type="String"/>
-        <att name="Bg_winmobile_image" value="" type="String"/>
-        <att name="Bg_winphone8_image" value="" type="String"/>
-        <att name="Bg_windows8_image" value="" type="String"/>
-        <att name="Bg_winmobile6x_image" value="" type="String"/>
-        <att name="Bg_iphoneiui_image" value="" type="String"/>
-        <att name="Bg_j2me_image" value="" type="String"/>
-        <att name="Bg_symbian_image" value="" type="String"/>
-        <att name="Bg_ipad_image" value="" type="String"/>
-        <att name="Bg_android_rc_tablet_image" value="" type="String"/>
-        <att name="Bg_adviphone_image" value="" type="String"/>
-        <att name="Bg_adv_bb_image" value="" type="String"/>
-        <att name="Bg_advpalm_image" value="" type="String"/>
-        <att name="Bg_advandroid_image" value="" type="String"/>
-        <att name="Bg_advother_image" value="" type="String"/>
-        <att name="Bg_advnth_image" value="" type="String"/>
-        <att name="Bg_spaiphone_image" value="" type="String"/>
-        <att name="Bg_spabb_image" value="" type="String"/>
-        <att name="Bg_spaandroid_image" value="" type="String"/>
-        <att name="Bg_spa_windows_image" value="" type="String"/>
-        <att name="Bg_spa_winphone8_image" value="" type="String"/>
-        <att name="Bg_spa_bbnth_image" value="" type="String"/>
-        <att name="Bg_js240_image" value="" type="String"/>
-        <att name="Bg_js320_image" value="" type="String"/>
-        <att name="Bg_js480_image" value="" type="String"/>
-        <att name="Bg_desktopKiosk_image" value="" type="String"/>
-        <att name="Bg_desktopWeb_image" value="" type="String"/>
-        <att name="Bg_spaipad_image" value="" type="String"/>
-        <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
-        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
-        <att name="Font_weight" value="bold" type="String"/>
-        <att name="Font_style" value="none" type="String"/>
-        <att name="Font_size" value="120" type="String"/>
-        <att name="Font_color" value="96,96,96" type="RGB"/>
-        <att name="Font_color_alpha" value="0" type="String"/>
-        <att name="Rightfont_weight" value="normal" type="String"/>
-        <att name="Rightfont_style" value="" type="String"/>
-        <att name="Rightfont_size" value="100" type="String"/>
-        <att name="Rightfont_name" value="None" type="String"/>
-        <att name="Border_color" value="0,0,0" type="RGB"/>
-        <att name="Border_width" value="0" type="Integer"/>
-        <att name="Border_style" value="0" type="int"/>
-        <att name="Bg_img_style" value="0" type="int"/>
-        <att name="Bg_one_color_style" value="0" type="int"/>
-        <att name="Platform" value="22" type="int"/>
-        <att name="arcRadius" value="0" type="int"/>
-        <att name="Stretch_image" value="false" type="Boolean"/>
-        <att name="Bg_height" value="15" type="Integer"/>
-        <att name="Repeat_image" value="false" type="Boolean"/>
-        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
-        <att name="CustomCss" value="false" type="Boolean"/>
-        <att name="Enable_retina_image" value="false" type="Boolean"/>
-        <att name="Bg_retina_image" value="" type="String"/>
-        <att name="Repeat_retina_image" value="false" type="Boolean"/>
-        <att name="Enable_bg_size" value="false" type="Boolean"/>
-        <att name="Background-size" value="0" type="int"/>
-        <att name="Split_value" value="50" type="String"/>
-        <att name="Bg_alpha" value="0" type="String"/>
-        <att name="Bg_top_alpha" value="0" type="String"/>
-        <att name="Bg_bottom_alpha" value="0" type="String"/>
-        <att name="Right_bg_alpha" value="0" type="String"/>
-        <att name="Right_bg_top_alpha" value="0" type="String"/>
-        <att name="Right_bg_bottom_alpha" value="0" type="String"/>
-        <att name="Border_color_alpha" value="0" type="String"/>
-        <att name="PgIndicatorImgURL" value="" type="String"/>
-        <att name="PgIndicatorImgPositon" value="" type="String"/>
-        <att name="PgIndicatorImgWidget" value="Button" type="String"/>
-        <att name="ProgressIndicatorComposite_style" value="3" type="int"/>
-        <att name="ProgressIndicatorComposite_color" value="255,255,255" type="RGB"/>
-        <att name="ProgressIndicatorColourOpacity" value="100" type="int"/>
-        <att name="BlockingImgURL" value="" type="String"/>
-        <att name="BlockingImgPositon" value="" type="String"/>
-        <att name="BlockingImgWidget" value="Button" type="String"/>
-       <att name="TopBorderWidth" value="0" type="int"/>
-       <att name="TopBorderColor" value="0,0,0" type="RGB"/>
-       <att name="TopBorderColorTransparency" value="0" type="int"/>
-       <att name="TopBorderStyle" value="plain" type="String"/>
-       <att name="TopBorderRadius" value="10" type="int"/>
-       <att name="LeftBorderWidth" value="0" type="int"/>
-       <att name="LeftBorderColor" value="0,0,0" type="RGB"/>
-       <att name="LeftBorderColorTransparency" value="0" type="int"/>
-       <att name="LeftBorderStyle" value="plain" type="String"/>
-       <att name="LeftBorderRadius" value="10" type="int"/>
-       <att name="BottomBorderWidth" value="0" type="int"/>
-       <att name="BottomBorderColor" value="0,0,0" type="RGB"/>
-       <att name="BottomBorderColorTransparency" value="0" type="int"/>
-       <att name="BottomBorderStyle" value="plain" type="String"/>
-       <att name="BottomBorderRadius" value="10" type="int"/>
-       <att name="RightBorderWidth" value="0" type="int"/>
-       <att name="RightBorderColor" value="0,0,0" type="RGB"/>
-       <att name="RightBorderColorTransparency" value="0" type="int"/>
-       <att name="RightBorderStyle" value="plain" type="String"/>
-       <att name="RightBorderRadius" value="10" type="int"/>
-       <att name="Child_topBorderRadius" value="10" type="int"/>
-       <att name="Child_leftBorderRadius" value="10" type="int"/>
-       <att name="Child_rightBorderRadius" value="10" type="int"/>
-       <att name="Child_bottomBorderRadius" value="10" type="int"/>
-<att name="BlurRadius" value="0" type="Integer"/>
-<att name="Shadow_color" value="0,0,0" type="RGB"/>
-<att name="Shadow_x" value="0" type="Integer"/>
-<att name="Shadow_y" value="0" type="Integer"/>
-        <att name="FontNameMap" value="SPA iPhone,Helvetica Neue" type="map"/>
-        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -6214,6 +6255,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -6254,6 +6296,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -6315,7 +6358,157 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="UseNative" value="false" type="Boolean"/>
+        <att name="Font_color_override" value="true" type="Boolean"/>
+        <att name="Font_name_override" value="true" type="Boolean"/>
+        <att name="Font_size_override" value="true" type="Boolean"/>
+        <att name="Font_style_override" value="true" type="Boolean"/>
+        <att name="Font_weight_override" value="true" type="Boolean"/>
+        <att name="Bg_color_override" value="true" type="Boolean"/>
+        <att name="Chart2d3dProperties" value="" type="String"/>
+    </skin>
+    <skin>
+        <att name="Name" value="sknLblSpaTitleSampleApp" type="String"/>
+        <att name="WidgetType" value="Label" type="String"/>
+        <att name="Bg_type" value="1" type="int"/>
+        <att name="Background_color" value="255,255,255" type="RGB"/>
+        <att name="Rightbackground_color" value="255,255,255" type="RGB"/>
+        <att name="Bg_gradient_style" value="0" type="int"/>
+        <att name="Rightbg_gradient_style" value="0" type="int"/>
+        <att name="Background_gradient_top_color" value="217,217,217" type="RGB"/>
+        <att name="Background_gradient_bottom_color" value="189,189,189" type="RGB"/>
+        <att name="Rightbackground_gradient_top_color" value="255,255,255" type="RGB"/>
+        <att name="Rightbackground_gradient_bottom_color" value="255,255,255" type="RGB"/>
+        <att name="Background_gradient_top_colorSet" value="1" type="int"/>
+        <att name="Background_gradient_bottom_colorSet" value="1" type="int"/>
+        <att name="Background_image" value="" type="String"/>
+        <att name="MobileBackground_image" value="" type="String"/>
+        <att name="TabletBackground_image" value="" type="String"/>
+        <att name="DesktopBackground_image" value="" type="String"/>
+        <att name="Right_background_image" value="" type="String"/>
+        <att name="Mobile_right_background_image" value="" type="String"/>
+        <att name="Tablet_right_background_image" value="" type="String"/>
+        <att name="Desktop_right_background_image" value="" type="String"/>
+        <att name="Bg_iphone_image" value="" type="String"/>
+        <att name="Bg_android_image" value="" type="String"/>
+        <att name="Bg_palm_image" value="" type="String"/>
+        <att name="Bg_normal_image" value="" type="String"/>
+        <att name="Bg_medium_image" value="" type="String"/>
+        <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_bb_image" value="" type="String"/>
+        <att name="Bg_bb10_image" value="" type="String"/>
+        <att name="Bg_winmobile_image" value="" type="String"/>
+        <att name="Bg_winphone8_image" value="" type="String"/>
+        <att name="Bg_windows8_image" value="" type="String"/>
+        <att name="Bg_winmobile6x_image" value="" type="String"/>
+        <att name="Bg_iphoneiui_image" value="" type="String"/>
+        <att name="Bg_j2me_image" value="" type="String"/>
+        <att name="Bg_symbian_image" value="" type="String"/>
+        <att name="Bg_ipad_image" value="" type="String"/>
+        <att name="Bg_android_rc_tablet_image" value="" type="String"/>
+        <att name="Bg_adviphone_image" value="" type="String"/>
+        <att name="Bg_adv_bb_image" value="" type="String"/>
+        <att name="Bg_advpalm_image" value="" type="String"/>
+        <att name="Bg_advandroid_image" value="" type="String"/>
+        <att name="Bg_advother_image" value="" type="String"/>
+        <att name="Bg_advnth_image" value="" type="String"/>
+        <att name="Bg_spaiphone_image" value="" type="String"/>
+        <att name="Bg_spabb_image" value="" type="String"/>
+        <att name="Bg_spaandroid_image" value="" type="String"/>
+        <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
+        <att name="Bg_spa_bbnth_image" value="" type="String"/>
+        <att name="Bg_js240_image" value="" type="String"/>
+        <att name="Bg_js320_image" value="" type="String"/>
+        <att name="Bg_js480_image" value="" type="String"/>
+        <att name="Bg_desktopKiosk_image" value="" type="String"/>
+        <att name="Bg_desktopWeb_image" value="" type="String"/>
+        <att name="Bg_spaipad_image" value="" type="String"/>
+        <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
+        <att name="Font_weight" value="bold" type="String"/>
+        <att name="Font_style" value="none" type="String"/>
+        <att name="Font_size" value="120" type="String"/>
+        <att name="Font_color" value="96,96,96" type="RGB"/>
+        <att name="Font_color_alpha" value="0" type="String"/>
+        <att name="Rightfont_weight" value="normal" type="String"/>
+        <att name="Rightfont_style" value="" type="String"/>
+        <att name="Rightfont_size" value="100" type="String"/>
+        <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
+        <att name="Border_color" value="0,0,0" type="RGB"/>
+        <att name="Border_width" value="0" type="Integer"/>
+        <att name="Border_style" value="0" type="int"/>
+        <att name="Bg_img_style" value="0" type="int"/>
+        <att name="Bg_one_color_style" value="0" type="int"/>
+        <att name="Platform" value="22" type="int"/>
+        <att name="arcRadius" value="0" type="int"/>
+        <att name="Stretch_image" value="false" type="Boolean"/>
+        <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
+        <att name="Enable_retina_image" value="false" type="Boolean"/>
+        <att name="Bg_retina_image" value="" type="String"/>
+        <att name="Repeat_retina_image" value="false" type="Boolean"/>
+        <att name="Enable_bg_size" value="false" type="Boolean"/>
+        <att name="Background-size" value="0" type="int"/>
+        <att name="Split_value" value="50" type="String"/>
+        <att name="Bg_alpha" value="0" type="String"/>
+        <att name="Bg_top_alpha" value="0" type="String"/>
+        <att name="Bg_bottom_alpha" value="0" type="String"/>
+        <att name="Right_bg_alpha" value="0" type="String"/>
+        <att name="Right_bg_top_alpha" value="0" type="String"/>
+        <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Border_color_alpha" value="0" type="String"/>
+        <att name="PgIndicatorImgURL" value="" type="String"/>
+        <att name="PgIndicatorImgPositon" value="" type="String"/>
+        <att name="PgIndicatorImgWidget" value="Button" type="String"/>
+        <att name="ProgressIndicatorComposite_style" value="3" type="int"/>
+        <att name="ProgressIndicatorComposite_color" value="255,255,255" type="RGB"/>
+        <att name="ProgressIndicatorColourOpacity" value="100" type="int"/>
+        <att name="BlockingImgURL" value="" type="String"/>
+        <att name="BlockingImgPositon" value="" type="String"/>
+        <att name="BlockingImgWidget" value="Button" type="String"/>
+       <att name="TopBorderWidth" value="0" type="int"/>
+       <att name="TopBorderColor" value="0,0,0" type="RGB"/>
+       <att name="TopBorderColorTransparency" value="0" type="int"/>
+       <att name="TopBorderStyle" value="plain" type="String"/>
+       <att name="TopBorderRadius" value="10" type="int"/>
+       <att name="LeftBorderWidth" value="0" type="int"/>
+       <att name="LeftBorderColor" value="0,0,0" type="RGB"/>
+       <att name="LeftBorderColorTransparency" value="0" type="int"/>
+       <att name="LeftBorderStyle" value="plain" type="String"/>
+       <att name="LeftBorderRadius" value="10" type="int"/>
+       <att name="BottomBorderWidth" value="0" type="int"/>
+       <att name="BottomBorderColor" value="0,0,0" type="RGB"/>
+       <att name="BottomBorderColorTransparency" value="0" type="int"/>
+       <att name="BottomBorderStyle" value="plain" type="String"/>
+       <att name="BottomBorderRadius" value="10" type="int"/>
+       <att name="RightBorderWidth" value="0" type="int"/>
+       <att name="RightBorderColor" value="0,0,0" type="RGB"/>
+       <att name="RightBorderColorTransparency" value="0" type="int"/>
+       <att name="RightBorderStyle" value="plain" type="String"/>
+       <att name="RightBorderRadius" value="10" type="int"/>
+       <att name="Child_topBorderRadius" value="10" type="int"/>
+       <att name="Child_leftBorderRadius" value="10" type="int"/>
+       <att name="Child_rightBorderRadius" value="10" type="int"/>
+       <att name="Child_bottomBorderRadius" value="10" type="int"/>
+<att name="Shadow_color" value="0,0,0" type="RGB"/>
+<att name="Shadow_x" value="0" type="Integer"/>
+<att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
+<att name="TxtShadow_color" value="0,0,0" type="RGB"/>
+<att name="TxtShadow_x" value="0" type="Integer"/>
+<att name="TxtShadow_y" value="0" type="Integer"/>
+<att name="TxtBlurRadius" value="0" type="Integer"/>
+        <att name="FontNameMap" value="SPA iPhone,Helvetica Neue" type="map"/>
+        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -6353,6 +6546,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -6393,6 +6587,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -6451,10 +6646,11 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-<att name="BlurRadius" value="0" type="Integer"/>
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Helvetica Neue" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -6495,6 +6691,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -6535,6 +6732,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -6596,286 +6794,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
-        <att name="UseNative" value="false" type="Boolean"/>
-        <att name="Font_color_override" value="true" type="Boolean"/>
-        <att name="Font_name_override" value="true" type="Boolean"/>
-        <att name="Font_size_override" value="true" type="Boolean"/>
-        <att name="Font_style_override" value="true" type="Boolean"/>
-        <att name="Font_weight_override" value="true" type="Boolean"/>
-        <att name="Bg_color_override" value="true" type="Boolean"/>
-        <att name="Chart2d3dProperties" value="" type="String"/>
-    </skin>
-    <skin>
-        <att name="Name" value="hStripNormal" type="String"/>
-        <att name="WidgetType" value="HImageStrip" type="String"/>
-        <att name="Bg_type" value="3" type="int"/>
-        <att name="Background_color" value="255,255,255" type="RGB"/>
-        <att name="Rightbackground_color" value="255,255,255" type="RGB"/>
-        <att name="Bg_gradient_style" value="0" type="int"/>
-        <att name="Rightbg_gradient_style" value="0" type="int"/>
-        <att name="Background_gradient_top_color" value="255,255,255" type="RGB"/>
-        <att name="Background_gradient_bottom_color" value="255,255,255" type="RGB"/>
-        <att name="Rightbackground_gradient_top_color" value="255,255,255" type="RGB"/>
-        <att name="Rightbackground_gradient_bottom_color" value="255,255,255" type="RGB"/>
-        <att name="Background_gradient_top_colorSet" value="0" type="int"/>
-        <att name="Background_gradient_bottom_colorSet" value="0" type="int"/>
-        <att name="Background_image" value="" type="String"/>
-        <att name="MobileBackground_image" value="" type="String"/>
-        <att name="TabletBackground_image" value="" type="String"/>
-        <att name="DesktopBackground_image" value="" type="String"/>
-        <att name="Right_background_image" value="" type="String"/>
-        <att name="Mobile_right_background_image" value="" type="String"/>
-        <att name="Tablet_right_background_image" value="" type="String"/>
-        <att name="Desktop_right_background_image" value="" type="String"/>
-        <att name="Bg_iphone_image" value="" type="String"/>
-        <att name="Bg_android_image" value="" type="String"/>
-        <att name="Bg_palm_image" value="" type="String"/>
-        <att name="Bg_normal_image" value="" type="String"/>
-        <att name="Bg_medium_image" value="" type="String"/>
-        <att name="Bg_small_image" value="" type="String"/>
-        <att name="Bg_bb_image" value="" type="String"/>
-        <att name="Bg_bb10_image" value="" type="String"/>
-        <att name="Bg_winmobile_image" value="" type="String"/>
-        <att name="Bg_winphone8_image" value="" type="String"/>
-        <att name="Bg_windows8_image" value="" type="String"/>
-        <att name="Bg_winmobile6x_image" value="" type="String"/>
-        <att name="Bg_iphoneiui_image" value="" type="String"/>
-        <att name="Bg_j2me_image" value="" type="String"/>
-        <att name="Bg_symbian_image" value="" type="String"/>
-        <att name="Bg_ipad_image" value="" type="String"/>
-        <att name="Bg_android_rc_tablet_image" value="" type="String"/>
-        <att name="Bg_adviphone_image" value="" type="String"/>
-        <att name="Bg_adv_bb_image" value="" type="String"/>
-        <att name="Bg_advpalm_image" value="" type="String"/>
-        <att name="Bg_advandroid_image" value="" type="String"/>
-        <att name="Bg_advother_image" value="" type="String"/>
-        <att name="Bg_advnth_image" value="" type="String"/>
-        <att name="Bg_spaiphone_image" value="" type="String"/>
-        <att name="Bg_spabb_image" value="" type="String"/>
-        <att name="Bg_spaandroid_image" value="" type="String"/>
-        <att name="Bg_spa_windows_image" value="" type="String"/>
-        <att name="Bg_spa_winphone8_image" value="" type="String"/>
-        <att name="Bg_spa_bbnth_image" value="" type="String"/>
-        <att name="Bg_js240_image" value="" type="String"/>
-        <att name="Bg_js320_image" value="" type="String"/>
-        <att name="Bg_js480_image" value="" type="String"/>
-        <att name="Bg_desktopKiosk_image" value="" type="String"/>
-        <att name="Bg_desktopWeb_image" value="" type="String"/>
-        <att name="Bg_spaipad_image" value="" type="String"/>
-        <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
-        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
-        <att name="Font_weight" value="normal" type="String"/>
-        <att name="Font_style" value="" type="String"/>
-        <att name="Font_size" value="100" type="String"/>
-        <att name="Font_color" value="0,0,0" type="RGB"/>
-        <att name="Font_color_alpha" value="0" type="String"/>
-        <att name="Rightfont_weight" value="normal" type="String"/>
-        <att name="Rightfont_style" value="" type="String"/>
-        <att name="Rightfont_size" value="100" type="String"/>
-        <att name="Rightfont_name" value="None" type="String"/>
-        <att name="Border_color" value="0,0,0" type="RGB"/>
-        <att name="Border_width" value="0" type="Integer"/>
-        <att name="Border_style" value="0" type="int"/>
-        <att name="Bg_img_style" value="0" type="int"/>
-        <att name="Bg_one_color_style" value="0" type="int"/>
-        <att name="Platform" value="22" type="int"/>
-        <att name="arcRadius" value="0" type="int"/>
-        <att name="Stretch_image" value="false" type="Boolean"/>
-        <att name="Bg_height" value="15" type="Integer"/>
-        <att name="Repeat_image" value="false" type="Boolean"/>
-        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
-        <att name="CustomCss" value="false" type="Boolean"/>
-        <att name="Enable_retina_image" value="false" type="Boolean"/>
-        <att name="Bg_retina_image" value="" type="String"/>
-        <att name="Repeat_retina_image" value="false" type="Boolean"/>
-        <att name="Enable_bg_size" value="false" type="Boolean"/>
-        <att name="Background-size" value="0" type="int"/>
-        <att name="Split_value" value="50" type="String"/>
-        <att name="Bg_alpha" value="0" type="String"/>
-        <att name="Bg_top_alpha" value="0" type="String"/>
-        <att name="Bg_bottom_alpha" value="0" type="String"/>
-        <att name="Right_bg_alpha" value="0" type="String"/>
-        <att name="Right_bg_top_alpha" value="0" type="String"/>
-        <att name="Right_bg_bottom_alpha" value="0" type="String"/>
-        <att name="Border_color_alpha" value="0" type="String"/>
-        <att name="PgIndicatorImgURL" value="" type="String"/>
-        <att name="PgIndicatorImgPositon" value="" type="String"/>
-        <att name="PgIndicatorImgWidget" value="Button" type="String"/>
-        <att name="ProgressIndicatorComposite_style" value="3" type="int"/>
-        <att name="ProgressIndicatorComposite_color" value="255,255,255" type="RGB"/>
-        <att name="ProgressIndicatorColourOpacity" value="100" type="int"/>
-        <att name="BlockingImgURL" value="" type="String"/>
-        <att name="BlockingImgPositon" value="" type="String"/>
-        <att name="BlockingImgWidget" value="Button" type="String"/>
-       <att name="TopBorderWidth" value="1" type="int"/>
-       <att name="TopBorderColor" value="76,76,76" type="RGB"/>
-       <att name="TopBorderColorTransparency" value="0" type="int"/>
-       <att name="TopBorderStyle" value="rounded corner" type="String"/>
-       <att name="TopBorderRadius" value="10" type="int"/>
-       <att name="LeftBorderWidth" value="1" type="int"/>
-       <att name="LeftBorderColor" value="76,76,76" type="RGB"/>
-       <att name="LeftBorderColorTransparency" value="0" type="int"/>
-       <att name="LeftBorderStyle" value="rounded corner" type="String"/>
-       <att name="LeftBorderRadius" value="10" type="int"/>
-       <att name="BottomBorderWidth" value="1" type="int"/>
-       <att name="BottomBorderColor" value="76,76,76" type="RGB"/>
-       <att name="BottomBorderColorTransparency" value="0" type="int"/>
-       <att name="BottomBorderStyle" value="rounded corner" type="String"/>
-       <att name="BottomBorderRadius" value="10" type="int"/>
-       <att name="RightBorderWidth" value="1" type="int"/>
-       <att name="RightBorderColor" value="76,76,76" type="RGB"/>
-       <att name="RightBorderColorTransparency" value="0" type="int"/>
-       <att name="RightBorderStyle" value="rounded corner" type="String"/>
-       <att name="RightBorderRadius" value="10" type="int"/>
-       <att name="Child_topBorderRadius" value="10" type="int"/>
-       <att name="Child_leftBorderRadius" value="10" type="int"/>
-       <att name="Child_rightBorderRadius" value="10" type="int"/>
-       <att name="Child_bottomBorderRadius" value="10" type="int"/>
-<att name="Shadow_color" value="0,0,0" type="RGB"/>
-<att name="Shadow_x" value="0" type="Integer"/>
-<att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
-        <att name="UseNative" value="false" type="Boolean"/>
-        <att name="Font_color_override" value="true" type="Boolean"/>
-        <att name="Font_name_override" value="true" type="Boolean"/>
-        <att name="Font_size_override" value="true" type="Boolean"/>
-        <att name="Font_style_override" value="true" type="Boolean"/>
-        <att name="Font_weight_override" value="true" type="Boolean"/>
-        <att name="Bg_color_override" value="true" type="Boolean"/>
-        <att name="Chart2d3dProperties" value="" type="String"/>
-    </skin>
-    <skin>
-        <att name="Name" value="seg2Normal" type="String"/>
-        <att name="WidgetType" value="Segment2" type="String"/>
-        <att name="Bg_type" value="3" type="int"/>
-        <att name="Background_color" value="255,255,255" type="RGB"/>
-        <att name="Rightbackground_color" value="255,255,255" type="RGB"/>
-        <att name="Bg_gradient_style" value="0" type="int"/>
-        <att name="Rightbg_gradient_style" value="0" type="int"/>
-        <att name="Background_gradient_top_color" value="255,255,255" type="RGB"/>
-        <att name="Background_gradient_bottom_color" value="255,255,255" type="RGB"/>
-        <att name="Rightbackground_gradient_top_color" value="255,255,255" type="RGB"/>
-        <att name="Rightbackground_gradient_bottom_color" value="255,255,255" type="RGB"/>
-        <att name="Background_gradient_top_colorSet" value="0" type="int"/>
-        <att name="Background_gradient_bottom_colorSet" value="0" type="int"/>
-        <att name="Background_image" value="" type="String"/>
-        <att name="MobileBackground_image" value="" type="String"/>
-        <att name="TabletBackground_image" value="" type="String"/>
-        <att name="DesktopBackground_image" value="" type="String"/>
-        <att name="Right_background_image" value="" type="String"/>
-        <att name="Mobile_right_background_image" value="" type="String"/>
-        <att name="Tablet_right_background_image" value="" type="String"/>
-        <att name="Desktop_right_background_image" value="" type="String"/>
-        <att name="Bg_iphone_image" value="" type="String"/>
-        <att name="Bg_android_image" value="" type="String"/>
-        <att name="Bg_palm_image" value="" type="String"/>
-        <att name="Bg_normal_image" value="" type="String"/>
-        <att name="Bg_medium_image" value="" type="String"/>
-        <att name="Bg_small_image" value="" type="String"/>
-        <att name="Bg_bb_image" value="" type="String"/>
-        <att name="Bg_bb10_image" value="" type="String"/>
-        <att name="Bg_winmobile_image" value="" type="String"/>
-        <att name="Bg_winphone8_image" value="" type="String"/>
-        <att name="Bg_windows8_image" value="" type="String"/>
-        <att name="Bg_winmobile6x_image" value="" type="String"/>
-        <att name="Bg_iphoneiui_image" value="" type="String"/>
-        <att name="Bg_j2me_image" value="" type="String"/>
-        <att name="Bg_symbian_image" value="" type="String"/>
-        <att name="Bg_ipad_image" value="" type="String"/>
-        <att name="Bg_android_rc_tablet_image" value="" type="String"/>
-        <att name="Bg_adviphone_image" value="" type="String"/>
-        <att name="Bg_adv_bb_image" value="" type="String"/>
-        <att name="Bg_advpalm_image" value="" type="String"/>
-        <att name="Bg_advandroid_image" value="" type="String"/>
-        <att name="Bg_advother_image" value="" type="String"/>
-        <att name="Bg_advnth_image" value="" type="String"/>
-        <att name="Bg_spaiphone_image" value="" type="String"/>
-        <att name="Bg_spabb_image" value="" type="String"/>
-        <att name="Bg_spaandroid_image" value="" type="String"/>
-        <att name="Bg_spa_windows_image" value="" type="String"/>
-        <att name="Bg_spa_winphone8_image" value="" type="String"/>
-        <att name="Bg_spa_bbnth_image" value="" type="String"/>
-        <att name="Bg_js240_image" value="" type="String"/>
-        <att name="Bg_js320_image" value="" type="String"/>
-        <att name="Bg_js480_image" value="" type="String"/>
-        <att name="Bg_desktopKiosk_image" value="" type="String"/>
-        <att name="Bg_desktopWeb_image" value="" type="String"/>
-        <att name="Bg_spaipad_image" value="" type="String"/>
-        <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
-        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
-        <att name="Font_weight" value="normal" type="String"/>
-        <att name="Font_style" value="none" type="String"/>
-        <att name="Font_size" value="130" type="String"/>
-        <att name="Font_color" value="0,0,0" type="RGB"/>
-        <att name="Font_color_alpha" value="0" type="String"/>
-        <att name="Rightfont_weight" value="normal" type="String"/>
-        <att name="Rightfont_style" value="" type="String"/>
-        <att name="Rightfont_size" value="100" type="String"/>
-        <att name="Rightfont_name" value="None" type="String"/>
-        <att name="Border_color" value="0,0,0" type="RGB"/>
-        <att name="Border_width" value="0" type="Integer"/>
-        <att name="Border_style" value="0" type="int"/>
-        <att name="Bg_img_style" value="0" type="int"/>
-        <att name="Bg_one_color_style" value="0" type="int"/>
-        <att name="Platform" value="22" type="int"/>
-        <att name="arcRadius" value="0" type="int"/>
-        <att name="Stretch_image" value="false" type="Boolean"/>
-        <att name="Bg_height" value="50" type="Integer"/>
-        <att name="Repeat_image" value="false" type="Boolean"/>
-        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
-        <att name="CustomCss" value="false" type="Boolean"/>
-        <att name="Enable_retina_image" value="false" type="Boolean"/>
-        <att name="Bg_retina_image" value="" type="String"/>
-        <att name="Repeat_retina_image" value="false" type="Boolean"/>
-        <att name="Enable_bg_size" value="false" type="Boolean"/>
-        <att name="Background-size" value="0" type="int"/>
-        <att name="Split_value" value="50" type="String"/>
-        <att name="Bg_alpha" value="0" type="String"/>
-        <att name="Bg_top_alpha" value="0" type="String"/>
-        <att name="Bg_bottom_alpha" value="0" type="String"/>
-        <att name="Right_bg_alpha" value="0" type="String"/>
-        <att name="Right_bg_top_alpha" value="0" type="String"/>
-        <att name="Right_bg_bottom_alpha" value="0" type="String"/>
-        <att name="Border_color_alpha" value="0" type="String"/>
-        <att name="PgIndicatorImgURL" value="" type="String"/>
-        <att name="PgIndicatorImgPositon" value="left" type="String"/>
-        <att name="PgIndicatorImgWidget" value="Button" type="String"/>
-        <att name="ProgressIndicatorComposite_style" value="3" type="int"/>
-        <att name="ProgressIndicatorComposite_color" value="255,255,255" type="RGB"/>
-        <att name="ProgressIndicatorColourOpacity" value="100" type="int"/>
-        <att name="BlockingImgURL" value="" type="String"/>
-        <att name="BlockingImgPositon" value="" type="String"/>
-        <att name="BlockingImgWidget" value="Button" type="String"/>
-       <att name="TopBorderWidth" value="0" type="int"/>
-       <att name="TopBorderColor" value="0,0,0" type="RGB"/>
-       <att name="TopBorderColorTransparency" value="0" type="int"/>
-       <att name="TopBorderStyle" value="plain" type="String"/>
-       <att name="TopBorderRadius" value="10" type="int"/>
-       <att name="LeftBorderWidth" value="0" type="int"/>
-       <att name="LeftBorderColor" value="0,0,0" type="RGB"/>
-       <att name="LeftBorderColorTransparency" value="0" type="int"/>
-       <att name="LeftBorderStyle" value="plain" type="String"/>
-       <att name="LeftBorderRadius" value="10" type="int"/>
-       <att name="BottomBorderWidth" value="0" type="int"/>
-       <att name="BottomBorderColor" value="0,0,0" type="RGB"/>
-       <att name="BottomBorderColorTransparency" value="0" type="int"/>
-       <att name="BottomBorderStyle" value="plain" type="String"/>
-       <att name="BottomBorderRadius" value="10" type="int"/>
-       <att name="RightBorderWidth" value="0" type="int"/>
-       <att name="RightBorderColor" value="0,0,0" type="RGB"/>
-       <att name="RightBorderColorTransparency" value="0" type="int"/>
-       <att name="RightBorderStyle" value="plain" type="String"/>
-       <att name="RightBorderRadius" value="10" type="int"/>
-       <att name="Child_topBorderRadius" value="10" type="int"/>
-       <att name="Child_leftBorderRadius" value="10" type="int"/>
-       <att name="Child_rightBorderRadius" value="10" type="int"/>
-       <att name="Child_bottomBorderRadius" value="10" type="int"/>
-<att name="Shadow_color" value="0,0,0" type="RGB"/>
-<att name="Shadow_x" value="0" type="Integer"/>
-<att name="Shadow_y" value="0" type="Integer"/>
-        <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
-        <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -6914,6 +6834,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -6954,6 +6875,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -7015,6 +6937,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -7028,19 +6952,19 @@
         <att name="Chart2d3dProperties" value="" type="String"/>
     </skin>
     <skin>
-        <att name="Name" value="phoneFocus" type="String"/>
-        <att name="WidgetType" value="Phone" type="String"/>
-        <att name="Bg_type" value="1" type="int"/>
-        <att name="Background_color" value="0,0,0" type="RGB"/>
+        <att name="Name" value="hStripNormal" type="String"/>
+        <att name="WidgetType" value="HImageStrip" type="String"/>
+        <att name="Bg_type" value="3" type="int"/>
+        <att name="Background_color" value="255,255,255" type="RGB"/>
         <att name="Rightbackground_color" value="255,255,255" type="RGB"/>
         <att name="Bg_gradient_style" value="0" type="int"/>
         <att name="Rightbg_gradient_style" value="0" type="int"/>
-        <att name="Background_gradient_top_color" value="210,210,210" type="RGB"/>
-        <att name="Background_gradient_bottom_color" value="160,160,160" type="RGB"/>
+        <att name="Background_gradient_top_color" value="255,255,255" type="RGB"/>
+        <att name="Background_gradient_bottom_color" value="255,255,255" type="RGB"/>
         <att name="Rightbackground_gradient_top_color" value="255,255,255" type="RGB"/>
         <att name="Rightbackground_gradient_bottom_color" value="255,255,255" type="RGB"/>
-        <att name="Background_gradient_top_colorSet" value="1" type="int"/>
-        <att name="Background_gradient_bottom_colorSet" value="1" type="int"/>
+        <att name="Background_gradient_top_colorSet" value="0" type="int"/>
+        <att name="Background_gradient_bottom_colorSet" value="0" type="int"/>
         <att name="Background_image" value="" type="String"/>
         <att name="MobileBackground_image" value="" type="String"/>
         <att name="TabletBackground_image" value="" type="String"/>
@@ -7055,6 +6979,150 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_bb_image" value="" type="String"/>
+        <att name="Bg_bb10_image" value="" type="String"/>
+        <att name="Bg_winmobile_image" value="" type="String"/>
+        <att name="Bg_winphone8_image" value="" type="String"/>
+        <att name="Bg_windows8_image" value="" type="String"/>
+        <att name="Bg_winmobile6x_image" value="" type="String"/>
+        <att name="Bg_iphoneiui_image" value="" type="String"/>
+        <att name="Bg_j2me_image" value="" type="String"/>
+        <att name="Bg_symbian_image" value="" type="String"/>
+        <att name="Bg_ipad_image" value="" type="String"/>
+        <att name="Bg_android_rc_tablet_image" value="" type="String"/>
+        <att name="Bg_adviphone_image" value="" type="String"/>
+        <att name="Bg_adv_bb_image" value="" type="String"/>
+        <att name="Bg_advpalm_image" value="" type="String"/>
+        <att name="Bg_advandroid_image" value="" type="String"/>
+        <att name="Bg_advother_image" value="" type="String"/>
+        <att name="Bg_advnth_image" value="" type="String"/>
+        <att name="Bg_spaiphone_image" value="" type="String"/>
+        <att name="Bg_spabb_image" value="" type="String"/>
+        <att name="Bg_spaandroid_image" value="" type="String"/>
+        <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
+        <att name="Bg_spa_bbnth_image" value="" type="String"/>
+        <att name="Bg_js240_image" value="" type="String"/>
+        <att name="Bg_js320_image" value="" type="String"/>
+        <att name="Bg_js480_image" value="" type="String"/>
+        <att name="Bg_desktopKiosk_image" value="" type="String"/>
+        <att name="Bg_desktopWeb_image" value="" type="String"/>
+        <att name="Bg_spaipad_image" value="" type="String"/>
+        <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
+        <att name="Font_weight" value="normal" type="String"/>
+        <att name="Font_style" value="" type="String"/>
+        <att name="Font_size" value="100" type="String"/>
+        <att name="Font_color" value="0,0,0" type="RGB"/>
+        <att name="Font_color_alpha" value="0" type="String"/>
+        <att name="Rightfont_weight" value="normal" type="String"/>
+        <att name="Rightfont_style" value="" type="String"/>
+        <att name="Rightfont_size" value="100" type="String"/>
+        <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
+        <att name="Border_color" value="0,0,0" type="RGB"/>
+        <att name="Border_width" value="0" type="Integer"/>
+        <att name="Border_style" value="0" type="int"/>
+        <att name="Bg_img_style" value="0" type="int"/>
+        <att name="Bg_one_color_style" value="0" type="int"/>
+        <att name="Platform" value="22" type="int"/>
+        <att name="arcRadius" value="0" type="int"/>
+        <att name="Stretch_image" value="false" type="Boolean"/>
+        <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
+        <att name="Enable_retina_image" value="false" type="Boolean"/>
+        <att name="Bg_retina_image" value="" type="String"/>
+        <att name="Repeat_retina_image" value="false" type="Boolean"/>
+        <att name="Enable_bg_size" value="false" type="Boolean"/>
+        <att name="Background-size" value="0" type="int"/>
+        <att name="Split_value" value="50" type="String"/>
+        <att name="Bg_alpha" value="0" type="String"/>
+        <att name="Bg_top_alpha" value="0" type="String"/>
+        <att name="Bg_bottom_alpha" value="0" type="String"/>
+        <att name="Right_bg_alpha" value="0" type="String"/>
+        <att name="Right_bg_top_alpha" value="0" type="String"/>
+        <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Border_color_alpha" value="0" type="String"/>
+        <att name="PgIndicatorImgURL" value="" type="String"/>
+        <att name="PgIndicatorImgPositon" value="" type="String"/>
+        <att name="PgIndicatorImgWidget" value="Button" type="String"/>
+        <att name="ProgressIndicatorComposite_style" value="3" type="int"/>
+        <att name="ProgressIndicatorComposite_color" value="255,255,255" type="RGB"/>
+        <att name="ProgressIndicatorColourOpacity" value="100" type="int"/>
+        <att name="BlockingImgURL" value="" type="String"/>
+        <att name="BlockingImgPositon" value="" type="String"/>
+        <att name="BlockingImgWidget" value="Button" type="String"/>
+       <att name="TopBorderWidth" value="1" type="int"/>
+       <att name="TopBorderColor" value="76,76,76" type="RGB"/>
+       <att name="TopBorderColorTransparency" value="0" type="int"/>
+       <att name="TopBorderStyle" value="rounded corner" type="String"/>
+       <att name="TopBorderRadius" value="10" type="int"/>
+       <att name="LeftBorderWidth" value="1" type="int"/>
+       <att name="LeftBorderColor" value="76,76,76" type="RGB"/>
+       <att name="LeftBorderColorTransparency" value="0" type="int"/>
+       <att name="LeftBorderStyle" value="rounded corner" type="String"/>
+       <att name="LeftBorderRadius" value="10" type="int"/>
+       <att name="BottomBorderWidth" value="1" type="int"/>
+       <att name="BottomBorderColor" value="76,76,76" type="RGB"/>
+       <att name="BottomBorderColorTransparency" value="0" type="int"/>
+       <att name="BottomBorderStyle" value="rounded corner" type="String"/>
+       <att name="BottomBorderRadius" value="10" type="int"/>
+       <att name="RightBorderWidth" value="1" type="int"/>
+       <att name="RightBorderColor" value="76,76,76" type="RGB"/>
+       <att name="RightBorderColorTransparency" value="0" type="int"/>
+       <att name="RightBorderStyle" value="rounded corner" type="String"/>
+       <att name="RightBorderRadius" value="10" type="int"/>
+       <att name="Child_topBorderRadius" value="10" type="int"/>
+       <att name="Child_leftBorderRadius" value="10" type="int"/>
+       <att name="Child_rightBorderRadius" value="10" type="int"/>
+       <att name="Child_bottomBorderRadius" value="10" type="int"/>
+<att name="Shadow_color" value="0,0,0" type="RGB"/>
+<att name="Shadow_x" value="0" type="Integer"/>
+<att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="UseNative" value="false" type="Boolean"/>
+        <att name="Font_color_override" value="true" type="Boolean"/>
+        <att name="Font_name_override" value="true" type="Boolean"/>
+        <att name="Font_size_override" value="true" type="Boolean"/>
+        <att name="Font_style_override" value="true" type="Boolean"/>
+        <att name="Font_weight_override" value="true" type="Boolean"/>
+        <att name="Bg_color_override" value="true" type="Boolean"/>
+        <att name="Chart2d3dProperties" value="" type="String"/>
+    </skin>
+    <skin>
+        <att name="Name" value="seg2Normal" type="String"/>
+        <att name="WidgetType" value="Segment2" type="String"/>
+        <att name="Bg_type" value="3" type="int"/>
+        <att name="Background_color" value="255,255,255" type="RGB"/>
+        <att name="Rightbackground_color" value="255,255,255" type="RGB"/>
+        <att name="Bg_gradient_style" value="0" type="int"/>
+        <att name="Rightbg_gradient_style" value="0" type="int"/>
+        <att name="Background_gradient_top_color" value="255,255,255" type="RGB"/>
+        <att name="Background_gradient_bottom_color" value="255,255,255" type="RGB"/>
+        <att name="Rightbackground_gradient_top_color" value="255,255,255" type="RGB"/>
+        <att name="Rightbackground_gradient_bottom_color" value="255,255,255" type="RGB"/>
+        <att name="Background_gradient_top_colorSet" value="0" type="int"/>
+        <att name="Background_gradient_bottom_colorSet" value="0" type="int"/>
+        <att name="Background_image" value="" type="String"/>
+        <att name="MobileBackground_image" value="" type="String"/>
+        <att name="TabletBackground_image" value="" type="String"/>
+        <att name="DesktopBackground_image" value="" type="String"/>
+        <att name="Right_background_image" value="" type="String"/>
+        <att name="Mobile_right_background_image" value="" type="String"/>
+        <att name="Tablet_right_background_image" value="" type="String"/>
+        <att name="Desktop_right_background_image" value="" type="String"/>
+        <att name="Bg_iphone_image" value="" type="String"/>
+        <att name="Bg_android_image" value="" type="String"/>
+        <att name="Bg_palm_image" value="" type="String"/>
+        <att name="Bg_normal_image" value="" type="String"/>
+        <att name="Bg_medium_image" value="" type="String"/>
+        <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -7095,6 +7163,152 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
+        <att name="Border_color" value="0,0,0" type="RGB"/>
+        <att name="Border_width" value="0" type="Integer"/>
+        <att name="Border_style" value="0" type="int"/>
+        <att name="Bg_img_style" value="0" type="int"/>
+        <att name="Bg_one_color_style" value="0" type="int"/>
+        <att name="Platform" value="22" type="int"/>
+        <att name="arcRadius" value="0" type="int"/>
+        <att name="Stretch_image" value="false" type="Boolean"/>
+        <att name="Bg_height" value="50" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
+        <att name="Enable_retina_image" value="false" type="Boolean"/>
+        <att name="Bg_retina_image" value="" type="String"/>
+        <att name="Repeat_retina_image" value="false" type="Boolean"/>
+        <att name="Enable_bg_size" value="false" type="Boolean"/>
+        <att name="Background-size" value="0" type="int"/>
+        <att name="Split_value" value="50" type="String"/>
+        <att name="Bg_alpha" value="0" type="String"/>
+        <att name="Bg_top_alpha" value="0" type="String"/>
+        <att name="Bg_bottom_alpha" value="0" type="String"/>
+        <att name="Right_bg_alpha" value="0" type="String"/>
+        <att name="Right_bg_top_alpha" value="0" type="String"/>
+        <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Border_color_alpha" value="0" type="String"/>
+        <att name="PgIndicatorImgURL" value="" type="String"/>
+        <att name="PgIndicatorImgPositon" value="left" type="String"/>
+        <att name="PgIndicatorImgWidget" value="Button" type="String"/>
+        <att name="ProgressIndicatorComposite_style" value="3" type="int"/>
+        <att name="ProgressIndicatorComposite_color" value="255,255,255" type="RGB"/>
+        <att name="ProgressIndicatorColourOpacity" value="100" type="int"/>
+        <att name="BlockingImgURL" value="" type="String"/>
+        <att name="BlockingImgPositon" value="" type="String"/>
+        <att name="BlockingImgWidget" value="Button" type="String"/>
+       <att name="TopBorderWidth" value="0" type="int"/>
+       <att name="TopBorderColor" value="0,0,0" type="RGB"/>
+       <att name="TopBorderColorTransparency" value="0" type="int"/>
+       <att name="TopBorderStyle" value="plain" type="String"/>
+       <att name="TopBorderRadius" value="10" type="int"/>
+       <att name="LeftBorderWidth" value="0" type="int"/>
+       <att name="LeftBorderColor" value="0,0,0" type="RGB"/>
+       <att name="LeftBorderColorTransparency" value="0" type="int"/>
+       <att name="LeftBorderStyle" value="plain" type="String"/>
+       <att name="LeftBorderRadius" value="10" type="int"/>
+       <att name="BottomBorderWidth" value="0" type="int"/>
+       <att name="BottomBorderColor" value="0,0,0" type="RGB"/>
+       <att name="BottomBorderColorTransparency" value="0" type="int"/>
+       <att name="BottomBorderStyle" value="plain" type="String"/>
+       <att name="BottomBorderRadius" value="10" type="int"/>
+       <att name="RightBorderWidth" value="0" type="int"/>
+       <att name="RightBorderColor" value="0,0,0" type="RGB"/>
+       <att name="RightBorderColorTransparency" value="0" type="int"/>
+       <att name="RightBorderStyle" value="plain" type="String"/>
+       <att name="RightBorderRadius" value="10" type="int"/>
+       <att name="Child_topBorderRadius" value="10" type="int"/>
+       <att name="Child_leftBorderRadius" value="10" type="int"/>
+       <att name="Child_rightBorderRadius" value="10" type="int"/>
+       <att name="Child_bottomBorderRadius" value="10" type="int"/>
+<att name="Shadow_color" value="0,0,0" type="RGB"/>
+<att name="Shadow_x" value="0" type="Integer"/>
+<att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
+        <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
+        <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="UseNative" value="false" type="Boolean"/>
+        <att name="Font_color_override" value="true" type="Boolean"/>
+        <att name="Font_name_override" value="true" type="Boolean"/>
+        <att name="Font_size_override" value="true" type="Boolean"/>
+        <att name="Font_style_override" value="true" type="Boolean"/>
+        <att name="Font_weight_override" value="true" type="Boolean"/>
+        <att name="Bg_color_override" value="true" type="Boolean"/>
+        <att name="Chart2d3dProperties" value="" type="String"/>
+    </skin>
+    <skin>
+        <att name="Name" value="phoneFocus" type="String"/>
+        <att name="WidgetType" value="Phone" type="String"/>
+        <att name="Bg_type" value="1" type="int"/>
+        <att name="Background_color" value="0,0,0" type="RGB"/>
+        <att name="Rightbackground_color" value="255,255,255" type="RGB"/>
+        <att name="Bg_gradient_style" value="0" type="int"/>
+        <att name="Rightbg_gradient_style" value="0" type="int"/>
+        <att name="Background_gradient_top_color" value="210,210,210" type="RGB"/>
+        <att name="Background_gradient_bottom_color" value="160,160,160" type="RGB"/>
+        <att name="Rightbackground_gradient_top_color" value="255,255,255" type="RGB"/>
+        <att name="Rightbackground_gradient_bottom_color" value="255,255,255" type="RGB"/>
+        <att name="Background_gradient_top_colorSet" value="1" type="int"/>
+        <att name="Background_gradient_bottom_colorSet" value="1" type="int"/>
+        <att name="Background_image" value="" type="String"/>
+        <att name="MobileBackground_image" value="" type="String"/>
+        <att name="TabletBackground_image" value="" type="String"/>
+        <att name="DesktopBackground_image" value="" type="String"/>
+        <att name="Right_background_image" value="" type="String"/>
+        <att name="Mobile_right_background_image" value="" type="String"/>
+        <att name="Tablet_right_background_image" value="" type="String"/>
+        <att name="Desktop_right_background_image" value="" type="String"/>
+        <att name="Bg_iphone_image" value="" type="String"/>
+        <att name="Bg_android_image" value="" type="String"/>
+        <att name="Bg_palm_image" value="" type="String"/>
+        <att name="Bg_normal_image" value="" type="String"/>
+        <att name="Bg_medium_image" value="" type="String"/>
+        <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_bb_image" value="" type="String"/>
+        <att name="Bg_bb10_image" value="" type="String"/>
+        <att name="Bg_winmobile_image" value="" type="String"/>
+        <att name="Bg_winphone8_image" value="" type="String"/>
+        <att name="Bg_windows8_image" value="" type="String"/>
+        <att name="Bg_winmobile6x_image" value="" type="String"/>
+        <att name="Bg_iphoneiui_image" value="" type="String"/>
+        <att name="Bg_j2me_image" value="" type="String"/>
+        <att name="Bg_symbian_image" value="" type="String"/>
+        <att name="Bg_ipad_image" value="" type="String"/>
+        <att name="Bg_android_rc_tablet_image" value="" type="String"/>
+        <att name="Bg_adviphone_image" value="" type="String"/>
+        <att name="Bg_adv_bb_image" value="" type="String"/>
+        <att name="Bg_advpalm_image" value="" type="String"/>
+        <att name="Bg_advandroid_image" value="" type="String"/>
+        <att name="Bg_advother_image" value="" type="String"/>
+        <att name="Bg_advnth_image" value="" type="String"/>
+        <att name="Bg_spaiphone_image" value="" type="String"/>
+        <att name="Bg_spabb_image" value="" type="String"/>
+        <att name="Bg_spaandroid_image" value="" type="String"/>
+        <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
+        <att name="Bg_spa_bbnth_image" value="" type="String"/>
+        <att name="Bg_js240_image" value="" type="String"/>
+        <att name="Bg_js320_image" value="" type="String"/>
+        <att name="Bg_js480_image" value="" type="String"/>
+        <att name="Bg_desktopKiosk_image" value="" type="String"/>
+        <att name="Bg_desktopWeb_image" value="" type="String"/>
+        <att name="Bg_spaipad_image" value="" type="String"/>
+        <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
+        <att name="Font_weight" value="normal" type="String"/>
+        <att name="Font_style" value="none" type="String"/>
+        <att name="Font_size" value="130" type="String"/>
+        <att name="Font_color" value="0,0,0" type="RGB"/>
+        <att name="Font_color_alpha" value="0" type="String"/>
+        <att name="Rightfont_weight" value="normal" type="String"/>
+        <att name="Rightfont_style" value="" type="String"/>
+        <att name="Rightfont_size" value="100" type="String"/>
+        <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -7156,6 +7370,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -7194,6 +7410,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -7234,6 +7451,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -7292,10 +7510,15 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-<att name="BlurRadius" value="0" type="Integer"/>
 <att name="Shadow_color" value="250,250,250" type="RGB"/>
 <att name="Shadow_x" value="1" type="Integer"/>
 <att name="Shadow_y" value="1" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
+<att name="TxtShadow_color" value="0,0,0" type="RGB"/>
+<att name="TxtShadow_x" value="0" type="Integer"/>
+<att name="TxtShadow_y" value="0" type="Integer"/>
+<att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="IPhone,Arial-BoldMT" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -7335,6 +7558,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -7375,6 +7599,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -7436,6 +7661,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -7476,6 +7703,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -7516,6 +7744,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -7577,6 +7806,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -7617,6 +7848,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -7657,6 +7889,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -7718,6 +7951,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -7758,6 +7993,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -7798,6 +8034,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -7859,6 +8096,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -7899,6 +8138,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -7939,6 +8179,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -8000,6 +8241,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -8040,6 +8283,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -8080,6 +8324,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -8141,6 +8386,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -8181,6 +8428,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -8221,6 +8469,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -8282,6 +8531,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -8320,6 +8571,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -8360,6 +8612,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -8421,6 +8674,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -8459,6 +8714,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -8499,6 +8755,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -8560,6 +8817,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -8600,6 +8859,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -8640,6 +8900,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -8698,10 +8959,11 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-<att name="BlurRadius" value="0" type="Integer"/>
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -8742,6 +9004,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -8782,6 +9045,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -8840,10 +9104,15 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-<att name="BlurRadius" value="0" type="Integer"/>
 <att name="Shadow_color" value="128,128,128" type="RGB"/>
 <att name="Shadow_x" value="1" type="Integer"/>
 <att name="Shadow_y" value="1" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
+<att name="TxtShadow_color" value="0,0,0" type="RGB"/>
+<att name="TxtShadow_x" value="0" type="Integer"/>
+<att name="TxtShadow_y" value="0" type="Integer"/>
+<att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="IPhone,Arial-BoldMT" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -8883,6 +9152,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -8923,6 +9193,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -8984,6 +9255,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -9024,6 +9297,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -9064,6 +9338,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -9125,6 +9400,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -9165,6 +9442,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -9205,6 +9483,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -9266,6 +9545,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -9306,6 +9587,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -9346,6 +9628,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -9407,6 +9690,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -9447,6 +9732,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -9487,6 +9773,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -9548,6 +9835,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -9588,6 +9877,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -9628,6 +9918,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -9686,10 +9977,15 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-<att name="BlurRadius" value="0" type="Integer"/>
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
+<att name="TxtShadow_color" value="0,0,0" type="RGB"/>
+<att name="TxtShadow_x" value="0" type="Integer"/>
+<att name="TxtShadow_y" value="0" type="Integer"/>
+<att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -9730,6 +10026,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -9770,6 +10067,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -9831,6 +10129,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -9871,6 +10171,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -9911,6 +10212,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -9972,6 +10274,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -10012,6 +10316,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -10052,6 +10357,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -10113,6 +10419,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -10153,6 +10461,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -10193,6 +10502,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -10254,6 +10564,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -10292,6 +10604,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -10332,6 +10645,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -10393,6 +10707,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -10433,6 +10749,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -10473,6 +10790,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -10531,10 +10849,11 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-<att name="BlurRadius" value="0" type="Integer"/>
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -10575,6 +10894,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -10615,6 +10935,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -10676,8 +10997,159 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
+        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="UseNative" value="false" type="Boolean"/>
+        <att name="Font_color_override" value="true" type="Boolean"/>
+        <att name="Font_name_override" value="true" type="Boolean"/>
+        <att name="Font_size_override" value="true" type="Boolean"/>
+        <att name="Font_style_override" value="true" type="Boolean"/>
+        <att name="Font_weight_override" value="true" type="Boolean"/>
+        <att name="Bg_color_override" value="true" type="Boolean"/>
+        <att name="Chart2d3dProperties" value="" type="String"/>
+    </skin>
+    <skin>
+        <att name="Name" value="lblNormal" type="String"/>
+        <att name="WidgetType" value="Label" type="String"/>
+        <att name="Bg_type" value="3" type="int"/>
+        <att name="Background_color" value="255,255,255" type="RGB"/>
+        <att name="Rightbackground_color" value="255,255,255" type="RGB"/>
+        <att name="Bg_gradient_style" value="0" type="int"/>
+        <att name="Rightbg_gradient_style" value="0" type="int"/>
+        <att name="Background_gradient_top_color" value="255,255,255" type="RGB"/>
+        <att name="Background_gradient_bottom_color" value="255,255,255" type="RGB"/>
+        <att name="Rightbackground_gradient_top_color" value="255,255,255" type="RGB"/>
+        <att name="Rightbackground_gradient_bottom_color" value="255,255,255" type="RGB"/>
+        <att name="Background_gradient_top_colorSet" value="0" type="int"/>
+        <att name="Background_gradient_bottom_colorSet" value="0" type="int"/>
+        <att name="Background_image" value="" type="String"/>
+        <att name="MobileBackground_image" value="" type="String"/>
+        <att name="TabletBackground_image" value="" type="String"/>
+        <att name="DesktopBackground_image" value="" type="String"/>
+        <att name="Right_background_image" value="" type="String"/>
+        <att name="Mobile_right_background_image" value="" type="String"/>
+        <att name="Tablet_right_background_image" value="" type="String"/>
+        <att name="Desktop_right_background_image" value="" type="String"/>
+        <att name="Bg_iphone_image" value="" type="String"/>
+        <att name="Bg_android_image" value="" type="String"/>
+        <att name="Bg_palm_image" value="" type="String"/>
+        <att name="Bg_normal_image" value="" type="String"/>
+        <att name="Bg_medium_image" value="" type="String"/>
+        <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_bb_image" value="" type="String"/>
+        <att name="Bg_bb10_image" value="" type="String"/>
+        <att name="Bg_winmobile_image" value="" type="String"/>
+        <att name="Bg_winphone8_image" value="" type="String"/>
+        <att name="Bg_windows8_image" value="" type="String"/>
+        <att name="Bg_winmobile6x_image" value="" type="String"/>
+        <att name="Bg_iphoneiui_image" value="" type="String"/>
+        <att name="Bg_j2me_image" value="" type="String"/>
+        <att name="Bg_symbian_image" value="" type="String"/>
+        <att name="Bg_ipad_image" value="" type="String"/>
+        <att name="Bg_android_rc_tablet_image" value="" type="String"/>
+        <att name="Bg_adviphone_image" value="" type="String"/>
+        <att name="Bg_adv_bb_image" value="" type="String"/>
+        <att name="Bg_advpalm_image" value="" type="String"/>
+        <att name="Bg_advandroid_image" value="" type="String"/>
+        <att name="Bg_advother_image" value="" type="String"/>
+        <att name="Bg_advnth_image" value="" type="String"/>
+        <att name="Bg_spaiphone_image" value="" type="String"/>
+        <att name="Bg_spabb_image" value="" type="String"/>
+        <att name="Bg_spaandroid_image" value="" type="String"/>
+        <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
+        <att name="Bg_spa_bbnth_image" value="" type="String"/>
+        <att name="Bg_js240_image" value="" type="String"/>
+        <att name="Bg_js320_image" value="" type="String"/>
+        <att name="Bg_js480_image" value="" type="String"/>
+        <att name="Bg_desktopKiosk_image" value="" type="String"/>
+        <att name="Bg_desktopWeb_image" value="" type="String"/>
+        <att name="Bg_spaipad_image" value="" type="String"/>
+        <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
+        <att name="Font_weight" value="normal" type="String"/>
+        <att name="Font_style" value="none" type="String"/>
+        <att name="Font_size" value="130" type="String"/>
+        <att name="Font_color" value="255,255,255" type="RGB"/>
+        <att name="Font_color_alpha" value="0" type="String"/>
+        <att name="Rightfont_weight" value="normal" type="String"/>
+        <att name="Rightfont_style" value="" type="String"/>
+        <att name="Rightfont_size" value="100" type="String"/>
+        <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
+        <att name="Border_color" value="0,0,0" type="RGB"/>
+        <att name="Border_width" value="0" type="Integer"/>
+        <att name="Border_style" value="0" type="int"/>
+        <att name="Bg_img_style" value="0" type="int"/>
+        <att name="Bg_one_color_style" value="0" type="int"/>
+        <att name="Platform" value="22" type="int"/>
+        <att name="arcRadius" value="0" type="int"/>
+        <att name="Stretch_image" value="false" type="Boolean"/>
+        <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
+        <att name="Enable_retina_image" value="false" type="Boolean"/>
+        <att name="Bg_retina_image" value="" type="String"/>
+        <att name="Repeat_retina_image" value="false" type="Boolean"/>
+        <att name="Enable_bg_size" value="false" type="Boolean"/>
+        <att name="Background-size" value="0" type="int"/>
+        <att name="Split_value" value="50" type="String"/>
+        <att name="Bg_alpha" value="0" type="String"/>
+        <att name="Bg_top_alpha" value="0" type="String"/>
+        <att name="Bg_bottom_alpha" value="0" type="String"/>
+        <att name="Right_bg_alpha" value="0" type="String"/>
+        <att name="Right_bg_top_alpha" value="0" type="String"/>
+        <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Border_color_alpha" value="0" type="String"/>
+        <att name="PgIndicatorImgURL" value="" type="String"/>
+        <att name="PgIndicatorImgPositon" value="" type="String"/>
+        <att name="PgIndicatorImgWidget" value="Button" type="String"/>
+        <att name="ProgressIndicatorComposite_style" value="3" type="int"/>
+        <att name="ProgressIndicatorComposite_color" value="255,255,255" type="RGB"/>
+        <att name="ProgressIndicatorColourOpacity" value="100" type="int"/>
+        <att name="BlockingImgURL" value="" type="String"/>
+        <att name="BlockingImgPositon" value="" type="String"/>
+        <att name="BlockingImgWidget" value="Button" type="String"/>
+       <att name="TopBorderWidth" value="0" type="int"/>
+       <att name="TopBorderColor" value="0,0,0" type="RGB"/>
+       <att name="TopBorderColorTransparency" value="0" type="int"/>
+       <att name="TopBorderStyle" value="plain" type="String"/>
+       <att name="TopBorderRadius" value="10" type="int"/>
+       <att name="LeftBorderWidth" value="0" type="int"/>
+       <att name="LeftBorderColor" value="0,0,0" type="RGB"/>
+       <att name="LeftBorderColorTransparency" value="0" type="int"/>
+       <att name="LeftBorderStyle" value="plain" type="String"/>
+       <att name="LeftBorderRadius" value="10" type="int"/>
+       <att name="BottomBorderWidth" value="0" type="int"/>
+       <att name="BottomBorderColor" value="0,0,0" type="RGB"/>
+       <att name="BottomBorderColorTransparency" value="0" type="int"/>
+       <att name="BottomBorderStyle" value="plain" type="String"/>
+       <att name="BottomBorderRadius" value="10" type="int"/>
+       <att name="RightBorderWidth" value="0" type="int"/>
+       <att name="RightBorderColor" value="0,0,0" type="RGB"/>
+       <att name="RightBorderColorTransparency" value="0" type="int"/>
+       <att name="RightBorderStyle" value="plain" type="String"/>
+       <att name="RightBorderRadius" value="10" type="int"/>
+       <att name="Child_topBorderRadius" value="10" type="int"/>
+       <att name="Child_leftBorderRadius" value="10" type="int"/>
+       <att name="Child_rightBorderRadius" value="10" type="int"/>
+       <att name="Child_bottomBorderRadius" value="10" type="int"/>
+<att name="Shadow_color" value="0,0,0" type="RGB"/>
+<att name="Shadow_x" value="0" type="Integer"/>
+<att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
+<att name="TxtShadow_color" value="0,0,0" type="RGB"/>
+<att name="TxtShadow_x" value="0" type="Integer"/>
+<att name="TxtShadow_y" value="0" type="Integer"/>
+<att name="TxtBlurRadius" value="0" type="Integer"/>
+        <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
+        <att name="FontNameMap" value="SPA iPhone,Helvetica Neue" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -10716,6 +11188,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -10756,6 +11229,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -10814,152 +11288,11 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-<att name="BlurRadius" value="0" type="Integer"/>
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
-        <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
-        <att name="UseNative" value="false" type="Boolean"/>
-        <att name="Font_color_override" value="true" type="Boolean"/>
-        <att name="Font_name_override" value="true" type="Boolean"/>
-        <att name="Font_size_override" value="true" type="Boolean"/>
-        <att name="Font_style_override" value="true" type="Boolean"/>
-        <att name="Font_weight_override" value="true" type="Boolean"/>
-        <att name="Bg_color_override" value="true" type="Boolean"/>
-        <att name="Chart2d3dProperties" value="" type="String"/>
-    </skin>
-    <skin>
-        <att name="Name" value="lblNormal" type="String"/>
-        <att name="WidgetType" value="Label" type="String"/>
-        <att name="Bg_type" value="3" type="int"/>
-        <att name="Background_color" value="255,255,255" type="RGB"/>
-        <att name="Rightbackground_color" value="255,255,255" type="RGB"/>
-        <att name="Bg_gradient_style" value="0" type="int"/>
-        <att name="Rightbg_gradient_style" value="0" type="int"/>
-        <att name="Background_gradient_top_color" value="255,255,255" type="RGB"/>
-        <att name="Background_gradient_bottom_color" value="255,255,255" type="RGB"/>
-        <att name="Rightbackground_gradient_top_color" value="255,255,255" type="RGB"/>
-        <att name="Rightbackground_gradient_bottom_color" value="255,255,255" type="RGB"/>
-        <att name="Background_gradient_top_colorSet" value="0" type="int"/>
-        <att name="Background_gradient_bottom_colorSet" value="0" type="int"/>
-        <att name="Background_image" value="" type="String"/>
-        <att name="MobileBackground_image" value="" type="String"/>
-        <att name="TabletBackground_image" value="" type="String"/>
-        <att name="DesktopBackground_image" value="" type="String"/>
-        <att name="Right_background_image" value="" type="String"/>
-        <att name="Mobile_right_background_image" value="" type="String"/>
-        <att name="Tablet_right_background_image" value="" type="String"/>
-        <att name="Desktop_right_background_image" value="" type="String"/>
-        <att name="Bg_iphone_image" value="" type="String"/>
-        <att name="Bg_android_image" value="" type="String"/>
-        <att name="Bg_palm_image" value="" type="String"/>
-        <att name="Bg_normal_image" value="" type="String"/>
-        <att name="Bg_medium_image" value="" type="String"/>
-        <att name="Bg_small_image" value="" type="String"/>
-        <att name="Bg_bb_image" value="" type="String"/>
-        <att name="Bg_bb10_image" value="" type="String"/>
-        <att name="Bg_winmobile_image" value="" type="String"/>
-        <att name="Bg_winphone8_image" value="" type="String"/>
-        <att name="Bg_windows8_image" value="" type="String"/>
-        <att name="Bg_winmobile6x_image" value="" type="String"/>
-        <att name="Bg_iphoneiui_image" value="" type="String"/>
-        <att name="Bg_j2me_image" value="" type="String"/>
-        <att name="Bg_symbian_image" value="" type="String"/>
-        <att name="Bg_ipad_image" value="" type="String"/>
-        <att name="Bg_android_rc_tablet_image" value="" type="String"/>
-        <att name="Bg_adviphone_image" value="" type="String"/>
-        <att name="Bg_adv_bb_image" value="" type="String"/>
-        <att name="Bg_advpalm_image" value="" type="String"/>
-        <att name="Bg_advandroid_image" value="" type="String"/>
-        <att name="Bg_advother_image" value="" type="String"/>
-        <att name="Bg_advnth_image" value="" type="String"/>
-        <att name="Bg_spaiphone_image" value="" type="String"/>
-        <att name="Bg_spabb_image" value="" type="String"/>
-        <att name="Bg_spaandroid_image" value="" type="String"/>
-        <att name="Bg_spa_windows_image" value="" type="String"/>
-        <att name="Bg_spa_winphone8_image" value="" type="String"/>
-        <att name="Bg_spa_bbnth_image" value="" type="String"/>
-        <att name="Bg_js240_image" value="" type="String"/>
-        <att name="Bg_js320_image" value="" type="String"/>
-        <att name="Bg_js480_image" value="" type="String"/>
-        <att name="Bg_desktopKiosk_image" value="" type="String"/>
-        <att name="Bg_desktopWeb_image" value="" type="String"/>
-        <att name="Bg_spaipad_image" value="" type="String"/>
-        <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
-        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
-        <att name="Font_weight" value="normal" type="String"/>
-        <att name="Font_style" value="none" type="String"/>
-        <att name="Font_size" value="130" type="String"/>
-        <att name="Font_color" value="0,0,0" type="RGB"/>
-        <att name="Font_color_alpha" value="0" type="String"/>
-        <att name="Rightfont_weight" value="normal" type="String"/>
-        <att name="Rightfont_style" value="" type="String"/>
-        <att name="Rightfont_size" value="100" type="String"/>
-        <att name="Rightfont_name" value="None" type="String"/>
-        <att name="Border_color" value="0,0,0" type="RGB"/>
-        <att name="Border_width" value="0" type="Integer"/>
-        <att name="Border_style" value="0" type="int"/>
-        <att name="Bg_img_style" value="0" type="int"/>
-        <att name="Bg_one_color_style" value="0" type="int"/>
-        <att name="Platform" value="22" type="int"/>
-        <att name="arcRadius" value="0" type="int"/>
-        <att name="Stretch_image" value="false" type="Boolean"/>
-        <att name="Bg_height" value="15" type="Integer"/>
-        <att name="Repeat_image" value="false" type="Boolean"/>
-        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
-        <att name="CustomCss" value="false" type="Boolean"/>
-        <att name="Enable_retina_image" value="false" type="Boolean"/>
-        <att name="Bg_retina_image" value="" type="String"/>
-        <att name="Repeat_retina_image" value="false" type="Boolean"/>
-        <att name="Enable_bg_size" value="false" type="Boolean"/>
-        <att name="Background-size" value="0" type="int"/>
-        <att name="Split_value" value="50" type="String"/>
-        <att name="Bg_alpha" value="0" type="String"/>
-        <att name="Bg_top_alpha" value="0" type="String"/>
-        <att name="Bg_bottom_alpha" value="0" type="String"/>
-        <att name="Right_bg_alpha" value="0" type="String"/>
-        <att name="Right_bg_top_alpha" value="0" type="String"/>
-        <att name="Right_bg_bottom_alpha" value="0" type="String"/>
-        <att name="Border_color_alpha" value="0" type="String"/>
-        <att name="PgIndicatorImgURL" value="" type="String"/>
-        <att name="PgIndicatorImgPositon" value="" type="String"/>
-        <att name="PgIndicatorImgWidget" value="Button" type="String"/>
-        <att name="ProgressIndicatorComposite_style" value="3" type="int"/>
-        <att name="ProgressIndicatorComposite_color" value="255,255,255" type="RGB"/>
-        <att name="ProgressIndicatorColourOpacity" value="100" type="int"/>
-        <att name="BlockingImgURL" value="" type="String"/>
-        <att name="BlockingImgPositon" value="" type="String"/>
-        <att name="BlockingImgWidget" value="Button" type="String"/>
-       <att name="TopBorderWidth" value="0" type="int"/>
-       <att name="TopBorderColor" value="0,0,0" type="RGB"/>
-       <att name="TopBorderColorTransparency" value="0" type="int"/>
-       <att name="TopBorderStyle" value="plain" type="String"/>
-       <att name="TopBorderRadius" value="10" type="int"/>
-       <att name="LeftBorderWidth" value="0" type="int"/>
-       <att name="LeftBorderColor" value="0,0,0" type="RGB"/>
-       <att name="LeftBorderColorTransparency" value="0" type="int"/>
-       <att name="LeftBorderStyle" value="plain" type="String"/>
-       <att name="LeftBorderRadius" value="10" type="int"/>
-       <att name="BottomBorderWidth" value="0" type="int"/>
-       <att name="BottomBorderColor" value="0,0,0" type="RGB"/>
-       <att name="BottomBorderColorTransparency" value="0" type="int"/>
-       <att name="BottomBorderStyle" value="plain" type="String"/>
-       <att name="BottomBorderRadius" value="10" type="int"/>
-       <att name="RightBorderWidth" value="0" type="int"/>
-       <att name="RightBorderColor" value="0,0,0" type="RGB"/>
-       <att name="RightBorderColorTransparency" value="0" type="int"/>
-       <att name="RightBorderStyle" value="plain" type="String"/>
-       <att name="RightBorderRadius" value="10" type="int"/>
-       <att name="Child_topBorderRadius" value="10" type="int"/>
-       <att name="Child_leftBorderRadius" value="10" type="int"/>
-       <att name="Child_rightBorderRadius" value="10" type="int"/>
-       <att name="Child_bottomBorderRadius" value="10" type="int"/>
 <att name="BlurRadius" value="0" type="Integer"/>
-<att name="Shadow_color" value="0,0,0" type="RGB"/>
-<att name="Shadow_x" value="0" type="Integer"/>
-<att name="Shadow_y" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
@@ -11000,6 +11333,7 @@
         <att name="Bg_normal_image" value="" type="String"/>
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
+        <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -11040,6 +11374,7 @@
         <att name="Rightfont_style" value="" type="String"/>
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
+        <att name="BorderType" value="0" type="int"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -11101,6 +11436,8 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
+<att name="BlurRadius" value="0" type="Integer"/>
+<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>

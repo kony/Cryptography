@@ -17,12 +17,11 @@ function Encrypt()
 		if (frmCrypto.textEncrypt.text == "" || frmCrypto.textEncrypt.text ==null)
 		{
 			frmCrypto.lblEncrypt.text =  "Please enter the text to encrypt";
-			return;
 		}
 		else
 		{
 			var inputstr=frmCrypto.textEncrypt.text;
-		}
+		
 
 		var prptobj={padding:"pkcs5",mode:"cbc",initializationvector:"1234567890123456"};
 
@@ -32,12 +31,13 @@ function Encrypt()
 		frmCrypto.lblEncrypt.text = "Encrypted text = "+myEncryptedText.toString();
 
 		myClearText = kony.crypto.decrypt(algo,encryptDecryptKey,myEncryptedTextRaw,prptobj);
+		}
 
 	}
 	catch(err)
 	{
-		alert(typeof err);
-		alert("Error in callbackEncryptAes : "+err );
+		alert(err.message);
+		//alert("Error in callbackEncryptAes : "+err );
 	}
 }
 
@@ -53,15 +53,15 @@ function decrypt()
 	{
 		if (frmCrypto.lblEncrypt.text == "" ||frmCrypto.lblEncrypt.text ==null || frmCrypto.lblEncrypt.text == "Please enter the text to encrypt")
 		{
-			frmCrypto.lblDecrypt.text ="Please enter the text to encrypt and then try decrypt."
-			return;
+			frmCrypto.lblDecrypt.text ="Please enter the text to encrypt and then try decrypt.";
+		}else
+		{
+			frmCrypto.lblDecrypt.text ="Decrypted text = "+myClearText.toString();
 		}
-		frmCrypto.lblDecrypt.text ="Decrypted text = "+myClearText.toString();
 	}
 	catch(err)
 	{
-		alert(typeof err);
-		alert("Error in callbackDecryptAes : "+err );
+		alert(err.message);
 	}
 }
 
@@ -77,13 +77,20 @@ function createHashMD2()
     {
 		var algo="md2";
 		var inputstr=frmCrypto.txtMd2Hash.text;
-		var myHashValue = kony.crypto.createHash(algo,inputstr);
-		frmCrypto.lblMD2Hash.text = myHashValue;		
+		if ( inputstr== "" || inputstr ==null)
+		{
+			frmCrypto.lblMD2Hash.text =  "Please enter the string";
+		}
+		else
+		{
+			var myHashValue = kony.crypto.createHash(algo,inputstr);
+			frmCrypto.lblMD2Hash.text = myHashValue;
+		}
 	}
     catch(err)
     {
-		alert(typeof err);
-		alert("Error in callbackCreateHashMD2 : "+err );
+		alert(err.message);
+		//alert("Error in callbackCreateHashMD2 : "+err );
 	}
 }
 
@@ -99,13 +106,20 @@ function createHashMD4()
     {
 		var algo="md4";
 		var inputstr=frmCrypto.txtMD4Hash.text;
-		var myHashValue = kony.crypto.createHash(algo,inputstr);
-		frmCrypto.lblMD4Hash.text = myHashValue		
+		if (inputstr== "" || inputstr ==null)
+		{
+			frmCrypto.lblMD4Hash.text =  "Please enter the string";
+		}
+		else
+		{
+			var myHashValue = kony.crypto.createHash(algo,inputstr);
+			frmCrypto.lblMD4Hash.text = myHashValue;
+		}	
 	}
     catch(err)
     {
-		alert(typeof err);
-		alert("Error in callbackCreateHashMD4 : "+err );
+		alert(err.message);
+		//alert("Error in callbackCreateHashMD4 : "+err );
 	}
 }
 
@@ -121,12 +135,19 @@ function createHashMD5()
     {
 		var algo="md5";
 		var inputstr=frmCrypto.txtMD5Hash.text;
-		var myHashValue = kony.crypto.createHash(algo,inputstr);
-		frmCrypto.lblMD5Hash.text = myHashValue;		
+		if (inputstr== "" || inputstr ==null)
+		{
+			frmCrypto.lblMD5Hash.text =  "Please enter the string";
+		}
+		else
+		{
+			var myHashValue = kony.crypto.createHash(algo,inputstr);
+			frmCrypto.lblMD5Hash.text = myHashValue;
+		}		
 	}
     catch(err)
     {
-		alert(typeof err);
-		alert("Error in callbackCreateHashMD5 : "+err );
+		alert(err.message);
+		//alert("Error in callbackCreateHashMD5 : "+err );
 	}
 }

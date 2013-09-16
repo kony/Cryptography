@@ -1,72 +1,72 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<application name="Cryptography" id="Cryptography">
-    <container type="form" id="frmCrypto" displayname="Form">
-        <component type="textbox2" id="textEncrypt" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMd2Hash" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMD4Hash" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMD5Hash" displayname="TextBox2"/>
+<application id="Cryptography" name="Cryptography">
+    <container displayname="Form" id="frmCrypto" type="form">
+        <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
     </container>
-    <container type="form" id="frmCrypto" displayname="Form">
-        <component type="textbox2" id="textEncrypt" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMd2Hash" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMD4Hash" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMD5Hash" displayname="TextBox2"/>
+    <container displayname="Form" id="frmCrypto" type="form">
+        <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
     </container>
-    <container type="form" id="frmCrypto" displayname="Form">
-        <component type="textbox2" id="textEncrypt" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMd2Hash" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMD4Hash" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMD5Hash" displayname="TextBox2"/>
+    <container displayname="Form" id="frmCrypto" type="form">
+        <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
     </container>
-    <container type="form" id="frmCrypto" displayname="Form">
-        <component type="textbox2" id="textEncrypt" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMd2Hash" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMD4Hash" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMD5Hash" displayname="TextBox2"/>
+    <container displayname="Form" id="frmCrypto" type="form">
+        <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
     </container>
-    <container type="form" id="frmCrypto" displayname="Form">
-        <component type="textbox2" id="textEncrypt" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMd2Hash" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMD4Hash" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMD5Hash" displayname="TextBox2"/>
+    <container displayname="Form" id="frmCrypto" type="form">
+        <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
     </container>
-    <container type="form" id="frmCrypto" displayname="Form">
-        <component type="textbox2" id="textEncrypt" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMd2Hash" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMD4Hash" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMD5Hash" displayname="TextBox2"/>
+    <container displayname="Form" id="frmCrypto" type="form">
+        <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
     </container>
-    <container type="form" id="frmCrypto" displayname="Form">
-        <component type="textbox2" id="textEncrypt" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMd2Hash" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMD4Hash" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMD5Hash" displayname="TextBox2"/>
+    <container displayname="Form" id="frmCrypto" type="form">
+        <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
     </container>
-    <container type="form" id="frmCrypto" displayname="Form">
-        <component type="textbox2" id="textEncrypt" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMd2Hash" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMD4Hash" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMD5Hash" displayname="TextBox2"/>
+    <container displayname="Form" id="frmCrypto" type="form">
+        <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
     </container>
-    <container type="form" id="frmCrypto" displayname="Form">
-        <component type="textbox2" id="textEncrypt" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMd2Hash" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMD4Hash" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMD5Hash" displayname="TextBox2"/>
+    <container displayname="Form" id="frmCrypto" type="form">
+        <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
     </container>
-    <container type="form" id="frmCrypto" displayname="Form">
-        <component type="textbox2" id="textEncrypt" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMd2Hash" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMD4Hash" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMD5Hash" displayname="TextBox2"/>
+    <container displayname="Form" id="frmCrypto" type="form">
+        <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
     </container>
-    <container type="form" id="frmCrypto" displayname="Form">
-        <component type="textbox2" id="textEncrypt" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMd2Hash" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMD4Hash" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMD5Hash" displayname="TextBox2"/>
+    <container displayname="Form" id="frmAppDescription" type="form"/>
+    <container displayname="Form" id="frmCrypto" type="form">
+        <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
     </container>
-    <container type="form" id="frmHome" displayname="Form"/>
     <globalsequences/>
     <skins/>
 </application>
