@@ -16,6 +16,8 @@ This Application will showcase the following features of Cryptography
  * iPhone
  * SPA Android
  * SPA iPhone
+ * BB7
+ * SPA BB7
  
 **Tablet** 
  * Android
