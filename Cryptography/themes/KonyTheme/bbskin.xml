@@ -11125,8 +11125,8 @@
         <att name="Chart2d3dProperties" value="" type="String"/>
     </skin>
     <skin>
-        <att name="Name" value="lblNormal" type="String"/>
-        <att name="WidgetType" value="Label" type="String"/>
+        <att name="Name" value="sknTxtA2NormalSampleApp" type="String"/>
+        <att name="WidgetType" value="TextArea2" type="String"/>
         <att name="Bg_type" value="3" type="int"/>
         <att name="Background_color" value="255,255,255" type="RGB"/>
         <att name="Rightbackground_color" value="255,255,255" type="RGB"/>
@@ -11153,10 +11153,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_img_type" value="0" type="int"/>
-        <att name="Bg_left_image" value="" type="String"/>
-        <att name="Bg_middle_image" value="" type="String"/>
-        <att name="Bg_right_image" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -11191,7 +11187,7 @@
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="100" type="String"/>
-        <att name="Font_color" value="96,96,96" type="RGB"/>
+        <att name="Font_color" value="0,0,0" type="RGB"/>
         <att name="Font_color_alpha" value="0" type="String"/>
         <att name="Rightfont_weight" value="normal" type="String"/>
         <att name="Rightfont_style" value="" type="String"/>
@@ -11259,8 +11255,8 @@
         <att name="Chart2d3dProperties" value="" type="String"/>
     </skin>
     <skin>
-        <att name="Name" value="sknTxtA2NormalSampleApp" type="String"/>
-        <att name="WidgetType" value="TextArea2" type="String"/>
+        <att name="Name" value="lblNormal" type="String"/>
+        <att name="WidgetType" value="Label" type="String"/>
         <att name="Bg_type" value="3" type="int"/>
         <att name="Background_color" value="255,255,255" type="RGB"/>
         <att name="Rightbackground_color" value="255,255,255" type="RGB"/>
@@ -11287,6 +11283,10 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_img_type" value="0" type="int"/>
+        <att name="Bg_left_image" value="" type="String"/>
+        <att name="Bg_middle_image" value="" type="String"/>
+        <att name="Bg_right_image" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -11321,7 +11321,7 @@
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="100" type="String"/>
-        <att name="Font_color" value="0,0,0" type="RGB"/>
+        <att name="Font_color" value="96,96,96" type="RGB"/>
         <att name="Font_color_alpha" value="0" type="String"/>
         <att name="Rightfont_weight" value="normal" type="String"/>
         <att name="Rightfont_style" value="" type="String"/>
