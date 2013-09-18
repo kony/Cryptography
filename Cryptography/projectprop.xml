@@ -93,7 +93,7 @@
     <attributes name="bb10keystorepassword" value=""/>
     <attributes name="pathpatternkey" value=""/>
     <attributes name="wp8iconicsmallkey" value=""/>
-    <attributes name="splashlogokey" value="0=splash.9.png,1=splash.9.png,8=splash.9.png,2=,46=,3=,20=,9=,15=,14=,42=,16=splash_640x960.png,18=splash_720x1280.png,43=,31=splash_720x1280.png,32=splash_850x1280.png,37=splash_1280x720.png,1000=,1001=,1002=,45=,22=,23=,24=,35=,44=,36=,21="/>
+    <attributes name="splashlogokey" value="0=splash.9.png,1=splash.9.png,8=splash.9.png,2=,3=splash_480x762.png,42=splash_480x762.png,16=splash_640x960.png,18=splash_720x1280.png,43=,31=splash_720x1280.png,32=splash_850x1280.png,37=splash_1280x720.png,1000=,1001=,1002=,45=,22=,23=,24=,35=,44=,36=,21="/>
     <attributes name="Shared_User_Certificates" value="true"/>
     <attributes name="inputaccessoryviewtype" value="nextprevtoolbar"/>
     <attributes name="android_allowselfsignedcertificates" value="None"/>
@@ -161,7 +161,7 @@
     <attributes name="win8toastcapablekey" value="no"/>
     <attributes name="ACCESS_CHECKIN_PROPERTIES" value="false"/>
     <attributes name="Webcam" value="true"/>
-    <attributes name="winmobileguidkey" value=""/>
+    <attributes name="winmobileguidkey" value="9581e201-81f8-4354-a1f9-a461270ad141"/>
     <attributes name="tcbjs240basefontsize" value="10"/>
     <attributes name="SET_ALWAYS_FINISH" value="false"/>
     <attributes name="apptitle" value=""/>

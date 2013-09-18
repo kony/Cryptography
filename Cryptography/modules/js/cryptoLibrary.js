@@ -8,7 +8,9 @@ function Encrypt()
 {
 	try
 	{
+		alert("in encrypt()");
 		var algo="aes";
+		var prptobj;
 		if(kony.os.deviceInfo().name == "blackberry")
 			var encryptDecryptKey = kony.crypto.newKey("passphrase", 128, {passphrasetext: ["inputstring1inputstring1"], subalgo: "aes", passphrasehashalgo: "md5"});
 		else
@@ -20,17 +22,16 @@ function Encrypt()
 		}
 		else
 		{
-			var inputstr=frmCrypto.textEncrypt.text;
-		
-
-		var prptobj={padding:"pkcs5",mode:"cbc",initializationvector:"1234567890123456"};
-
-		var myEncryptedTextRaw = kony.crypto.encrypt(algo,encryptDecryptKey,inputstr,prptobj);
-		var myEncryptedText  = kony.convertToBase64(myEncryptedTextRaw);
-
-		frmCrypto.lblEncrypt.text = "Encrypted text = "+myEncryptedText.toString();
-
-		myClearText = kony.crypto.decrypt(algo,encryptDecryptKey,myEncryptedTextRaw,prptobj);
+			var inputstr=frmCrypto.textEncrypt.text;alert("inputstr: "+inputstr);
+			try
+			{
+			 prptobj={padding:"pkcs5",mode:"cbc",initializationvector:"1234567890123456"};
+			}
+			catch(err){alert(err.message);}alert(prptobj);
+			var myEncryptedTextRaw = kony.crypto.encrypt(algo,encryptDecryptKey,inputstr,prptobj);alert(myEncryptedTextRaw);
+			var myEncryptedText  = kony.convertToBase64(myEncryptedTextRaw);alert("encrypted text:"+myEncryptedText);
+			frmCrypto.lblEncrypt.text = "Encrypted text = "+myEncryptedText.toString();
+			myClearText = kony.crypto.decrypt(algo,encryptDecryptKey,myEncryptedTextRaw,prptobj);
 		}
 
 	}
@@ -76,14 +77,16 @@ function createHashMD2()
 	try
     {
 		var algo="md2";
+		//var algo="sha1";
 		var inputstr=frmCrypto.txtMd2Hash.text;
 		if ( inputstr== "" || inputstr ==null)
 		{
 			frmCrypto.lblMD2Hash.text =  "Please enter the string";
 		}
 		else
-		{
+		{	alert(inputstr);
 			var myHashValue = kony.crypto.createHash(algo,inputstr);
+			alert(myHashValue);
 			frmCrypto.lblMD2Hash.text = myHashValue;
 		}
 	}

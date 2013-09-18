@@ -1,11 +1,8 @@
-
 /*****************************************************************
 *	Name    : frmCryptoTabPreShow
 *	Author  : Kony
 *	Purpose : To initialize navigation pane and labels on Cryptography Form (Only tablet channels).
 ******************************************************************/
-
-
 function frmCryptoTabPreShow(){
 	//#ifdef ipad
 	// iPad supports MD2,MD4,MD5	
@@ -27,14 +24,11 @@ function frmCryptoTabPreShow(){
 	//#endif
 	}
 	
-	
 /*****************************************************************
 *	Name    : segClickEvent
 *	Author  : Kony
 *	Purpose : To set the visibility of widgets when an option is selected from navigation pane.
 ******************************************************************/		
-
-
 function segClickEvent(seguiWidget, sectionIndex, rowIndex){
 		if(frmCrypto.segNavigation.selectedItems[0]["lblNavigation"]=="Encrypt/Decrypt"){
 			frmCrypto.hbxEncryptDecrypt.setVisibility(true);
@@ -73,15 +67,11 @@ function segClickEvent(seguiWidget, sectionIndex, rowIndex){
 			frmCrypto.hbxHashMD5.setVisibility(true);
 		}
 }
-
-
 /*****************************************************************
 *	Name    : navigateToFrmCrypto
 *	Author  : Kony
 *	Purpose : To navigate to FrmCrypto form.
 ******************************************************************/
-
-
 function navigateToFrmCrypto(){
 	frmCrypto.show();
 }
@@ -90,9 +80,8 @@ function navigateToFrmCrypto(){
 * Author  : Kony
 * Purpose : To clear text fields in FrmCrypto form.
 ******************************************************************/
-
-
-function frmCryptoPreShow(){
+function frmCryptoPreShow()
+{
 
   frmCrypto.textEncrypt.text ="";
   frmCrypto.lblEncrypt.text ="";
