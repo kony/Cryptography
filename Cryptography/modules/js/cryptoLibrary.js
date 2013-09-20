@@ -8,7 +8,7 @@ function Encrypt()
 {
 	try
 	{
-		alert("in encrypt()");
+		//alert("in encrypt()");
 		var algo="aes";
 		var prptobj;
 		if(kony.os.deviceInfo().name == "blackberry")
@@ -22,17 +22,23 @@ function Encrypt()
 		}
 		else
 		{
-			var inputstr=frmCrypto.textEncrypt.text;alert("inputstr: "+inputstr);
-			try
-			{
+			var inputstr=frmCrypto.textEncrypt.text;//alert("inputstr: "+inputstr);
+			//try
+			//{
 			 prptobj={padding:"pkcs5",mode:"cbc",initializationvector:"1234567890123456"};
-			}
-			catch(err){alert(err.message);}alert(prptobj);
-			var myEncryptedTextRaw = kony.crypto.encrypt(algo,encryptDecryptKey,inputstr,prptobj);alert(myEncryptedTextRaw);
-			var myEncryptedText  = kony.convertToBase64(myEncryptedTextRaw);alert("encrypted text:"+myEncryptedText);
+			//}
+			//catch(err){alert(err.message);}
+			//alert(prptobj);
+			var myEncryptedTextRaw = kony.crypto.encrypt(algo,encryptDecryptKey,inputstr,prptobj);//alert(myEncryptedTextRaw);
+			var myEncryptedText  = kony.convertToBase64(myEncryptedTextRaw);//alert("encrypted text:"+myEncryptedText);
+			if(kony.os.deviceInfo().name == "Windows 8"){
+			frmCrypto.lblEncrypt.text = "Encrypted text = "+myEncryptedTextRaw.toString();alert(myEncryptedTextRaw.toString());
+			}else{
 			frmCrypto.lblEncrypt.text = "Encrypted text = "+myEncryptedText.toString();
+			}
+			//frmCrypto.lblEncrypt.text = "Encrypted text = "+myEncryptedText.toString();
 			myClearText = kony.crypto.decrypt(algo,encryptDecryptKey,myEncryptedTextRaw,prptobj);
-		}
+			}
 
 	}
 	catch(err)

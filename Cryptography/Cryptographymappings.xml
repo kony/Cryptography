@@ -54,13 +54,13 @@
         <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
         <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
     </container>
-    <container displayname="Form" id="frmAppDescription" type="form"/>
     <container displayname="Form" id="frmCrypto" type="form">
         <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
         <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
         <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
         <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
     </container>
+    <container displayname="Form" id="frmAppDescription" type="form"/>
     <container displayname="Form" id="frmCrypto" type="form">
         <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
         <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
