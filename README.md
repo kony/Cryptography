@@ -19,6 +19,7 @@ This Application will showcase the following features of Cryptography
  * BlackBerry
  * SPA BlackBerry
  * Windows Phone 7.5
+ * Windows Phone 8
  
 **Tablet** 
  * Android
