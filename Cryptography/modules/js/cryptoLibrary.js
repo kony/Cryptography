@@ -90,9 +90,9 @@ function createHashMD2()
 			frmCrypto.lblMD2Hash.text =  "Please enter the string";
 		}
 		else
-		{	alert(inputstr);
+		{	//alert(inputstr);
 			var myHashValue = kony.crypto.createHash(algo,inputstr);
-			alert(myHashValue);
+			//alert(myHashValue);
 			frmCrypto.lblMD2Hash.text = myHashValue;
 		}
 	}

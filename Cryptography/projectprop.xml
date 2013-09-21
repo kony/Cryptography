@@ -122,7 +122,7 @@
     <attributes name="BIND_APPWIDGET" value="false"/>
     <attributes name="wp8cycle5key" value=""/>
     <attributes name="hybdridcontextkey" value=""/>
-    <attributes name="ipadlandscapemodekey" value="false"/>
+    <attributes name="ipadlandscapemodekey" value="true"/>
     <attributes name="KILL_BACKGROUND_PROCESSES" value="false"/>
     <attributes name="tcnth400basefontsize" value="14"/>
     <attributes name="schemekey" value=""/>
