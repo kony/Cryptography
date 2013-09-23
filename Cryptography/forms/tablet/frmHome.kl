@@ -128,7 +128,7 @@
             <rc_j2me>true</rc_j2me>
             <rc_palm>true</rc_palm>
             <rc_symbian>true</rc_symbian>
-            <rc_windows8>false</rc_windows8>
+            <rc_windows8>true</rc_windows8>
             <rc_winmobile>true</rc_winmobile>
             <rc_winmobile6x>true</rc_winmobile6x>
             <rc_winphone8>true</rc_winphone8>
@@ -646,9 +646,9 @@
         <winphone8_backButton>false</winphone8_backButton>
         <winphone8_maxappmenubuttons>4</winphone8_maxappmenubuttons>
         <win8TitleBarData>
-            <backButtonSkin>Skin Defaults</backButtonSkin>
+            <backButtonSkin>btnNormal</backButtonSkin>
             <showBackButton>true</showBackButton>
-            <skinID>Skin Defaults</skinID>
+            <skinID>sknTitleBarSampleApp</skinID>
             <visible>true</visible>
         </win8TitleBarData>
         <android_orientation>2</android_orientation>
@@ -977,8 +977,8 @@
                 <thinclient_override>false</thinclient_override>
                 <type>1</type>
                 <windows8>
-                    <left>1</left>
-                    <right>1</right>
+                    <left>120</left>
+                    <right>50</right>
                     <top>1</top>
                     <bottom>1</bottom>
                     <unit>px</unit>
@@ -6930,8 +6930,8 @@
                 <thinclient_override>false</thinclient_override>
                 <type>1</type>
                 <windows8>
-                    <left>16</left>
-                    <right>16</right>
+                    <left>120</left>
+                    <right>50</right>
                     <top>80</top>
                     <bottom>16</bottom>
                     <unit>px</unit>
@@ -7645,13 +7645,13 @@
                 <thinclient_override>false</thinclient_override>
                 <type>1</type>
                 <windows8>
-                    <left>1</left>
+                    <left>120</left>
                     <right>1</right>
-                    <top>1</top>
+                    <top>57</top>
                     <bottom>1</bottom>
                     <unit>px</unit>
                 </windows8>
-                <windows8_override>false</windows8_override>
+                <windows8_override>true</windows8_override>
                 <winmobile>
                     <left>1</left>
                     <right>1</right>
@@ -8050,6 +8050,7 @@
             <parent_wrapping>word</parent_wrapping>
             <parent_longText>false</parent_longText>
             <parent_renderAsAnchor>false</parent_renderAsAnchor>
+            <overrideProperties>KLabel.winmobileContentAlign</overrideProperties>
             <iphone_wrapping>0</iphone_wrapping>
             <iphone_contentAlignment>0</iphone_contentAlignment>
             <iphone_longtext>false</iphone_longtext>
@@ -8082,6 +8083,7 @@
         <overrideProperties>KForm.androidtitleBar</overrideProperties>
         <overrideProperties>KForm.ipad_Orientation</overrideProperties>
         <overrideProperties>KForm.ipadtitleBar</overrideProperties>
+        <overrideProperties>KForm.win8titleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>
         <winphone8_intransitionmode>Default</winphone8_intransitionmode>

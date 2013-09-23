@@ -9,6 +9,7 @@ function Encrypt()
 	try
 	{
 		//alert("in encrypt()");
+		frmCrypto.lblDecrypt.setVisibility(false);
 		var algo="aes";
 		var prptobj;
 		if(kony.os.deviceInfo().name == "blackberry")
@@ -64,6 +65,7 @@ function decrypt()
 		}else
 		{
 			frmCrypto.lblDecrypt.text ="Decrypted text = "+myClearText.toString();
+			frmCrypto.lblDecrypt.setVisibility(true);
 		}
 	}
 	catch(err)
