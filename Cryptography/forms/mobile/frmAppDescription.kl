@@ -2817,7 +2817,7 @@
                     <width>89</width>
                     <height>100</height>
                 </sizePercent>
-                <skinId>lblNormal</skinId>
+                <skinId>sknLblWhiteSampleApp</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
                 <localeId>None</localeId>
                 <visible>true</visible>
@@ -4820,7 +4820,7 @@
                     <width>89</width>
                     <height>100</height>
                 </sizePercent>
-                <skinId>lblNormal</skinId>
+                <skinId>sknLblWhiteSampleApp</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
                 <localeId>None</localeId>
                 <visible>true</visible>
