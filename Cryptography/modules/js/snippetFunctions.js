@@ -14,6 +14,10 @@ function frmCryptoTabPreShow()
 	frmCrypto.hbxHashMD2.setVisibility(false);
 	frmCrypto.hbxHashMD4.setVisibility(false);
 	frmCrypto.hbxHashMD5.setVisibility(false);
+	frmCrypto.line19302198661535.setVisibility(false);
+	frmCrypto.line19302198663509.setVisibility(false);
+	frmCrypto.line19302198663512.setVisibility(false);
+	frmCrypto.line19302198663503.setVisibility(false);
 	frmCrypto.hbxEncryptDecrypt.setVisibility(true);
 	//#else
 	// android,Windows supports MD5
@@ -36,6 +40,7 @@ function segClickEvent(seguiWidget, sectionIndex, rowIndex){
 			frmCrypto.hbxHashMD4.setVisibility(false);
 			frmCrypto.hbxHashMD5.setVisibility(false);
 			frmCrypto.hbxEncryptDecrypt.setVisibility(true);
+			
 			}
 		else if(frmCrypto.segNavigation.selectedItems[0]["lblNavigationDescription"]=="(MD2 Algo)"){
 				frmCrypto.hbxEncryptDecrypt.setVisibility(false);

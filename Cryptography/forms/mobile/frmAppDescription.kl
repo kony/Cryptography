@@ -4242,7 +4242,7 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </iphonerc>
-                    <iphonerc_override>false</iphonerc_override>
+                    <iphonerc_override>true</iphonerc_override>
                     <j2me>
                         <left>0</left>
                         <right>0</right>
@@ -4509,7 +4509,7 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </iphonerc>
-                    <iphonerc_override>false</iphonerc_override>
+                    <iphonerc_override>true</iphonerc_override>
                     <j2me>
                         <left>0</left>
                         <right>0</right>

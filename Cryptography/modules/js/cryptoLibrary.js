@@ -47,6 +47,8 @@ function Encrypt()
 		alert(err.message);
 		//alert("Error in callbackEncryptAes : "+err );
 	}
+	frmCrypto.line19302198661535.setVisibility(true);
+	
 }
 
 /*****************************************************************
@@ -103,6 +105,12 @@ function createHashMD2()
 		alert(err.message);
 		//alert("Error in callbackCreateHashMD2 : "+err );
 	}
+	//#ifdef ipad
+		frmCrypto.line19302198663509.setVisibility(true);
+	//#else
+		
+	//#endif
+	
 }
 
 /*****************************************************************
@@ -132,6 +140,12 @@ function createHashMD4()
 		alert(err.message);
 		//alert("Error in callbackCreateHashMD4 : "+err );
 	}
+	//#ifdef ipad
+		frmCrypto.line19302198663512.setVisibility(true);
+	//#else
+		
+	//#endif
+	
 }
 
 /*****************************************************************
@@ -161,4 +175,10 @@ function createHashMD5()
 		alert(err.message);
 		//alert("Error in callbackCreateHashMD5 : "+err );
 	}
+	//#ifdef ipad
+		frmCrypto.line19302198663503.setVisibility(true);
+	//#else
+		
+	//#endif
+	
 }
