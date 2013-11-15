@@ -5,6 +5,13 @@
 ******************************************************************/
 function frmCryptoTabPreShow()
 {
+	//#ifdef desktopweb
+		
+	//#else
+		frmCrypto.line19302198661535.setVisibility(false);
+		frmCrypto.line19302198663503.setVisibility(false);	
+	//#endif
+	
 	//#ifdef ipad
 	// iPad supports MD2,MD4,MD5	
 	frmCrypto.segNavigation.data= [	{"lblNavigation":"Encrypt/Decrypt","lblNavigationDescription":"  "},
@@ -14,10 +21,8 @@ function frmCryptoTabPreShow()
 	frmCrypto.hbxHashMD2.setVisibility(false);
 	frmCrypto.hbxHashMD4.setVisibility(false);
 	frmCrypto.hbxHashMD5.setVisibility(false);
-	frmCrypto.line19302198661535.setVisibility(false);
 	frmCrypto.line19302198663509.setVisibility(false);
 	frmCrypto.line19302198663512.setVisibility(false);
-	frmCrypto.line19302198663503.setVisibility(false);
 	frmCrypto.hbxEncryptDecrypt.setVisibility(true);
 	//#else
 	// android,Windows supports MD5
@@ -86,19 +91,18 @@ function navigateToFrmCrypto(){
 ******************************************************************/
 function frmCryptoPreShow()
 {
-
   frmCrypto.textEncrypt.text ="";
-  frmCrypto.lblEncrypt.text ="";
-  frmCrypto.lblDecrypt.text="";
+  frmCrypto.lblEncrypt.setVisibility(false);
+  frmCrypto.lblDecrypt.setVisibility(false);
   //#ifdef iphone
    frmCrypto.txtMd2Hash.text = "";
-   frmCrypto.lblMD2Hash.text = "";
+   frmCrypto.lblMD2Hash.setVisibility(false);
    frmCrypto.txtMD4Hash.text = "";
-   frmCrypto.lblMD4Hash.text = "";
+   frmCrypto.lblMD4Hash.setVisibility(false);
   //#else
    
   //#endif
   frmCrypto.txtMD5Hash.text = "";
-  frmCrypto.lblMD5Hash.text = "";
-
+  //frmCrypto.lblMD5Hash.text = "";
+  frmCrypto.lblMD5Hash.setVisibility(false);
 }

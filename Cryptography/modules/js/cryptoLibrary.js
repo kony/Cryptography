@@ -3,60 +3,59 @@
 *	Author  : Kony 
 *	Purpose : To encrypt the user text and display the encrypted text.
 ******************************************************************/
-
 function Encrypt()
 {
 	try
 	{
-		//alert("in encrypt()");
 		frmCrypto.lblDecrypt.setVisibility(false);
 		var algo="aes";
 		var prptobj;
+		frmCrypto.lblEncrypt.setVisibility(true);
 		if(kony.os.deviceInfo().name == "blackberry")
 			var encryptDecryptKey = kony.crypto.newKey("passphrase", 128, {passphrasetext: ["inputstring1inputstring1"], subalgo: "aes", passphrasehashalgo: "md5"});
 		else
 			var encryptDecryptKey = kony.crypto.newKey("passphrase", 128, {passphrasetext: ["inputstring1"], subalgo: "aes", passphrasehashalgo: "md5"});
-
 		if (frmCrypto.textEncrypt.text == "" || frmCrypto.textEncrypt.text ==null)
 		{
 			frmCrypto.lblEncrypt.text =  "Please enter the text to encrypt";
 		}
 		else
 		{
-			var inputstr=frmCrypto.textEncrypt.text;//alert("inputstr: "+inputstr);
-			//try
-			//{
-			 prptobj={padding:"pkcs5",mode:"cbc",initializationvector:"1234567890123456"};
-			//}
-			//catch(err){alert(err.message);}
-			//alert(prptobj);
-			var myEncryptedTextRaw = kony.crypto.encrypt(algo,encryptDecryptKey,inputstr,prptobj);//alert(myEncryptedTextRaw);
-			var myEncryptedText  = kony.convertToBase64(myEncryptedTextRaw);//alert("encrypted text:"+myEncryptedText);
-			if(kony.os.deviceInfo().name == "Windows 8"){
-			frmCrypto.lblEncrypt.text = "Encrypted text = "+myEncryptedTextRaw.toString();alert(myEncryptedTextRaw.toString());
-			}else{
-			frmCrypto.lblEncrypt.text = "Encrypted text = "+myEncryptedText.toString();
+			var inputstr=frmCrypto.textEncrypt.text;
+			prptobj={padding:"pkcs5",mode:"cbc",initializationvector:"1234567890123456"};
+			var myEncryptedTextRaw = kony.crypto.encrypt(algo,encryptDecryptKey,inputstr,prptobj);
+			var myEncryptedText  = kony.convertToBase64(myEncryptedTextRaw);
+			if(kony.os.deviceInfo().name == "Windows 8")
+			{
+				frmCrypto.lblEncrypt.text = "Encrypted text = "+myEncryptedTextRaw.toString();
+			}else
+			{
+				frmCrypto.lblEncrypt.text = "Encrypted text = "+myEncryptedText.toString();
 			}
-			//frmCrypto.lblEncrypt.text = "Encrypted text = "+myEncryptedText.toString();
 			myClearText = kony.crypto.decrypt(algo,encryptDecryptKey,myEncryptedTextRaw,prptobj);
-			}
-
+		}
 	}
 	catch(err)
 	{
 		alert(err.message);
-		//alert("Error in callbackEncryptAes : "+err );
 	}
-	frmCrypto.line19302198661535.setVisibility(true);
+	//#ifdef ipad
+		frmCrypto.line19302198661535.setVisibility(true);	
+	//#else
+		
+	//#endif
+	//#ifdef tabrcandroid
+		frmCrypto.line19302198661535.setVisibility(true);
+	//#else
+		
+	//#endif
 	
 }
-
 /*****************************************************************
 *	Name    : decrypt
 *	Author  : Kony 
 *	Purpose : To decrypt the encrypted text and display the decrypted text.
 ******************************************************************/
-
 function decrypt()
 {
 	try
@@ -75,15 +74,14 @@ function decrypt()
 		alert(err.message);
 	}
 }
-
 /*****************************************************************
 *	Name    : createHashMD2
 *	Author  : Kony 
 *	Purpose : To create hash value for the user text using "MD2" Algorithm.
 ******************************************************************/
-
 function createHashMD2()
 {
+	frmCrypto.lblMD2Hash.setVisibility(true);
 	try
     {
 		var algo="md2";
@@ -110,17 +108,15 @@ function createHashMD2()
 	//#else
 		
 	//#endif
-	
 }
-
 /*****************************************************************
 *	Name    : createHashMD4
 *	Author  : Kony 
 *	Purpose : To create hash value for the user text using "MD4" Algorithm.
 ******************************************************************/
-
 function createHashMD4()
 {
+	frmCrypto.lblMD4Hash.setVisibility(true);
 	try
     {
 		var algo="md4";
@@ -145,17 +141,15 @@ function createHashMD4()
 	//#else
 		
 	//#endif
-	
 }
-
 /*****************************************************************
 *	Name    : createHashMD5
 *	Author  : Kony 
 *	Purpose : To create hash value for the user text using "MD5" Algorithm.
 ******************************************************************/
-
 function createHashMD5()
 {
+	frmCrypto.lblMD5Hash.setVisibility(true);
 	try
     {
 		var algo="md5";
@@ -173,12 +167,15 @@ function createHashMD5()
     catch(err)
     {
 		alert(err.message);
-		//alert("Error in callbackCreateHashMD5 : "+err );
 	}
 	//#ifdef ipad
 		frmCrypto.line19302198663503.setVisibility(true);
 	//#else
 		
 	//#endif
-	
+	//#ifdef tabrcandroid
+		frmCrypto.line19302198663503.setVisibility(true);
+	//#else
+		
+	//#endif
 }
