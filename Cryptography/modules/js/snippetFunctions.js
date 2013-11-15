@@ -4,32 +4,27 @@
 *	Purpose : To initialize navigation pane and labels on Cryptography Form (Only tablet channels).
 ******************************************************************/
 function frmCryptoTabPreShow()
-{
-	//#ifdef desktopweb
-		
-	//#else
-		frmCrypto.line19302198661535.setVisibility(false);
-		frmCrypto.line19302198663503.setVisibility(false);	
-	//#endif
-	
+{	
 	//#ifdef ipad
 	// iPad supports MD2,MD4,MD5	
 	frmCrypto.segNavigation.data= [	{"lblNavigation":"Encrypt/Decrypt","lblNavigationDescription":"  "},
 										{"lblNavigation":"Generate Hash Value","lblNavigationDescription":"(MD2 Algo)"},
 										{"lblNavigation":"Generate Hash Value","lblNavigationDescription":"(MD4 Algo)"},
-										{"lblNavigation":"Generate Hash Value","lblNavigationDescription":"(MD5 Algo)"}];
+									{"lblNavigation":"Generate Hash Value","lblNavigationDescription":"(MD5 Algo)"}];
 	frmCrypto.hbxHashMD2.setVisibility(false);
 	frmCrypto.hbxHashMD4.setVisibility(false);
 	frmCrypto.hbxHashMD5.setVisibility(false);
-	frmCrypto.line19302198663509.setVisibility(false);
-	frmCrypto.line19302198663512.setVisibility(false);
 	frmCrypto.hbxEncryptDecrypt.setVisibility(true);
+	frmCrypto.lblEncrypt.setVisibility(false);
+	frmCrypto.lblDecrypt.setVisibility(false);
 	//#else
 	// android,Windows supports MD5
 		frmCrypto.segNavigation.data= [	{"lblNavigation":"Encrypt/Decrypt","lblNavigationDescription":"  "},
 										{"lblNavigation":"Generate Hash Value","lblNavigationDescription":"(MD5 Algo)"}];
 	frmCrypto.hbxHashMD5.setVisibility(false);
 	frmCrypto.hbxEncryptDecrypt.setVisibility(true);
+	frmCrypto.lblEncrypt.setVisibility(false);
+	frmCrypto.lblDecrypt.setVisibility(false);
 	//#endif
 	frmCrypto.segNavigation.selectedIndex=[0,0];
 }
@@ -45,34 +40,40 @@ function segClickEvent(seguiWidget, sectionIndex, rowIndex){
 			frmCrypto.hbxHashMD4.setVisibility(false);
 			frmCrypto.hbxHashMD5.setVisibility(false);
 			frmCrypto.hbxEncryptDecrypt.setVisibility(true);
-			
+			frmCrypto.lblEncrypt.setVisibility(false);
+			frmCrypto.lblDecrypt.setVisibility(false);
 			}
 		else if(frmCrypto.segNavigation.selectedItems[0]["lblNavigationDescription"]=="(MD2 Algo)"){
 				frmCrypto.hbxEncryptDecrypt.setVisibility(false);
 				frmCrypto.hbxHashMD4.setVisibility(false);			
 				frmCrypto.hbxHashMD5.setVisibility(false);
 				frmCrypto.hbxHashMD2.setVisibility(true);
+				frmCrypto.lblMD2Hash.setVisibility(false);
 		}
 		else if(frmCrypto.segNavigation.selectedItems[0]["lblNavigationDescription"]=="(MD4 Algo)"){
 				frmCrypto.hbxEncryptDecrypt.setVisibility(false);
 				frmCrypto.hbxHashMD2.setVisibility(false);
 				frmCrypto.hbxHashMD5.setVisibility(false);
-				frmCrypto.hbxHashMD4.setVisibility(true);			
+				frmCrypto.hbxHashMD4.setVisibility(true);
+				frmCrypto.lblMD4Hash.setVisibility(false);			
 		}
 		else if(frmCrypto.segNavigation.selectedItems[0]["lblNavigationDescription"]=="(MD5 Algo)"){
 				frmCrypto.hbxEncryptDecrypt.setVisibility(false);
 				frmCrypto.hbxHashMD2.setVisibility(false);
 				frmCrypto.hbxHashMD4.setVisibility(false);
 				frmCrypto.hbxHashMD5.setVisibility(true);
+				frmCrypto.lblMD5Hash.setVisibility(false);
 		}
 	//#else
 		if(frmCrypto.segNavigation.selectedItems[0]["lblNavigation"]=="Encrypt/Decrypt"){
 			frmCrypto.hbxHashMD5.setVisibility(false);
 			frmCrypto.hbxEncryptDecrypt.setVisibility(true);
-			}
+			frmCrypto.lblEncrypt.setVisibility(false);
+			frmCrypto.lblDecrypt.setVisibility(false);			}
 		else if(frmCrypto.segNavigation.selectedItems[0]["lblNavigationDescription"]=="(MD5 Algo)"){
 				frmCrypto.hbxEncryptDecrypt.setVisibility(false);
 				frmCrypto.hbxHashMD5.setVisibility(true);
+				frmCrypto.lblMD5Hash.setVisibility(false);
 		}
 		//#endif
 }

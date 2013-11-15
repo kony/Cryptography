@@ -38,18 +38,7 @@ function Encrypt()
 	catch(err)
 	{
 		alert(err.message);
-	}
-	//#ifdef ipad
-		frmCrypto.line19302198661535.setVisibility(true);	
-	//#else
-		
-	//#endif
-	//#ifdef tabrcandroid
-		frmCrypto.line19302198661535.setVisibility(true);
-	//#else
-		
-	//#endif
-	
+	}	
 }
 /*****************************************************************
 *	Name    : decrypt
@@ -92,22 +81,15 @@ function createHashMD2()
 			frmCrypto.lblMD2Hash.text =  "Please enter the string";
 		}
 		else
-		{	//alert(inputstr);
+		{
 			var myHashValue = kony.crypto.createHash(algo,inputstr);
-			//alert(myHashValue);
 			frmCrypto.lblMD2Hash.text = myHashValue;
 		}
 	}
     catch(err)
     {
 		alert(err.message);
-		//alert("Error in callbackCreateHashMD2 : "+err );
 	}
-	//#ifdef ipad
-		frmCrypto.line19302198663509.setVisibility(true);
-	//#else
-		
-	//#endif
 }
 /*****************************************************************
 *	Name    : createHashMD4
@@ -134,13 +116,7 @@ function createHashMD4()
     catch(err)
     {
 		alert(err.message);
-		//alert("Error in callbackCreateHashMD4 : "+err );
 	}
-	//#ifdef ipad
-		frmCrypto.line19302198663512.setVisibility(true);
-	//#else
-		
-	//#endif
 }
 /*****************************************************************
 *	Name    : createHashMD5
@@ -168,14 +144,4 @@ function createHashMD5()
     {
 		alert(err.message);
 	}
-	//#ifdef ipad
-		frmCrypto.line19302198663503.setVisibility(true);
-	//#else
-		
-	//#endif
-	//#ifdef tabrcandroid
-		frmCrypto.line19302198663503.setVisibility(true);
-	//#else
-		
-	//#endif
 }
