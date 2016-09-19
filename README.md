@@ -33,4 +33,4 @@ This Application will showcase the following features of Cryptography
 **Desktop**
  * DesktopWeb
  
-Certified4KonyCommunity7.1.1 
+CertifiedAtKonyCommunity
